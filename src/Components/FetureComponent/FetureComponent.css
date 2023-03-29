@@ -1,0 +1,251 @@
+#troo-da-feature-section {
+  padding: 148px 0 100px 0;
+  background: #f8f9ff;
+  margin-top: -95px;
+  position: relative;
+}
+.swing {
+  animation: swing ease-in-out 1s infinite alternate;
+  transform-origin: center -20px;
+  float: left;
+  position: absolute;
+  bottom: 22%;
+  left: 7%;
+}
+@keyframes swing {
+  0% {
+    transform: rotate(3deg);
+  }
+  100% {
+    transform: rotate(-3deg);
+  }
+}
+#troo-da-feature-section .row {
+  align-items: center;
+}
+#troo-da-feature-section .sub-tile-con {
+  text-align: center;
+  padding-bottom: 49px;
+}
+.sub-tile-con .sub-txt {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: #171717;
+  margin-bottom: 13px;
+}
+body h2 {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 49px;
+  color: #171717;
+  margin: 0;
+}
+.sub-tile-con h2 span {
+  color: #3556bf;
+  position: relative;
+  display: inline-block;
+}
+.sub-tile-con h2 span:after {
+  background-image: url(../../images/oval-line.png);
+  position: absolute;
+  max-width: 103px;
+  height: 100%;
+  content: "";
+  background-repeat: no-repeat;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  text-align: center;
+  bottom: -44px;
+  animation: drop-in 1s ease 200ms backwards;
+  display: block;
+  width: 100%;
+}
+.feature-sec {
+  background: #ffffff;
+  border: 1px solid rgba(53, 86, 191, 0.2);
+  box-shadow: 0px 8px 15px rgb(23 23 23 / 5%);
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 30px;
+}
+.feac-img {
+  position: relative;
+}
+.feac-img img {
+  width: 100%;
+}
+.feac-img span {
+  background: #3556bf;
+  position: absolute;
+  bottom: 30px;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  color: #ffffff;
+  padding: 10px 9px;
+  right: 27px;
+}
+.feat-text {
+  padding-left: 30px;
+  padding-bottom: 30px;
+  padding-right: 13px;
+  padding-top: 30px;
+}
+.feat-text p {
+  background: rgba(53, 86, 191, 0.2);
+  border-radius: 5px;
+  display: inline-block;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #3556bf;
+  padding: 13px 25px;
+  margin-top: 30px;
+  margin-right: 25px;
+  margin-bottom: 23px;
+  transition: 0.5s;
+}
+.feat-text svg {
+  color: #ebbd19;
+  margin: 0 2px;
+}
+.feat-text h4 {
+  transition: 0.5s;
+}
+.client-col {
+  display: flex;
+  margin-top: 39px;
+}
+.cli-img img {
+  border: 2px solid #3556bf;
+  border-radius: 50%;
+  transition: 0.5s;
+}
+.cli-text {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
+  color: #171717;
+  margin-left: 25px;
+}
+.feature-sec:hover .feat-text p {
+  color: #1ab69d;
+  background: rgba(26, 182, 157, 0.2);
+}
+.feature-sec:hover .feat-text h4 {
+  color: #1ab69d;
+}
+.more-course {
+    background: #FFFFFF;
+    border: 1px solid rgba(26, 182, 157, 0.1);
+    box-shadow: 0px 8px 15px rgb(23 23 23 / 5%);
+    border-radius: 50%;
+    text-align: center;
+    padding: 76px 41px;
+    margin-left: 69px;
+}
+.more-course p {
+    margin-top: 16px;
+    margin-bottom: 30px;
+}
+.loader-ss {
+    width: 58px;
+    height: 58px;
+    position: absolute;
+    animation: loader-ss 2s infinite ease-in-out;
+    right: 8%;
+    bottom: 10%;
+}
+@keyframes loader-ss{
+
+    0% {
+        transform: rotate(-45deg);
+    }
+    50% {
+        transform: rotate(-135deg);
+    }
+    100% {
+        transform: rotate(-225deg);
+    }
+}
+.loader-ss span {
+    width: 58px;
+    height: 58px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    border: 1px solid #3556BF;
+}
+.loader-ss span:nth-child(1) {
+    animation: span-1 2s ease-in-out infinite;
+}
+
+@keyframes span-1{
+    0% {
+        transform: translate(0);
+    }
+    50% {
+        transform: translate(-50px, 0);
+        border-color: #3556BF;
+    }
+    100% {
+        transform: translate(0);
+    }
+}
+.loader-ss span:nth-child(2) {
+    animation: span-2 2s ease-in-out infinite;
+}
+@keyframes span-2{
+    0% {
+        transform: translate(0);
+    }
+    50% {
+        transform: translate(50px, 0);
+        border-color: #3556BF;
+    }
+    100% {
+        transform: translate(0);
+    }
+}
+.loader-ss span:nth-child(3) {
+    animation: span-3 2s ease-in-out infinite;
+}
+@keyframes span-3{
+    0% {
+        transform: translate(0);
+    }
+    50% {
+        transform: translate(0, -50px);
+        border-color: #3556BF;
+    }
+    100% {
+        transform: translate(0);
+    }
+}
+.loader-ss span:nth-child(4) {
+    animation: span-4 2s ease-in-out infinite;
+}
+@keyframes span-4{
+    0% {
+        transform: translate(0);
+    }
+    50% {
+        transform: translate(0, 50px);
+        border-color: #3556BF;
+    }
+    100% {
+        transform: translate(0);
+    }
+}

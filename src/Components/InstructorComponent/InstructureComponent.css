@@ -1,0 +1,110 @@
+#troo-da-instructor-section {
+  padding-top: 24px;
+}
+#troo-da-instructor-section .sub-tile-con {
+  text-align: center;
+  margin-bottom: 49px;
+}
+.instructor {
+  display: flex;
+  background: #ffffff;
+  border: 1px solid rgba(26, 182, 157, 0.2);
+  box-shadow: 0px 8px 15px rgb(23 23 23 / 5%);
+  border-radius: 5px;
+  padding: 30px 12px 30px 30px;
+  position: relative;
+  cursor: pointer;
+  margin-bottom: 30px;
+  align-items: center;
+}
+.ins-img img {
+  background: #ffffff;
+  border: 1px solid rgba(53, 86, 191, 0.2);
+  box-shadow: 0px 8px 15px rgb(23 23 23 / 5%);
+  border-radius: 5px;
+}
+.instructor .ins-txt {
+  -webkit-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+.ins-txt {
+  position: relative;
+  margin-left: 30px;
+}
+.ins-txt h4 {
+  margin-bottom: 4px;
+  transition: 0.5s;
+}
+.ins-txt p {
+  margin-bottom: 0;
+}
+.ins-txt:after {
+  position: absolute;
+  max-width: 237px;
+  height: 1px;
+  left: 0;
+  bottom: -13px;
+  background: rgba(26, 182, 157, 0.1);
+  content: "";
+  width: 100%;
+}
+.team-deatils {
+  height: 98px !important;
+  -webkit-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+  position: absolute;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+  top: -162px;
+  left: 107px;
+  margin: 300px auto 0 auto;
+  right: 0;
+  opacity: 0;
+  z-index: 99;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+}
+.team-deatils p {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  color: #171717;
+}
+.team-deatils ul {
+  padding: 0 0 0 10px;
+}
+.team-deatils ul li {
+  display: inline-flex;
+}
+.team-deatils ul li a {
+  width: 30px;
+  height: 30px;
+  padding: 6px 0 0 0;
+}
+.team-deatils ul li a svg {
+  color: #3556bf;
+}
+.instructor:hover .ins-txt h4 {
+  color: #1ab69d;
+}
+.instructor:hover .team-deatils {
+  margin-top: 280px;
+  height: 111px;
+  padding-top: 10px;
+  opacity: 1;
+}
+.instructor:hover .ins-txt {
+  margin-top: -60px;
+}
+#troo-da-instructor-section .call-ss {
+  text-align: center;
+  margin-top: 50px;
+}

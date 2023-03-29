@@ -1,0 +1,128 @@
+#troo-da-students-says-section {
+    background: #F8F9FF;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin-top: 30px;
+    position: relative;
+}
+#troo-da-students-says-section figure.swing {
+    left: inherit;
+    right: 7%;
+    bottom: inherit;
+    top: 23%;
+}
+#troo-da-students-says-section .sub-tile-con {
+    text-align: center;
+    margin-bottom: 50px;
+}
+#troo-da-students-says-section .sub-tile-con h2 span:after {
+    left: 31px;
+}
+#troo-da-students-says-section .row {
+    align-items: center;
+}
+#troo-da-students-says-section .feat-text {
+    padding-left: 30px;
+    padding-bottom: 30px;
+    padding-right: 14px;
+    padding-top: 30px;
+}
+.studen-tile {
+    display: flex;
+    align-items: center;
+}
+#troo-da-students-says-section .feat-text span {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+    color: #3556BF;
+    background: rgba(53, 86, 191, 0.2);
+    border: 1px solid rgba(53, 86, 191, 0.2);
+    box-shadow: 0px 8px 15px rgb(23 23 23 / 5%);
+    border-radius: 5px;
+    width: 30px !important;
+    height: 30px !important;
+    display: block;
+    border-radius: 45px;
+    padding: 0;
+    display: inline-block;
+    transition: 0.5s;
+}
+#troo-da-students-says-section .feat-text h4 {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    color: #171717;
+    margin-left: 18px;
+}
+#troo-da-students-says-section .feature-sec .feat-text p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #171717;
+    background: transparent;
+    margin-top: 27px;
+    padding: 0;
+    margin-right: 0 !important;
+    border-bottom: 1px solid rgba(26, 182, 157, 0.2);
+    border-radius: 0;
+    padding-bottom: 27px;
+    margin-bottom: 0;
+}
+#troo-da-students-says-section .client-col {
+    justify-content: space-between;
+    margin-top: 24px;
+}
+#troo-da-students-says-section .cli-text {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    color: #171717;
+    margin-left: 0;
+}
+#troo-da-students-says-section .feature-sec .cli-text span {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #171717;
+    display: block;
+    width: 100% !important;
+    border-radius: 0;
+    background: transparent;
+    border: none;
+    box-shadow: none;
+}
+#troo-da-students-says-section .feature-sec .cli-img img {
+    border: none;
+    border-radius: 0;
+    transition: 0.5s;
+}
+#troo-da-students-says-section .more-course {
+    max-width: 250px;
+    height: 250px;
+    padding-top: 53px;
+    margin: 0 auto;
+}
+#troo-da-students-says-section .more-course .call-ss {
+    margin-top: 24px;
+}
+#troo-da-students-says-section .more-course .call-ss a {
+    max-width: 160px;
+    width: 100%;
+    padding: 14px 0;
+}
+#troo-da-students-says-section .quadrado {
+    top: inherit;
+    bottom: 15%;
+}

@@ -1,0 +1,173 @@
+#troo-da-learning-path-section {
+    padding-top: 177px;
+    background-image: url(../../images/Vector-bg.png);
+    background-repeat: no-repeat;
+    padding-bottom: 106px;
+    position: relative;
+}
+.cr-ss {
+    position: absolute;
+    left: 6%;
+}
+#troo-da-learning-path-section .circle {
+    left: 12%;
+    right: inherit;
+    bottom: 84%;
+    width: 43px;
+    height: 43px;
+}
+.arr-ss {
+    position: absolute;
+    right: 46%;
+    top: 13%;
+}
+.path-text.hero-text {
+    position: initial !important;
+}
+.pulse {
+    animation: pulse-animation 2s infinite;
+}
+.circles {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 1px 1px #0000001a;
+    position: absolute;
+    bottom: 24%;
+    left: 8%;
+}
+.orange {
+    background: rgba(26, 182, 157, 0.1);
+    Width: 200px;
+    Height: 200px;
+}
+@keyframes pulse-animation{
+    0% {
+        box-shadow: 0 0 0 0px rgba(0, 0, 0, 0.2);
+    }
+    100% {
+        box-shadow: 0 0 0 20px rgba(0, 0, 0, 0);
+    }
+}
+.path-text.hero-text span {
+    color: #1AB69D;
+}
+.path-text.hero-text .dot-zik {
+    bottom: 47%;
+    right: 58%;
+}
+.zoomin {
+    width: 50px;
+    height: 50px;
+    animation: zoomin 2s ease-out infinite;
+    margin-top: 0;
+    position: absolute;
+    top: 15%;
+    right: 32%;
+}
+@keyframes zoomin{
+    0% {
+        transform: scale(1, 1);
+    }
+    50% {
+        transform: scale(1.5, 1.5);
+    }
+    100% {
+        transform: scale(1, 1);
+    }
+}
+button.vide-btn {
+    border: none;
+    box-shadow: none;
+    padding: 0;
+    position: relative;
+    z-index: 9;
+}
+button.vide-btn:before {
+    background: #1AB69D;
+    opacity: 0.2;
+    border: 1px solid #1AB69D;
+    box-shadow: 0px 8px 15px rgb(23 23 23 / 5%);
+    border-radius: 5px;
+    transform: rotate(8.75deg);
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 22px;
+    top: 0;
+    z-index: -9;
+    animation: load 0.1s linear infinite;
+    transition: 0.5s;
+}
+button.vide-btn:after {
+    background-color: #3556BF;
+    opacity: 0.5;
+    border: 1px solid rgba(53, 86, 191, 0.2);
+    box-shadow: 0px 8px 15px rgb(23 23 23 / 5%);
+    border-radius: 5px;
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    background-image: url(../../images/play-icon.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    display: none;
+    top: 0;
+    transition: 0.5s;
+}
+button.vide-btn img {
+    width: 100%;
+}
+button.vide-btn:hover:after {
+    display: block;
+    transition: 0.5s;
+}
+#troo-da-learning-path-section .loader-ss {
+    right: 8%;
+    bottom: inherit;
+    width: 30px;
+    height: 30px;
+}
+#troo-da-learning-path-section .loader-ss span {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    border: 1px solid #1AB69D;
+}
+.outerCircle {
+    background-color: transparent;
+    border: 2px solid #1AB69D;
+    opacity: .9;
+    border-right: 5px solid transparent;
+    border-left: 5px solid transparent;
+    border-top: 5px solid transparent;
+    border-radius: 100px;
+    width: 50px;
+    height: 50px;
+    margin: 0 auto;
+    -moz-animation: spinPulse 5s infinite ease-in-out;
+    -webkit-animation: spinPulse 5s infinite ease-in-out;
+    position: absolute;
+    right: 48%;
+    bottom: 23%;
+}
+@keyframes spinPulse{
+    0% {
+        -webkit-transform: rotate(160deg);
+        opacity: 0;
+        box-shadow: 0 0 1px #bdd73c;
+    }
+    50% {
+        -webkit-transform: rotate(145deg);
+        opacity: 1;
+    }
+    100% {
+        -webkit-transform: rotate(-320deg);
+        opacity: 0;
+    }
+}

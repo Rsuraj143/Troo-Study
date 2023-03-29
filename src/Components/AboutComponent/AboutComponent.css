@@ -1,0 +1,150 @@
+#troo-da-who-we-are-section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    position: relative;
+}
+.quadrado {
+    width: 78px;
+    height: 78px;
+    animation: crescendo 1.5s alternate infinite ease-in;
+    position: absolute;
+    left: 7%;
+    top: 74px;
+}
+
+@keyframes crescendo{
+    0% {
+        transform: scale(.8);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+.who-we-are-text strong {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #171717;
+    margin-top: 16px;
+    margin-bottom: 13px;
+    display: block;
+}
+.who-we-are-text p {
+    margin-bottom: 22px;
+}
+.who-we-are-text ul {
+    padding: 0 0 25px 0;
+    margin: 0;
+}
+.who-we-are-text ul li {
+    list-style: none;
+    padding-bottom: 14px;
+    display: flex;
+    align-items: center;
+}
+.who-we-are-text ul li span {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #171717;
+    margin-left: 11px;
+}
+.cta-section {
+    display: flex;
+    align-items: center;
+}
+.cta-section .call-ss a {
+    border-radius: 0;
+}
+.cta-r {
+    background: rgb(23 23 23 / 7%);
+    border-radius: 50%;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: #171717;
+    padding: 15px 14px;
+    display: inline-block;
+    margin-left: 38px;
+    margin-right: 31px;
+}
+.cal-col span {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+    color: #171717;
+    display: block;
+}
+.cal-col a {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+    color: #3556BF;
+    display: block;
+    text-decoration: none;
+}
+.who-we-are-img {
+    position: relative;
+}
+.who-we-are-img .zoomm {
+    position: absolute;
+    bottom: 38%;
+    right: 14%;
+}
+.who-we-are-img .zoomm img {
+    width: 18px !important;
+    height: 18px !important;
+    animation: zoomm 2s ease-out infinite;
+}
+.who-we-are-img img {
+    width: 100%;
+}
+@keyframes zoomm{
+    0% {
+        transform: scale(1, 1);
+    }
+    50% {
+        transform: scale(1.5, 1.5);
+    }
+    100% {
+        transform: scale(1, 1);
+    }
+}
+.boto-img {
+    margin-top: 30px;
+}
+.circle {
+    width: 30px;
+    height: 30px;
+    background: transparent;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    bottom: -44%;
+    right: -12%;
+    overflow: hidden;
+    margin: auto;
+    animation: circle 6s linear infinite;
+    border: 3px solid #3556BF;
+    width: 149px;
+    height: 149px;
+}
+@keyframes circle{
+    0% {
+        transform: rotate(0deg) translate(-15px) rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg) translate(-15px) rotate(-360deg);
+    }
+}
