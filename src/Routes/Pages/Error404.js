@@ -2,12 +2,13 @@ import React from 'react'
 import Footer from '../../Components/Footer/Footer'
 import Header from '../../Components/Header/Header'
 import HeroGlobal from '../../Components/HeroComponent/HeroGlobal'
+import ErrorPage from '../../Components/OtherComponent/ErrorPage'
 
 const Error404 = () => {
   return (
-    <div>
+    <div className="sub-page">
         <Header/>
-        <HeroGlobal/>
+        <ErrorPage/>
         <Footer/>
     </div>
   )

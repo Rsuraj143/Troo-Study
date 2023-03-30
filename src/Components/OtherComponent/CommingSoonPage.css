@@ -1,0 +1,17 @@
+#troo-da-coming-soon {
+    padding-top: 177px;
+}
+#troo-da-coming-soon .spinner-wrap {
+    right: inherit;
+    transform: rotate(73deg);
+    top: 150px;
+    left: -15%;
+}
+#troo-da-coming-soon .vert-move {
+    z-index: 1;
+    position: absolute;
+    -webkit-animation: mover 1s infinite alternate;
+    animation: mover 1s infinite alternate;
+    left: 19%;
+    top: 127px;
+}

@@ -75,8 +75,13 @@
     min-height: unset !important;
     background: transparent;
 }
-#troo-da-get-in-touch-section .fome-section button.btn.btn-lg {
+#troo-da-get-in-touch-section .fome-section button.btnn.btn-lg {
     padding: 13px 49px;
     margin-top: 50px;
     border-radius: 5px;
+}
+.fome-section button.btnn.btn-lg:hover {
+    color: #fff;
+    border: 1px solid #1AB69D;
+    background-color: #1AB69D;
 }

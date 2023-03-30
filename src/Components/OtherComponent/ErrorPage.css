@@ -22,27 +22,22 @@
     top: 226px;
     z-index: -9;
 }
-.sub-page-title {
+.eorr-page {
     text-align: center;
-    position: relative;
-    z-index: 99;
 }
-.sub-page ul.breadcrumb {
-    background: #FFFFFF;
-    border: 1px solid rgba(53, 86, 191, 0.2);
-    box-shadow: 0px 8px 15px rgba(149, 157, 165, 0.1);
-    display: inline-flex;
-    margin-bottom: 19px;
-    padding: 12px 93px;
-}
-ul.breadcrumb li a {
+.eorr-page span {
     font-family: 'Nunito';
     font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 22px;
+    font-weight: 700;
+    font-size: 225.248px;
+    line-height: 307px;
     text-align: center;
-    color: #171717;
-    text-decoration: none;
-    padding: 0 10px 0 10px;
+    color: #3556BF;
+}
+.eorr-page h2 {
+    margin-bottom: 23px;
+    margin-top: 23px;
+}
+.eorr-page p {
+    margin-bottom: 46px;
 }

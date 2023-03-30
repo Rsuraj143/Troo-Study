@@ -249,3 +249,9 @@ body h2 {
         transform: translate(0);
     }
 }
+.Cources-page #troo-da-feature-section {
+  padding: 100px 0 100px 0;
+}
+.Cources-page.sub-page .call-ss {
+  text-align: center;
+}

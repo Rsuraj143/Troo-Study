@@ -5,7 +5,7 @@ import HeroGlobal from '../../Components/HeroComponent/HeroGlobal'
 
 const BlogsList = () => {
   return (
-    <div>
+    <div className="sub-page">
         <Header/>
         <HeroGlobal/>
         <Footer/>

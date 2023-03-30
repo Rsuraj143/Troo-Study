@@ -52,7 +52,7 @@ const HeroComponent = () => {
                     <Link href="#">View All Courses</Link>
                   </li>
                   <li class="call-ss">
-                    <Link class="btn btn-lg" href="#">
+                    <Link class="btnn btn-lg" href="#">
                       Contcat Us
                     </Link>
                   </li>

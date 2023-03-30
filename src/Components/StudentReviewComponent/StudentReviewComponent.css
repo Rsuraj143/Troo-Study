@@ -126,3 +126,12 @@
     top: inherit;
     bottom: 15%;
 }
+
+/* reviewpage2 */
+.teastimonial-page #troo-da-students-says-section {
+    background: #F8F9FF;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    position: relative;
+    margin-top: 0;
+}

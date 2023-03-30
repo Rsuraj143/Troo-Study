@@ -1,13 +1,13 @@
 import React from 'react'
 import Footer from '../../Components/Footer/Footer'
 import Header from '../../Components/Header/Header'
-import HeroGlobal from '../../Components/HeroComponent/HeroGlobal'
+import CommingSoonPage from '../../Components/OtherComponent/CommingSoonPage'
 
 const CommingSoon = () => {
   return (
-    <div>
+    <div className="coming-soon-page sub-page">
         <Header/>
-        <HeroGlobal/>
+        <CommingSoonPage/>
         <Footer/>
     </div>
   )

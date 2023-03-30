@@ -20,15 +20,22 @@ import Navmenu from "./Navmenu";
 const Header = () => {
   const navbar_ref = useRef();
   function handleScroll() {
-    if (window.pageYOffset > 20 || document.documentElement.scrollTop > 20) {
-      navbar_ref.current.style.top = "0";
+    if (window.pageYOffset > 20 || document.documentElement.scrollTop > 20 ) {
+      if (navbar_ref.current) { 
+        navbar_ref.current.style.top = "0px";
+      }
     } else {
-      navbar_ref.current.style.top = "-150px";
+      if (navbar_ref.current) { 
+        navbar_ref.current.style.top = "-150px";
+      }
     }
   }
   useEffect(() => {
     window.addEventListener("scroll", handleScroll);
-  }, []);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []); 
 
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -79,7 +86,7 @@ const Header = () => {
               <div className="call-ss">
                 {NavData.slice(-1).map((e, i) => {
                   return (
-                    <Link className="btn btn-lg" key={i} to={e.path}>
+                    <Link className="btnn btn-lg" key={i} to={e.path}>
                       {e.title}
                     </Link>
                   );
@@ -164,7 +171,7 @@ const Header = () => {
               <div className="call-ss">
                 {NavData.slice(-1).map((e, i) => {
                   return (
-                    <Link className="btn btn-lg" key={i} to={e.path}>
+                    <Link className="btnn btn-lg" key={i} to={e.path}>
                       {e.title}
                     </Link>
                   );

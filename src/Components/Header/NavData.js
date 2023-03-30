@@ -13,7 +13,7 @@ export const NavData = [
     subNav: [
       {
         subTitle: "Course Grid",
-        path: "/Course/Course_Grid",
+        path: "/Home/Course",
       },
       {
         subTitle: "Course Details",
@@ -31,7 +31,7 @@ export const NavData = [
       },
       {
         subTitle: "Teastimonial",
-        path: "/Pages/Teastimonial",
+        path: "/Home/Pages/Teastimonial",
       },
       {
         subTitle: "FAQs",
@@ -46,20 +46,20 @@ export const NavData = [
         path: "/Home/Pages/Comming_Soon",
       },
       {
-        subTitle: "Events Page",
-        path: "/Home/Pages/Event_Pages",
+        subTitle: "Events",
+        path: "/Home/Pages/Event",
       },
       {
-        subTitle: "Event Page Details",
-        path: "/Home/Pages/Event_Page_Details",
+        subTitle: "Event Details",
+        path: "/Home/Pages/Event/Event_Details",
       },
       {
-        subTitle: "Carrier Pages",
-        path: "/Home/Pages/Carrier_Pages",
+        subTitle: "Carrier",
+        path: "/Home/Pages/Carrier",
       },
       {
-        subTitle: "Carrier Page Details",
-        path: "/Home/Pages/Carrier_Page_Details",
+        subTitle: "Carrier Details",
+        path: "/Home/Pages/Carrier/Carrier_Details",
       },
     ],
   },
@@ -69,21 +69,21 @@ export const NavData = [
     subNav: [
       {
         subTitle: "Our Blogs",
-        path: "/Home/Blogs/Our_Blogs",
+        path: "/Home/Blogs",
       },
       {
         subTitle: "Blog List",
-        path: "/Home/Blogs/Blog_List",
+        path: "/Home/Our_Blogs",
       },
       {
         subTitle: "Blog Details",
-        path: "/Home/Blogs/Blog_Details",
+        path: "/Home/Our_Blogs/Blog_Details",
       },
     ],
   },
   {
     title: "Contact Us",
-    path: "/Contact_Us",
+    path: "/Home/Contact_Us",
   },
   {
     title : "Apply Now",

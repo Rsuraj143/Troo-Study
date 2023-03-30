@@ -5,7 +5,7 @@ import HeroGlobal from '../../Components/HeroComponent/HeroGlobal'
 
 const CarrerDetails = () => {
   return (
-    <div>
+    <div className="sub-page">
         <Header/>
         <HeroGlobal/>
         <Footer/>

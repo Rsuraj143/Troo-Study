@@ -61,7 +61,7 @@ const ContactComponent = () => {
              </div>
              </div>
             <div class="col-12">
-              <button type="submit" class="btn btn-lg">Submit</button>
+              <button type="submit" class="btnn btn-lg">Submit</button>
             </div>
           </form>
          </div>
