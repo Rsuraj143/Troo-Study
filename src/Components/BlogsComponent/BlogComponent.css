@@ -1,94 +1,94 @@
 #troo-da-blogs-section {
-    padding: 100px 0;
-    position: relative;
+  padding: 100px 0;
+  position: relative;
 }
 .half-cricle {
-    position: absolute;
-    right: 10%;
-    top: 39%;
+  position: absolute;
+  right: 10%;
+  top: 39%;
 }
 .c9 {
-    width: 50px;
-    height: 100px;
-    background: #3556BF;
+  width: 50px;
+  height: 100px;
+  background: #3556bf;
 }
 .c {
-    position: absolute;
-    display: inline-block;
-    border-radius: 100% 0 0 100% / 50%;
-    animation-name: ani9;
-    animation-duration: 25s;
-    animation-iteration-count: infinite;
-    animation-fill-mode: forwards;
-    transform-origin: 100% 50%;
+  position: absolute;
+  display: inline-block;
+  border-radius: 100% 0 0 100% / 50%;
+  animation-name: ani9;
+  animation-duration: 25s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+  transform-origin: 100% 50%;
 }
-@keyframes ani9{
-    0% {
-        transform: rotate(0deg);
-    }
-    50% {
-        transform: rotate(360deg);
-    }
-    100% {
-        transform: rotate(0deg);
-    }
+@keyframes ani9 {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(360deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
 }
 .c8 {
-    width: 50px;
-    height: 100px;
-    border: 1px solid #1AB69D;
-    animation-timing-function: cubic-bezier(0.77, 7, 0.175, 1);
+  width: 50px;
+  height: 100px;
+  border: 1px solid #1ab69d;
+  animation-timing-function: cubic-bezier(0.77, 7, 0.175, 1);
 }
 #troo-da-blogs-section .sub-tile-con h2 span {
-    color: #3556BF;
-    position: relative;
-    display: inline;
+  color: #3556bf;
+  position: relative;
+  display: inline;
 }
 #troo-da-blogs-section .cour-txt {
-    margin-left: -80px;
-    padding-right: 0;
+  margin-left: -80px;
+  padding-right: 0;
 }
 #troo-da-blogs-section .feature-sec {
-    margin-top: 37px;
+  margin-top: 37px;
 }
 #troo-da-blogs-section .feac-img span {
-    transition: 0.5s;
+  transition: 0.5s;
 }
 #troo-da-blogs-section .client-col {
-    display: flex;
-    margin-top: 24px;
-    position: relative;
-    margin-bottom: 32px;
-    align-items: center;
+  display: flex;
+  margin-top: 24px;
+  position: relative;
+  margin-bottom: 32px;
+  align-items: center;
 }
 #troo-da-blogs-section .client-col:after {
-    background: rgba(26, 182, 157, 0.2);
-    height: 1px;
-    width: 100%;
-    content: "";
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: -32px;
+  background: rgba(26, 182, 157, 0.2);
+  height: 1px;
+  width: 100%;
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -32px;
 }
 #troo-da-blogs-section .read-cta {
-    padding-top: 24px;
+  padding-top: 24px;
 }
 #troo-da-blogs-section .read-cta a {
-    font-family: 'Nunito';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 22px;
-    color: #171717;
-    text-decoration: none;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  color: #171717;
+  text-decoration: none;
 }
 .read-cta a img {
-    transition: 0.5s;
+  transition: 0.5s;
 }
 #troo-da-blogs-section .feature-sec:hover .read-cta a {
-    color: #1AB69D;
-  }
-  #troo-da-blogs-section .feature-sec:hover .read-cta a img {
-    transform: translateX(50%);
-  }
+  color: #1ab69d;
+}
+#troo-da-blogs-section .feature-sec:hover .read-cta a img {
+  transform: translateX(50%);
+}

@@ -191,6 +191,7 @@ p {
 }
 .foot-socail ul li a svg {
     color: #3556BF;
+    font-size: 20px;
 }
 #troo-da-footer-section .loader-line {
     left: inherit !important;

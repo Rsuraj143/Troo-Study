@@ -49,6 +49,17 @@
     height: auto;
     background: transparent;
 }
+.form-control:focus {
+    color: #212529;
+    background-color: transparent !important;
+    border-color: #1AB69D !important;
+    outline: 0;
+    box-shadow: none !important;
+}
+input:focus + label {
+    transform: translateY(-16px);
+    font-size: 15px;
+}
 .fome-section label {
     font-family: 'Poppins';
     font-style: normal;

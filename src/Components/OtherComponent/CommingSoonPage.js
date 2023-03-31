@@ -123,7 +123,7 @@ const CommingSoonPage = () => {
                   </div>
                 </div>
                 <div class="col-12">
-                  <button type="submit" class="btn btn-lg">
+                  <button type="submit" class="btnn btn-lg">
                     Submit
                   </button>
                 </div>

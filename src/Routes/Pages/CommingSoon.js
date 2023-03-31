@@ -8,7 +8,6 @@ const CommingSoon = () => {
     <div className="coming-soon-page sub-page">
         <Header/>
         <CommingSoonPage/>
-        <Footer/>
     </div>
   )
 }

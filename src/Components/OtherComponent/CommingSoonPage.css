@@ -1,10 +1,13 @@
 #troo-da-coming-soon {
     padding-top: 177px;
 }
+#troo-da-coming-soon {
+    position: relative;
+}
 #troo-da-coming-soon .spinner-wrap {
     right: inherit;
     transform: rotate(73deg);
-    top: 150px;
+    top: -50px;
     left: -15%;
 }
 #troo-da-coming-soon .vert-move {
@@ -14,4 +17,82 @@
     animation: mover 1s infinite alternate;
     left: 19%;
     top: 127px;
+}
+#troo-da-coming-soon .zoom-in-zoom-out {
+    animation: zoom-in-zoom-out 2s ease-out infinite;
+    position: absolute;
+    left: inherit;
+    z-index: 9;
+    top: 49px;
+    right: 45%;
+}
+#troo-da-coming-soon .zoom-in-zoom-out img {
+    opacity: 0.2;
+}
+.commingsoon-title {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 82px;
+    color: #171717;
+    margin-bottom: 28px;
+}
+.coming-text p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: #171717;
+    margin-bottom: 28px;
+}
+.coming-text span {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: #000000;
+}
+.coming-text span a {
+    color: #3556BF !important;
+    text-decoration: none;
+}
+.coming-text .foot-socail {
+    display: flex;
+    float: none;
+    margin-top: 28px;
+}
+.coming-text .foot-socail span {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    color: #171717;
+}
+#troo-da-coming-soon .fome-section {
+    background: #F8F9FF;
+    border: 1px solid rgba(53, 86, 191, 0.2);
+    padding-left: 31px;
+    padding-top: 25px;
+    padding-right: 30px;
+    padding-bottom: 44px;
+}
+#troo-da-coming-soon .fomr-tile {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    color: #3556BF;
+    margin-bottom: 10px;
+    text-align: center;
+}
+#troo-da-coming-soon .fome-section p {
+    margin-bottom: 36px;
+}
+#troo-da-coming-soon button.btnn.btn-lg {
+    width: 100%;
 }

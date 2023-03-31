@@ -1,0 +1,67 @@
+.Blogs-list-page .feature-sec:hover p {
+    background: transparent;
+    color: #000000;
+}
+.Blogs-list-page p {
+    background: transparent;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    padding: 0;
+}
+.Blogs-list-page .course-features ul {
+    padding: 0;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+.Blogs-list-page .course-features strong {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #171717;
+}
+.Blogs-list-page .course-features span {
+    background: rgba(26, 182, 157, 0.2);
+    width: 22px;
+    height: 22px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #1AB69D;
+    display: inline-block;
+    text-align: center;
+    padding: 0;
+    border-radius: 50px;
+    float: right;
+}
+.Blogs-list-page .course-features ul {
+    padding: 0;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+.course-features.tag-ss ul li {
+    display: inline-block;
+}
+.course-features.tag-ss ul li a {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    background: #FFFFFF;
+    border-radius: 3px;
+    text-align: center;
+    color: #171717;
+    padding: 7px 15px;
+    text-decoration: none;
+    margin-bottom: 0;
+    display: inline-block;
+    margin-right: 2px;
+}
