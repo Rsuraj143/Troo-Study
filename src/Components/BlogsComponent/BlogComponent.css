@@ -44,6 +44,9 @@
   position: relative;
   display: inline;
 }
+#troo-da-blogs-section .sub-tile-con h2{
+  font-size: 37px;
+}
 #troo-da-blogs-section .cour-txt {
   margin-left: -80px;
   padding-right: 0;
@@ -91,4 +94,17 @@
 }
 #troo-da-blogs-section .feature-sec:hover .read-cta a img {
   transform: translateX(50%);
+}
+#troo-da-blogs-section .call-ss{
+  float: right;
+}
+
+
+@media (max-width: 1420px){
+  .half-cricle{
+    display: none;
+  }
+  #troo-da-blogs-section .vert-move{
+    display: none
+  }
 }

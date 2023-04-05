@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "./LearningPathComponent.css";
 import ellips from "../../images/cr-ellipse.png";
 import frame from "../../images/ar-frame.png";
@@ -6,8 +6,20 @@ import dotframe from "../../images/dot-frame.png";
 import sqframe from "../../images/sqframe.png";
 import { Link } from "react-router-dom";
 import partimg from "../../images/pathimage.png";
+import { IoCloseOutline } from "react-icons/io5";
 
 const LearningPathComponent = () => {
+
+  const [modal, setModal] = useState(false);
+  const openModal = () => {
+    if (!modal) {
+      document.body.classList.add("no-scroll");
+    } else {
+      document.body.classList.remove("no-scroll");
+    }
+    setModal(!modal);
+  };
+
   return (
     <div
       class="troo-da-learning-path-section"
@@ -44,7 +56,7 @@ const LearningPathComponent = () => {
                   <Link to="/">Get Started Now</Link>
                 </li>
                 <li class="call-ss">
-                  <Link class="btnn btn-lg" to="/">
+                  <Link class="btnn btn-lg" to="/Home/Contact_Us">
                     Contcat Us
                   </Link>
                 </li>
@@ -58,10 +70,36 @@ const LearningPathComponent = () => {
             <button
               type="button"
               class="vide-btn"
-              data-bs-toggle="modal"
-              data-bs-target="#staticBackdrop"
+              onClick={openModal}
             >
               <img src={partimg} alt="partimg" />
+              {
+                modal?(
+                  <section className="modal__bg">
+                    <div className="modal__align">
+                      <div className="modal__content" modal={modal}>
+                        <IoCloseOutline
+                          className="modal__close"
+                          arial-label="Close modal"
+                          onClick={setModal}
+                        />
+                        <div className="modal__video-align">
+                          <iframe
+                            className="modal__video-style"
+                            width="800"
+                            height="500"
+                            src="https://www.youtube.com/embed/pXxsZtcbKdw?start=96"
+                            title="YouTube video player"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen
+                          ></iframe>
+                        </div>
+                      </div>
+                    </div>
+                  </section>
+                ):null
+              }
             </button>
             <div
               class="modal fade"

@@ -7,6 +7,12 @@ import DropdownButton from "react-bootstrap/DropdownButton";
 const Navmenu = ({ item }) => {
   const location = useLocation();
   const navigate = useNavigate();
+  console.log(location.pathname.includes(item.title));
+  let arr = location.pathname?.split("/")
+  let lastvalue = arr[arr.length - 1].trim().replace(/_/g, " ");
+  console.log(lastvalue)
+  
+  
   return (
     <>
       <li className="">
@@ -25,9 +31,10 @@ const Navmenu = ({ item }) => {
             title={item.title}
           >
             {item.subNav.map((item, i) => {
+              
               return <Dropdown.Item
                key={i}
-               className={item.subTitle === location.pathname?.slice(1)?.split("/")[1]?.replace(/_/g, " ") ? "active" :""}
+               className={item.subTitle === lastvalue ? "active" :" "}
                     onClick={() =>
                       navigate(item.path)}
                >

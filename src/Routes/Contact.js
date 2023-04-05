@@ -2,12 +2,14 @@ import React from 'react'
 import Footer from '../Components/Footer/Footer'
 import Header from '../Components/Header/Header'
 import HeroGlobal from '../Components/HeroComponent/HeroGlobal'
+import ContactDetails from '../Components/ContactComponent/ContactDetails'
 
 const Contact = () => {
   return (
-    <div className="sub-page">
+    <div className="contact-page sub-page">
         <Header/>
         <HeroGlobal/>
+        <ContactDetails/>
         <Footer/>
     </div>
   )

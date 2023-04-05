@@ -3,6 +3,7 @@ import BlogDetailsComponent from '../../Components/BlogsComponent/BlogDetailsCom
 import Footer from '../../Components/Footer/Footer'
 import Header from '../../Components/Header/Header'
 import HeroGlobal from '../../Components/HeroComponent/HeroGlobal'
+import ContactComponent from '../../Components/ContactComponent/ContactComponent'
 
 const BlogDetails = () => {
   return (
@@ -10,6 +11,7 @@ const BlogDetails = () => {
         <Header/>
         <HeroGlobal/>
         <BlogDetailsComponent/>
+        <ContactComponent/>
         <Footer/>
     </div>
   )

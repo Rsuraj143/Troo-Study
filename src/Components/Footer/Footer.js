@@ -81,7 +81,7 @@ const Footer = () => {
           </div>
           <div class="col-md-6">
             <div class="foot-socail">
-              <span>Social Media</span>
+              <span>Social Media  :</span>
               <ul>
                 <li>
                   <Link to="#">

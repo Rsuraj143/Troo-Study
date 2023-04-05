@@ -89,10 +89,10 @@ const FetureComponent = () => {
               <h4>5 More Cources</h4>
               <p>
                 Lorem Ipsum is simply dummy text of the printing and it also it
-                typesetting industry.{" "}
+                typesetting industry.
               </p>
               <div class="call-ss">
-                <Link class="btnn btn-lg" href="#">
+                <Link class="btnn btn-lg" to="/Home/Course">
                   View All Courses
                 </Link>
               </div>

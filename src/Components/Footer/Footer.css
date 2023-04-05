@@ -174,7 +174,7 @@ p {
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
-    line-height: 22px;
+    line-height: 28px;
     color: #171717;
 }
 .foot-socail ul li {
@@ -184,8 +184,6 @@ p {
 }
 .foot-socail ul li a {
     width: 30px;
-    height: 30px;
-    padding-top: 3px;
     display: inline-block;
     text-align: center;
 }
@@ -211,5 +209,14 @@ p {
     }
     100% {
         transform: rotate(-3deg);
+    }
+}
+
+@media (max-width:1420px){
+    .troo-da-footer-section .col-md-2{
+        width: 23%;
+    }
+    .troo-da-footer-section .col-md-8{
+        width: 54%;
     }
 }

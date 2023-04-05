@@ -20,6 +20,7 @@ import {
   TiSocialFacebook,
   TiSocialLinkedin,
 } from "react-icons/ti";
+import { FaTwitter, FaFacebookF, FaLinkedinIn ,FaInstagram } from "react-icons/fa";
 
 export const InstructrsData = [
     {
@@ -29,19 +30,19 @@ export const InstructrsData = [
         media : "Social Media",
         social : [
             {
-                icon : <TiSocialFacebook/>,
+                icon : <FaTwitter/>,
                 path : ""
             },
             {
-                icon : <TbBrandInstagram/>,
+                icon : <FaFacebookF/>,
                 path : "",
             },
             {
-                icon : <TiSocialLinkedin/>,
+                icon : <FaLinkedinIn/>,
                 path : ""
             },
             {
-                icon : <TiSocialTwitter/>,
+                icon : <FaInstagram/>,
                 path : ""
             }
         ]
@@ -53,19 +54,19 @@ export const InstructrsData = [
         media : "Social Media",
         social : [
             {
-                icon : <TiSocialFacebook/>,
+                icon : <FaTwitter/>,
                 path : ""
             },
             {
-                icon : <TbBrandInstagram/>,
+                icon : <FaFacebookF/>,
                 path : "",
             },
             {
-                icon : <TiSocialLinkedin/>,
+                icon : <FaLinkedinIn/>,
                 path : ""
             },
             {
-                icon : <TiSocialTwitter/>,
+                icon : <FaInstagram/>,
                 path : ""
             }
         ]
@@ -77,19 +78,19 @@ export const InstructrsData = [
         media : "Social Media",
         social : [
             {
-                icon : <TiSocialFacebook/>,
+                icon : <FaTwitter/>,
                 path : ""
             },
             {
-                icon : <TbBrandInstagram/>,
+                icon : <FaFacebookF/>,
                 path : "",
             },
             {
-                icon : <TiSocialLinkedin/>,
+                icon : <FaLinkedinIn/>,
                 path : ""
             },
             {
-                icon : <TiSocialTwitter/>,
+                icon : <FaInstagram/>,
                 path : ""
             }
         ]
@@ -101,19 +102,19 @@ export const InstructrsData = [
         media : "Social Media",
         social : [
             {
-                icon : <TiSocialFacebook/>,
+                icon : <FaTwitter/>,
                 path : ""
             },
             {
-                icon : <TbBrandInstagram/>,
+                icon : <FaFacebookF/>,
                 path : "",
             },
             {
-                icon : <TiSocialLinkedin/>,
+                icon : <FaLinkedinIn/>,
                 path : ""
             },
             {
-                icon : <TiSocialTwitter/>,
+                icon : <FaInstagram/>,
                 path : ""
             }
         ]
@@ -125,19 +126,19 @@ export const InstructrsData = [
         media : "Social Media",
         social : [
             {
-                icon : <TiSocialFacebook/>,
+                icon : <FaTwitter/>,
                 path : ""
             },
             {
-                icon : <TbBrandInstagram/>,
+                icon : <FaFacebookF/>,
                 path : "",
             },
             {
-                icon : <TiSocialLinkedin/>,
+                icon : <FaLinkedinIn/>,
                 path : ""
             },
             {
-                icon : <TiSocialTwitter/>,
+                icon : <FaInstagram/>,
                 path : ""
             }
         ]
@@ -149,19 +150,19 @@ export const InstructrsData = [
         media : "Social Media",
         social : [
             {
-                icon : <TiSocialFacebook/>,
+                icon : <FaTwitter/>,
                 path : ""
             },
             {
-                icon : <TbBrandInstagram/>,
+                icon : <FaFacebookF/>,
                 path : "",
             },
             {
-                icon : <TiSocialLinkedin/>,
+                icon : <FaLinkedinIn/>,
                 path : ""
             },
             {
-                icon : <TiSocialTwitter/>,
+                icon : <FaInstagram/>,
                 path : ""
             }
         ]
@@ -173,19 +174,19 @@ export const InstructrsData = [
         media : "Social Media",
         social : [
             {
-                icon : <TiSocialFacebook/>,
+                icon : <FaTwitter/>,
                 path : ""
             },
             {
-                icon : <TbBrandInstagram/>,
+                icon : <FaFacebookF/>,
                 path : "",
             },
             {
-                icon : <TiSocialLinkedin/>,
+                icon : <FaLinkedinIn/>,
                 path : ""
             },
             {
-                icon : <TiSocialTwitter/>,
+                icon : <FaInstagram/>,
                 path : ""
             }
         ]
@@ -197,19 +198,19 @@ export const InstructrsData = [
         media : "Social Media",
         social : [
             {
-                icon : <TiSocialFacebook/>,
+                icon : <FaTwitter/>,
                 path : ""
             },
             {
-                icon : <TbBrandInstagram/>,
+                icon : <FaFacebookF/>,
                 path : "",
             },
             {
-                icon : <TiSocialLinkedin/>,
+                icon : <FaLinkedinIn/>,
                 path : ""
             },
             {
-                icon : <TiSocialTwitter/>,
+                icon : <FaInstagram/>,
                 path : ""
             }
         ]
@@ -221,19 +222,19 @@ export const InstructrsData = [
         media : "Social Media",
         social : [
             {
-                icon : <TiSocialFacebook/>,
+                icon : <FaTwitter/>,
                 path : ""
             },
             {
-                icon : <TbBrandInstagram/>,
+                icon : <FaFacebookF/>,
                 path : "",
             },
             {
-                icon : <TiSocialLinkedin/>,
+                icon : <FaLinkedinIn/>,
                 path : ""
             },
             {
-                icon : <TiSocialTwitter/>,
+                icon : <FaInstagram/>,
                 path : ""
             }
         ]
@@ -245,19 +246,19 @@ export const InstructrsData = [
         media : "Social Media",
         social : [
             {
-                icon : <TiSocialFacebook/>,
+                icon : <FaTwitter/>,
                 path : ""
             },
             {
-                icon : <TbBrandInstagram/>,
+                icon : <FaFacebookF/>,
                 path : "",
             },
             {
-                icon : <TiSocialLinkedin/>,
+                icon : <FaLinkedinIn/>,
                 path : ""
             },
             {
-                icon : <TiSocialTwitter/>,
+                icon : <FaInstagram/>,
                 path : ""
             }
         ]
@@ -269,19 +270,19 @@ export const InstructrsData = [
         media : "Social Media",
         social : [
             {
-                icon : <TiSocialFacebook/>,
+                icon : <FaTwitter/>,
                 path : ""
             },
             {
-                icon : <TbBrandInstagram/>,
+                icon : <FaFacebookF/>,
                 path : "",
             },
             {
-                icon : <TiSocialLinkedin/>,
+                icon : <FaLinkedinIn/>,
                 path : ""
             },
             {
-                icon : <TiSocialTwitter/>,
+                icon : <FaInstagram/>,
                 path : ""
             }
         ]
@@ -293,19 +294,19 @@ export const InstructrsData = [
         media : "Social Media",
         social : [
             {
-                icon : <TiSocialFacebook/>,
+                icon : <FaTwitter/>,
                 path : ""
             },
             {
-                icon : <TbBrandInstagram/>,
+                icon : <FaFacebookF/>,
                 path : "",
             },
             {
-                icon : <TiSocialLinkedin/>,
+                icon : <FaLinkedinIn/>,
                 path : ""
             },
             {
-                icon : <TiSocialTwitter/>,
+                icon : <FaInstagram/>,
                 path : ""
             }
         ]
@@ -317,19 +318,19 @@ export const InstructrsData = [
         media : "Social Media",
         social : [
             {
-                icon : <TiSocialFacebook/>,
+                icon : <FaTwitter/>,
                 path : ""
             },
             {
-                icon : <TbBrandInstagram/>,
+                icon : <FaFacebookF/>,
                 path : "",
             },
             {
-                icon : <TiSocialLinkedin/>,
+                icon : <FaLinkedinIn/>,
                 path : ""
             },
             {
-                icon : <TiSocialTwitter/>,
+                icon : <FaInstagram/>,
                 path : ""
             }
         ]
@@ -342,19 +343,19 @@ export const InstructrsData = [
         media : "Social Media",
         social : [
             {
-                icon : <TiSocialFacebook/>,
+                icon : <FaTwitter/>,
                 path : ""
             },
             {
-                icon : <TbBrandInstagram/>,
+                icon : <FaFacebookF/>,
                 path : "",
             },
             {
-                icon : <TiSocialLinkedin/>,
+                icon : <FaLinkedinIn/>,
                 path : ""
             },
             {
-                icon : <TiSocialTwitter/>,
+                icon : <FaInstagram/>,
                 path : ""
             }
         ]
@@ -366,19 +367,19 @@ export const InstructrsData = [
         media : "Social Media",
         social : [
             {
-                icon : <TiSocialFacebook/>,
+                icon : <FaTwitter/>,
                 path : ""
             },
             {
-                icon : <TbBrandInstagram/>,
+                icon : <FaFacebookF/>,
                 path : "",
             },
             {
-                icon : <TiSocialLinkedin/>,
+                icon : <FaLinkedinIn/>,
                 path : ""
             },
             {
-                icon : <TiSocialTwitter/>,
+                icon : <FaInstagram/>,
                 path : ""
             }
         ]

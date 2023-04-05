@@ -96,3 +96,9 @@ input:focus + label {
     border: 1px solid #1AB69D;
     background-color: #1AB69D;
 }
+
+@media (max-width: 1420px){
+    .arrow-icon{
+        display: none;
+    }
+}

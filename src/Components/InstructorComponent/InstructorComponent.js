@@ -29,7 +29,7 @@ const InstructorComponent = () => {
                   <p>{item.title} </p>
                 </div>
                 <div class="team-deatils">
-                  <p>{item.media} </p>
+                  <p>{item.media}  :</p>
                   <ul>
                     {item.social.map((e, i) => (
                       <li key={i}>
@@ -56,7 +56,7 @@ const InstructorComponent = () => {
                   <p>{item.title} </p>
                 </div>
                 <div class="team-deatils">
-                  <p>{item.media} </p>
+                  <p>{item.media}  :</p>
                   <ul>
                     {item.social.map((e, i) => (
                       <li key={i}>
@@ -74,7 +74,7 @@ const InstructorComponent = () => {
         <div class="row">
           <div class="col-md-12">
             <div class="call-ss">
-              <Link class="btnn btn-lg" href="#">
+              <Link class="btnn btn-lg" to="/Home/Pages/Our_Team">
                 View All Instuctor
               </Link>
             </div>

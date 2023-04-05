@@ -6,12 +6,12 @@ import call from "../../images/call.png";
 import mail from "../../images/mail.png";
 import logo from "../../images/Logo.png";
 import humbuirger from "../../images/Humberders.png";
-import { TbBrandInstagram } from "react-icons/tb";
 import {
-  TiSocialTwitter,
-  TiSocialFacebook,
-  TiSocialLinkedin,
-} from "react-icons/ti";
+  FaTwitter,
+  FaFacebookF,
+  FaLinkedinIn,
+  FaInstagram,
+} from "react-icons/fa";
 import Container from "react-bootstrap/Container";
 import Navbar from "react-bootstrap/Navbar";
 import { NavData } from "./NavData";
@@ -20,12 +20,12 @@ import Navmenu from "./Navmenu";
 const Header = () => {
   const navbar_ref = useRef();
   function handleScroll() {
-    if (window.pageYOffset > 20 || document.documentElement.scrollTop > 20 ) {
-      if (navbar_ref.current) { 
+    if (window.pageYOffset > 20 || document.documentElement.scrollTop > 20) {
+      if (navbar_ref.current) {
         navbar_ref.current.style.top = "0px";
       }
     } else {
-      if (navbar_ref.current) { 
+      if (navbar_ref.current) {
         navbar_ref.current.style.top = "-150px";
       }
     }
@@ -35,7 +35,7 @@ const Header = () => {
     return () => {
       window.removeEventListener("scroll", handleScroll);
     };
-  }, []); 
+  }, []);
 
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -46,30 +46,30 @@ const Header = () => {
       <div class="fllowa-socail">
         <ul>
           <li>
-            <Link to="/">
-              <TiSocialLinkedin />
+            <Link href="#">
+              <FaFacebookF />
             </Link>
           </li>
           <li>
-            <Link to="/">
-              <TbBrandInstagram />
+            <Link href="#">
+              <FaInstagram />
             </Link>
           </li>
           <li>
-            <Link to="/">
-              <TiSocialTwitter />
+            <Link href="#">
+              <FaLinkedinIn />
             </Link>
           </li>
           <li>
-            <Link to="/">
-              <TiSocialFacebook />
+            <Link href="#">
+              <FaTwitter />
             </Link>
           </li>
         </ul>
         <span>Follow Us</span>
       </div>
       <div className="show_nav" ref={navbar_ref}>
-        <Navbar className="troo-da-bottom-header">
+        <Navbar expand="lg" className="troo-da-bottom-header">
           <Container>
             <Navbar.Brand>
               <Link to="/">
@@ -130,22 +130,22 @@ const Header = () => {
                   <ul>
                     <li>
                       <Link href="#">
-                        <TiSocialFacebook />
+                        <FaFacebookF />
                       </Link>
                     </li>
                     <li>
                       <Link href="#">
-                        <TbBrandInstagram />
+                        <FaInstagram />
                       </Link>
                     </li>
                     <li>
                       <Link href="#">
-                        <TiSocialLinkedin />
+                        <FaLinkedinIn />
                       </Link>
                     </li>
                     <li>
                       <Link href="#">
-                        <TiSocialTwitter />
+                        <FaTwitter />
                       </Link>
                     </li>
                   </ul>
@@ -154,7 +154,7 @@ const Header = () => {
             </div>
           </div>
         </section>
-        <Navbar className="troo-da-bottom-header">
+        <Navbar expand="lg" className="troo-da-bottom-header">
           <Container>
             <Navbar.Brand>
               <Link to="/">

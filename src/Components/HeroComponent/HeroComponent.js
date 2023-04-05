@@ -49,10 +49,10 @@ const HeroComponent = () => {
                 </p>
                 <ul>
                   <li>
-                    <Link href="#">View All Courses</Link>
+                    <Link to="/Home/Course">View All Courses</Link>
                   </li>
                   <li class="call-ss">
-                    <Link class="btnn btn-lg" href="#">
+                    <Link class="btnn btn-lg" to="/Home/Contact_Us">
                       Contcat Us
                     </Link>
                   </li>
