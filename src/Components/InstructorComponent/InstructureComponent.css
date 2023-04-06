@@ -99,7 +99,7 @@
   background: rgba(26, 182, 157, 0.2);
 }
 .team-deatils ul li a:hover svg {
-  color: #1AB69D;
+  color: #1ab69d;
 }
 .instructor:hover .team-deatils {
   margin-top: 280px;
@@ -115,8 +115,54 @@
   margin-top: 50px;
 }
 
-
 /* team component */
 #troo-da-team-section {
   padding: 100px 0;
+}
+
+@media (max-width: 1160px) {
+  .team-deatils p {
+    display: none;
+  }
+}
+
+@media (max-width: 1024px) {
+  .ins-txt h4 {
+    font-size: 20px;
+  }
+  .instructor {
+    flex-wrap: nowrap;
+    display: block;
+    text-align: center;
+  }
+  .team-deatils {
+    opacity: 1;
+    top: inherit;
+    bottom: 0;
+    position: static;
+    height: auto !important;
+    margin-top: 34px;
+  }
+  .ins-img img {
+    display: block;
+    margin: 0 auto 12px auto;
+  }
+  .team-deatils ul li a {
+    width: 20px;
+    height: 29px;
+    padding: 6px 0 5px 0;
+  }
+  .ins-txt:after {
+    display: none;
+  }
+  .instructor:hover .team-deatils {
+    margin-top: 0;
+    height: auto !important;
+    padding-top: 19px;
+    opacity: 1;
+  }
+  .instructor:hover .ins-txt {
+    margin-top: 0;
+    position: static;
+  }
 }

@@ -153,7 +153,23 @@
   .circle {
     display: none;
   }
-  .about-page.sub-page.vert-move img{
+  .about-page.sub-page.vert-move img {
     display: none;
+  }
+}
+
+@media (max-width: 1160px) {
+  .quadrado {
+    display: none;
+  }
+}
+
+@media (max-width: 991px) {
+  .cta-section .call-ss {
+    margin-left: 0px;
+  }
+  .cta-section .call-ss a {
+    padding: 14px 12px;
+    font-size: 15px;
   }
 }

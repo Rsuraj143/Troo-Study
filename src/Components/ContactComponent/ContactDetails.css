@@ -11,6 +11,9 @@
     padding-bottom: 10px;
     padding-right: 26px;
 }
+#troo-da-contact-section {
+    padding-top: 50px;
+}
 .con-add-col h4 {
     color: #3556BF;
     margin-bottom: 9px;
@@ -115,4 +118,8 @@ form.aplyfome .row {
 }
 #troo-da-apply-section form.aplyfome button.btnn.btn-lg {
     margin-top: 30px;
+}
+
+@media (max-width:1024px){
+    #troo-da-apply-section .fome-section label{font-size: 15px;}
 }

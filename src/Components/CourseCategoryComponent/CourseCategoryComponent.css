@@ -97,3 +97,23 @@
     display: none;
   }
 }
+
+@media (max-width: 1024px) {
+  #troo-da-course-categories-section .vert-move {
+    display: none;
+  }
+  .cour-txt {
+    margin-left: 0;
+    padding-right: 0;
+  }
+  #troo-da-course-categories-section .sub-tile-con h2 {
+    font-size: 30px;
+  }
+  .course-list h4{font-size: 20px;}
+}
+
+@media (max-width:991px){
+  #troo-da-course-categories-section .col-md-3 {
+    width: 50%;
+}
+}

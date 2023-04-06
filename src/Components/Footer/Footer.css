@@ -1,222 +1,239 @@
 #troo-da-footer-section {
-    padding-top: 100px;
-    padding-bottom: 0px;
-    position: relative;
+  padding-top: 100px;
+  padding-bottom: 0px;
+  position: relative;
 }
 .wave {
-    position: absolute;
-    left: 8%;
-    animation: swing ease-in-out 1s infinite alternate;
-    transform-origin: center -20px;
-    top: 33px;
-}
-@keyframes swing{
-    0% {
-        transform: rotate(3deg);
-    }
-    100% {
-        transform: rotate(-3deg);
-    }
-}
-#troo-da-footer-section h4 {
-    margin-bottom: 12px;
-}
-body h4 {
-    font-family: 'Nunito';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 33px;
-    color: #171717;
-    margin: 0;
-}
-p {
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    color: #171717;
-}
-#troo-da-footer-section .mercury {
-    left: inherit !important;
-    right: 37%;
-    bottom: 75%;
-}
-.mercury {
-    width: 13px;
-    height: 13px;
-    border: 2px solid #1AB69D;
-    border-radius: 50%;
-    position: absolute;
-    bottom: 23%;
-    left: -40%;
-    z-index: 9999;
-    animation: moving 9s infinite linear;
-    transform-origin: 0;
-    background: #fff;
-    -webkit-animation: rotating 2s linear infinite;
-    -moz-animation: rotating 2s linear infinite;
-    -ms-animation: rotating 2s linear infinite;
-    -o-animation: rotating 2s linear infinite;
-    animation: rotating 2s linear infinite;
-}
-@keyframes rotating{
-    0% {
-        -ms-transform: rotate(0deg);
-        -moz-transform: rotate(0deg);
-        -webkit-transform: rotate(0deg);
-        -o-transform: rotate(0deg);
-        transform: rotate(0deg);
-    }
-    100% {
-        -ms-transform: rotate(360deg);
-        -moz-transform: rotate(360deg);
-        -webkit-transform: rotate(360deg);
-        -o-transform: rotate(360deg);
-        transform: rotate(360deg);
-    }
-}
-.logo-link-ss {
-    text-align: center;
-}
-.foot-logo {
-    margin-bottom: 19px;
-}
-.logo-link-ss ul {
-    position: relative;
-    z-index: 999;
-}
-.logo-link-ss ul li {
-    display: inline-block;
-}
-.logo-link-ss ul li a {
-    font-family: 'Nunito';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 22px;
-    color: #171717;
-    text-decoration: none;
-    padding: 0px 20px;
-}
-.logo-link-ss ul:after {
-    background: #3556BF;
-    opacity: 0.1;
-    filter: blur(50px);
-    transform: matrix(-1, 0, 0, 1, 0, 0);
-    content: "";
-    width: 169px;
-    height: 169px;
-    position: absolute;
-    left: 97px;
-    bottom: -80px;
-    border-radius: 50%;
-    z-index: -9;
-}
-#troo-da-footer-section .quadrado {
-    left: inherit;
-    top: inherit;
-    right: 46%;
-    bottom: 37px;
-}
-.quadrado {
-    width: 78px;
-    height: 78px;
-    animation: crescendo 1.5s alternate infinite ease-in;
-    position: absolute;
-    left: 7%;
-    top: 74px;
-}
-@keyframes crescendo{
-    0% {
-        transform: scale(.8);
-    }
-    100% {
-        transform: scale(1);
-    }
-}
-.foot-cll ul {
-    padding: 0;
-    margin: 0;
-}
-.foot-cll ul li {
-    list-style: none;
-}
-.foot-cll ul li a {
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    color: #171717;
-    text-decoration: none;
-}
-.botmff {
-    border-top: 1px solid rgba(53, 86, 191, 0.2);
-    margin-top: 89px !important;
-    padding-top: 16px;
-}
-.copy-right-ss p {
-    font-family: 'Nunito';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 22px;
-    color: #171717;
-}
-.foot-socail {
-    display: flex;
-    float: right;
-}
-.foot-socail span {
-    font-family: 'Nunito';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 28px;
-    color: #171717;
-}
-.foot-socail ul li {
-    list-style: none;
-    display: inline-block;
-   
-}
-.foot-socail ul li a {
-    width: 30px;
-    display: inline-block;
-    text-align: center;
-}
-.foot-socail ul li a svg {
-    color: #3556BF;
-    font-size: 20px;
-}
-#troo-da-footer-section .loader-line {
-    left: inherit !important;
-    right: 5%;
-    bottom: 61px;
-}
-.loader-line {
-    animation: swing ease-in-out 1s infinite alternate;
-    transform-origin: center -20px;
-    position: absolute;
-    left: -14px;
-    bottom: 16px;
+  position: absolute;
+  left: 8%;
+  animation: swing ease-in-out 1s infinite alternate;
+  transform-origin: center -20px;
+  top: 33px;
 }
 @keyframes swing {
-    0% {
-        transform: rotate(3deg);
-    }
-    100% {
-        transform: rotate(-3deg);
-    }
+  0% {
+    transform: rotate(3deg);
+  }
+  100% {
+    transform: rotate(-3deg);
+  }
+}
+#troo-da-footer-section h4 {
+  margin-bottom: 12px;
+}
+body h4 {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 33px;
+  color: #171717;
+  margin: 0;
+}
+p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #171717;
+}
+#troo-da-footer-section .mercury {
+  left: inherit !important;
+  right: 37%;
+  bottom: 75%;
+}
+.mercury {
+  width: 13px;
+  height: 13px;
+  border: 2px solid #1ab69d;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 23%;
+  left: -40%;
+  z-index: 9999;
+  animation: moving 9s infinite linear;
+  transform-origin: 0;
+  background: #fff;
+  -webkit-animation: rotating 2s linear infinite;
+  -moz-animation: rotating 2s linear infinite;
+  -ms-animation: rotating 2s linear infinite;
+  -o-animation: rotating 2s linear infinite;
+  animation: rotating 2s linear infinite;
+}
+@keyframes rotating {
+  0% {
+    -ms-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -ms-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+.logo-link-ss {
+  text-align: center;
+}
+.foot-logo {
+  margin-bottom: 19px;
+}
+.logo-link-ss ul {
+  position: relative;
+  z-index: 999;
+  padding-left: 0;
+}
+.logo-link-ss ul li {
+  display: inline-block;
+}
+.logo-link-ss ul li a {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  color: #171717;
+  text-decoration: none;
+  padding: 0px 20px;
+}
+.logo-link-ss ul:after {
+  background: #3556bf;
+  opacity: 0.1;
+  filter: blur(50px);
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+  content: "";
+  width: 169px;
+  height: 169px;
+  position: absolute;
+  left: 97px;
+  bottom: -80px;
+  border-radius: 50%;
+  z-index: -9;
+}
+#troo-da-footer-section .quadrado {
+  left: inherit;
+  top: inherit;
+  right: 46%;
+  bottom: 37px;
+}
+.quadrado {
+  width: 78px;
+  height: 78px;
+  animation: crescendo 1.5s alternate infinite ease-in;
+  position: absolute;
+  left: 7%;
+  top: 74px;
+}
+@keyframes crescendo {
+  0% {
+    transform: scale(0.8);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+.foot-cll ul {
+  padding: 0;
+  margin: 0;
+}
+.foot-cll ul li {
+  list-style: none;
+}
+.foot-cll ul li a {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #171717;
+  text-decoration: none;
+}
+.botmff {
+  border-top: 1px solid rgba(53, 86, 191, 0.2);
+  margin-top: 89px !important;
+  padding-top: 16px;
+}
+.copy-right-ss p {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #171717;
+}
+.foot-socail {
+  display: flex;
+  float: right;
+}
+.foot-socail span {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 28px;
+  color: #171717;
+}
+.foot-socail ul li {
+  list-style: none;
+  display: inline-block;
+}
+.foot-socail ul li a {
+  width: 30px;
+  display: inline-block;
+  text-align: center;
+}
+.foot-socail ul li a svg {
+  color: #3556bf;
+  font-size: 20px;
+}
+#troo-da-footer-section .loader-line {
+  left: inherit !important;
+  right: 5%;
+  bottom: 61px;
+}
+.loader-line {
+  animation: swing ease-in-out 1s infinite alternate;
+  transform-origin: center -20px;
+  position: absolute;
+  left: -14px;
+  bottom: 16px;
+}
+@keyframes swing {
+  0% {
+    transform: rotate(3deg);
+  }
+  100% {
+    transform: rotate(-3deg);
+  }
 }
 
-@media (max-width:1420px){
-    .troo-da-footer-section .col-md-2{
-        width: 23%;
-    }
-    .troo-da-footer-section .col-md-8{
-        width: 54%;
-    }
+@media (max-width: 1420px) {
+  .troo-da-footer-section .col-md-2 {
+    width: 25%;
+  }
+  .troo-da-footer-section .col-md-8 {
+    width: 50%;
+  }
+  .logo-link-ss ul li a {
+    padding: 0 10px;
+  }
+}
+
+@media (max-width: 1160px) {
+ 
+}
+
+@media (max-width: 1024px) {
+  .logo-link-ss ul li a {
+    padding: 0 10px;
+  }
+}
+
+@media (max-width:991px){
+    
 }

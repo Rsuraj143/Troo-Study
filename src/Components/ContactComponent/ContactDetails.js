@@ -66,58 +66,67 @@ const ContactDetails = () => {
                 <form class="row g-3">
                   <div class="col-md-12">
                     <div class="field">
-                      <input type="name" class="form-control" id="inputName" />
-                      <label for="inputName" class="form-label">
-                        Your Name
-                      </label>
+                      <div class="form-floating">
+                        <input
+                          type="email"
+                          class="form-control"
+                          id="floatingInput"
+                          placeholder="Your Name"
+                        />
+                        <label for="floatingInput">Your Name</label>
+                      </div>
                     </div>
                   </div>
                   <div class="col-md-12">
                     <div class="field">
-                      <input
-                        type="phone"
-                        class="form-control"
-                        id="inputPhone"
-                      />
-                      <label for="inputPhone" class="form-label">
-                        Your Phone
-                      </label>
+                      <div class="form-floating">
+                        <input
+                          type="email"
+                          class="form-control"
+                          id="floatingInput"
+                          placeholder="Your Phone"
+                        />
+                        <label for="floatingInput">Your Phone</label>
+                      </div>
                     </div>
                   </div>
                   <div class="col-md-12">
                     <div class="field">
-                      <input
-                        type="email"
-                        class="form-control"
-                        id="inputEmail"
-                      />
-                      <label for="inputEmail" class="form-label">
-                        Your Email
-                      </label>
+                      <div class="form-floating">
+                        <input
+                          type="email"
+                          class="form-control"
+                          id="floatingInput"
+                          placeholder="Your Email"
+                        />
+                        <label for="floatingInput">Your Email</label>
+                      </div>
                     </div>
                   </div>
                   <div class="col-md-12">
                     <div class="field">
-                      <input
-                        type="subject"
-                        class="form-control"
-                        id="inputsubject"
-                      />
-                      <label for="inputSubject" class="form-label">
-                        Subject
-                      </label>
+                      <div class="form-floating">
+                        <input
+                          type="email"
+                          class="form-control"
+                          id="floatingInput"
+                          placeholder="Subject"
+                        />
+                        <label for="floatingInput">Subject</label>
+                      </div>
                     </div>
                   </div>
                   <div class="col-md-12">
                     <div class="field">
-                      <input
-                        type="Whrite"
-                        class="form-control"
-                        id="inputWhrite"
-                      />
-                      <label for="inputWhrite" class="form-label">
-                        Whrite something
-                      </label>
+                      <div class="form-floating">
+                        <input
+                          type="email"
+                          class="form-control"
+                          id="floatingInput"
+                          placeholder="Whrite something"
+                        />
+                        <label for="floatingInput">Whrite something</label>
+                      </div>
                     </div>
                   </div>
                   <div class="col-12">

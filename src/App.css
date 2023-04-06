@@ -1,7 +1,30 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;700;800&family=Poppins:wght@400;500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;700;800&family=Poppins:wght@400;500&display=swap");
 
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+@media (max-width: 1024px) {
+  body,
+  html {
+    position: relative;
+    overflow-x: hidden;
+  }
+}
+
+@media (max-width: 991px) {
+  .container,
+  .container-md,
+  .container-sm {
+    max-width: inherit !important;
+  }
+  header {
+    position: relative;
+    z-index: 999;
+    height: 85px;
+    padding: 0;
+    margin: -4px 0px;
+  }
 }

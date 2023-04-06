@@ -344,6 +344,15 @@ a.btnn.btn-lg:hover .btnn.btn-lg {
   ul.navbar-nav {
     margin: 0px 0 0 50px;
   }
+  .cll-de ul li a {
+    font-size: 11px;
+  }
+  .socal-icon span {
+    display: none;
+  }
+  section#troo-da-top-header:after {
+    top: -40px;
+  }
 }
 
 @media (max-width: 991px) {
@@ -404,5 +413,54 @@ a.btnn.btn-lg:hover .btnn.btn-lg {
   }
   .nav-link.test.active::before {
     display: none;
+  }
+  .call-ss strong a {
+    font-size: 16px;
+  }
+  .cll-de ul li {
+    padding: 0 5px;
+  }
+  .socal-icon span {
+    display: none;
+  }
+  .socal-icon li {
+    padding: 0 1.5px;
+  }
+  .cll-mail-link ul {
+    padding: 0;
+  }
+  .cll-de ul li:after {
+    left: -3px;
+  }
+  .fllowa-socail {
+    position: fixed;
+    z-index: 9;
+    bottom: 0;
+    background: #fff;
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    top: inherit;
+    padding: 11px 0;
+    left: 0;
+  }
+  .fllowa-socail ul li a {
+    color: #3556bf;
+    width: 30px;
+    height: 30px;
+    display: block;
+    padding: 1px 5px 6px 0px;
+  }
+  .fllowa-socail ul li svg {
+    transform: rotate(-0deg);
+  }
+  .fllowa-socail ul li {
+    list-style: none;
+    display: inline-block;
+  }
+  .fllowa-socail span {
+    transform: rotate(-0deg);
   }
 }

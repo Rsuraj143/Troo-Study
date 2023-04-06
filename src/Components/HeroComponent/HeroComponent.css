@@ -343,3 +343,37 @@ li.call-ss {
     display: none;
   }
 }
+
+@media (max-width: 1160px) {
+  body h1 {
+    font-size: 49px;
+    line-height: 63px;
+  }
+  li.call-ss {
+    margin-left: 24px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .vert-move {
+    left: 4%;
+  }
+}
+
+@media (max-width: 991px) {
+  #troo-da-hero-section {
+    padding-top: 110px;
+  }
+  .call-ss {
+    display: flex;
+    padding-top: 0px;
+    border-radius: 0;
+    margin-left: 21px;
+    justify-content: center;
+  }
+  body h1 {
+    font-size: 42px;
+    line-height: 55px;
+  }
+  .hero-text p {padding-right: 0;}
+}
