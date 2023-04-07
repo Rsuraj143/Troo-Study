@@ -94,7 +94,6 @@ body h3 {
 
 @media (max-width: 991px) {
   .counter-box {
-    display: block;
     align-items: center;
     justify-content: left;
     position: relative;
@@ -116,5 +115,26 @@ body h3 {
   .counter-box p {
     font-size: 16px;
   }
-  body h3 {font-size: 22px;line-height: 30px;}
+  body h3 {
+    font-size: 22px;
+    line-height: 30px;
+  }
+  #troo-da-counter-section .conter-sec .col-md-3{
+    width: 100%;
+  }
+  #troo-da-counter-section .conter-sec .col-md-9{
+    width: 100%;
+  }
+}
+
+@media (max-width: 767px) {
+  .counter-box:after {
+    display: none;
+  }
+  .counter-box {
+    justify-content: left;
+  }
+  .text-conter {
+    margin-bottom: 20px;
+  }
 }

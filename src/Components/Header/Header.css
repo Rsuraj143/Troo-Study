@@ -375,9 +375,9 @@ a.btnn.btn-lg:hover .btnn.btn-lg {
     border-radius: 0;
     padding: 9px 11px;
     position: absolute;
-    background: #3556bf;
+    filter: invert(1);
     right: 20px;
-    top: 10px;
+    top: 5px;
   }
   .navbar {
     --bs-navbar-toggler-icon-bg: url(../../images/Humberders.png) !important;
@@ -463,4 +463,31 @@ a.btnn.btn-lg:hover .btnn.btn-lg {
   .fllowa-socail span {
     transform: rotate(-0deg);
   }
+  .btn:before,
+  .btn:after {
+    top: 6px;
+  }
+  .btn.btn-lg {
+    font-size: 14px;
+    line-height: 22px;
+    padding: 14px 6px;
+  }
+  .dot-zik{
+    display: none;
+  }
+   
+}
+
+@media (max-width: 768px) {
+  #troo-da-top-header {
+    display: none;
+  }
+  nav.navbar.navbar-expand-lg a img {
+    width: 100%;
+    max-width: 170px;
+  }
+  .fllowa-socail ul {
+    margin: 0 0px 0 35px;
+  }
+
 }

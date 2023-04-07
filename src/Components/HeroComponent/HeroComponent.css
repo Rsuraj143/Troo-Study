@@ -117,6 +117,7 @@ body h1 {
   color: #3556bf;
   border-bottom: 2px solid #3556bf;
   display: inline-block;
+  margin-right: 10px;
 }
 .hero-title strong {
   color: #1ab69d;
@@ -350,7 +351,7 @@ li.call-ss {
     line-height: 63px;
   }
   li.call-ss {
-    margin-left: 24px;
+    margin-left: 16px;
   }
 }
 
@@ -375,5 +376,27 @@ li.call-ss {
     font-size: 42px;
     line-height: 55px;
   }
-  .hero-text p {padding-right: 0;}
+  .hero-text p {
+    padding-right: 0;
+  }
+  .vert-move {
+    display: none;
+  }
+}
+
+@media (max-width: 767px) {
+  .left-img-col {
+    position: relative;
+    top: 45px;
+  }
+  body h1 {
+    font-size: 32px;
+    line-height: 40px;
+}
+  .zoom-in-zoom-out {
+    display: none;
+  }
+  li.call-ss {
+    margin-top: 47px;
+  }
 }

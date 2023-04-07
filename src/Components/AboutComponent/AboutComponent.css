@@ -162,6 +162,9 @@
   .quadrado {
     display: none;
   }
+  .who-we-are-img .zoomm {
+    display: none;
+  }
 }
 
 @media (max-width: 991px) {
@@ -171,5 +174,45 @@
   .cta-section .call-ss a {
     padding: 14px 12px;
     font-size: 15px;
+  }
+  #troo-da-who-we-are-section .row {
+    align-items: center;
+  }
+  #troo-da-who-we-are-section .col-md-6.who-txt {
+    width: 100%;
+  }
+  .who-we-are-img {
+    padding-top: 50px;
+  }
+  #troo-da-who-we-are-section .col-md-6.who-im-col {
+    width: 100%;
+  }
+}
+
+@media (max-width: 767px) {
+  .cta-section {
+    flex-wrap: wrap;
+  }
+  .cal-col {
+    padding-top: 34px;
+  }
+  .cta-section .call-ss a {
+    padding: 13px 8px;
+  }
+  .call-ss {
+    justify-content: center;
+  }
+  .who-we-are-img img {
+    margin-bottom: 30px;
+  }
+
+  .who-we-are-text {
+    padding-bottom: 45px;
+  }
+  #troo-da-who-we-are-section {
+    padding-bottom: 0;
+  }
+  header .call-ss {
+    justify-content: start;
   }
 }

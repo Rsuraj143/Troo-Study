@@ -1,125 +1,160 @@
 #troo-da-contact-section .container {
-    max-width: 1078px !important;
-    margin: 0 auto;
+  max-width: 1078px !important;
+  margin: 0 auto;
 }
 .con-add-col {
-    border: 1px solid rgba(53, 86, 191, 0.2);
-    filter: drop-shadow(0px 8px 15px rgba(23, 23, 23, 0.05));
-    border-radius: 5px;
-    padding-top: 24px;
-    padding-left: 19px;
-    padding-bottom: 10px;
-    padding-right: 26px;
+  border: 1px solid rgba(53, 86, 191, 0.2);
+  filter: drop-shadow(0px 8px 15px rgba(23, 23, 23, 0.05));
+  border-radius: 5px;
+  padding-top: 24px;
+  padding-left: 19px;
+  padding-bottom: 10px;
+  padding-right: 26px;
 }
 #troo-da-contact-section {
-    padding-top: 50px;
+  padding-top: 50px;
 }
 .con-add-col h4 {
-    color: #3556BF;
-    margin-bottom: 9px;
+  color: #3556bf;
+  margin-bottom: 9px;
 }
 .con-add-col p {
-    margin-bottom: 29px;
+  margin-bottom: 29px;
 }
 .conadd-ss {
-    display: flex;
-    margin-bottom: 40px;
+  display: flex;
+  margin-bottom: 40px;
 }
 .con-text {
-    margin-left: 15px;
+  margin-left: 15px;
 }
 .con-text p {
-    margin-bottom: 0;
+  margin-bottom: 0;
 }
 .con-text strong {
-    font-family: 'Nunito';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 27px;
-    color: #171717;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
+  color: #171717;
 }
 #troo-da-contact-section .fome-section {
-    border: 1px solid rgba(53, 86, 191, 0.2);
-    filter: drop-shadow(0px 8px 15px rgba(23, 23, 23, 0.05));
-    border-radius: 5px;
-    padding-top: 25px;
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-bottom: 42px;
+  border: 1px solid rgba(53, 86, 191, 0.2);
+  filter: drop-shadow(0px 8px 15px rgba(23, 23, 23, 0.05));
+  border-radius: 5px;
+  padding-top: 25px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 42px;
 }
 .con-form-tile h4 {
-    color: #3556BF;
-    margin-bottom: 9px;
+  color: #3556bf;
+  margin-bottom: 9px;
 }
 #troo-da-contact-section .fome-section button.btnn.btn-lg {
-    margin-top: 5px;
+  margin-top: 5px;
 }
-
 
 #troo-da-map-section {
-    padding-top: 100px;
-    padding-bottom: 50px;
+  padding-top: 100px;
+  padding-bottom: 50px;
 }
 #troo-da-map-section .container {
-    max-width: 1078px !important;
-    margin: 0 auto;
+  max-width: 1078px !important;
+  margin: 0 auto;
 }
 .map-section {
-    margin: 0 auto !important;
-    display: block !important;
+  margin: 0 auto !important;
+  display: block !important;
 }
 .map-section iframe {
-    width: 100%;
-    height: 395px;
+  width: 100%;
+  height: 395px;
 }
-
 
 /* Register Form */
 #troo-da-apply-section {
-    padding: 100px 0 0 0;
+  padding: 100px 0 0 0;
 }
 #troo-da-apply-section .container {
-    max-width: 1078px !important;
-    margin: 0 auto;
+  max-width: 1078px !important;
+  margin: 0 auto;
 }
 #troo-da-apply-section .fome-section {
-    background: #F8F9FF;
-    border: 1px solid rgba(53, 86, 191, 0.2);
-    box-shadow: 0px 8px 15px rgb(23 23 23 / 5%);
-    border-radius: 5px;
-    padding-top: 25px;
+  background: #f8f9ff;
+  border: 1px solid rgba(53, 86, 191, 0.2);
+  box-shadow: 0px 8px 15px rgb(23 23 23 / 5%);
+  border-radius: 5px;
+  padding-top: 25px;
 }
 #troo-da-apply-section h4 {
-    color: #171717;
-    text-align: center;
+  color: #171717;
+  text-align: center;
 }
 #troo-da-apply-section p {
-    text-align: center;
+  text-align: center;
 }
 #troo-da-apply-section .aplyfome {
-    background: #FFFFFF;
-    box-shadow: 0px 8px 15px rgb(23 23 23 / 5%);
-    border-radius: 5px;
-    padding: 27px 50px 50px 50px;
-    margin: 40px 81px;
+  background: #ffffff;
+  box-shadow: 0px 8px 15px rgb(23 23 23 / 5%);
+  border-radius: 5px;
+  padding: 27px 50px 50px 50px;
+  margin: 40px 81px;
 }
 form.aplyfome .row {
-    margin-bottom: 23px;
+  margin-bottom: 23px;
 }
 #troo-da-apply-section form.aplyfome select {
-    border-bottom: 1px solid rgba(23, 23, 23, 0.2);
-    border-left: 0;
-    border-right: 0;
-    border-top: 0;
-    border-radius: 0;
-    height: auto;
-    background-color: transparent;
+  border-bottom: 1px solid rgba(23, 23, 23, 0.2);
+  border-left: 0;
+  border-right: 0;
+  border-top: 0;
+  border-radius: 0;
+  height: auto;
+  background-color: transparent;
 }
 #troo-da-apply-section form.aplyfome button.btnn.btn-lg {
-    margin-top: 30px;
+  margin-top: 30px;
 }
 
-@media (max-width:1024px){
-    #troo-da-apply-section .fome-section label{font-size: 15px;}
+@media (max-width: 1024px) {
+  #troo-da-apply-section .fome-section label {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 991px) {
+  .con-text p {
+    font-size: 14px;
+  }
+  #troo-da-apply-section .aplyfome {
+    padding: 27px 11px 50px 11px;
+    margin: 39px 19px;
+  }
+  #troo-da-apply-section .fome-section label {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 767px) {
+  .conadd-ss {
+    display: block;
+    text-align: center;
+  }
+  #troo-da-apply-section .aplyfome {
+    padding: 21px 12px;
+    margin: 40px 9px;
+  }
+  #troo-da-apply-section .fome-section .field {
+    position: relative;
+    margin-top: 23px;
+  }
+  form.aplyfome .row {
+    margin-bottom: 0;
+  }
+  #troo-da-apply-section .fome-section input {
+    height: 48px;
+  }
+  #troo-da-apply-section .fome-section label{font-size: 13px;}
 }

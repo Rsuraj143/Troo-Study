@@ -1,43 +1,58 @@
 .sub-page #troo-da-hero-section {
-    padding: 149px 0;
-    position: relative;
-    background: #EFF2FD;
+  padding: 149px 0;
+  position: relative;
+  background: #eff2fd;
 }
 .sub-page #troo-da-hero-section:after {
-    background: #3556BF;
-    opacity: 0.05;
-    filter: blur(50px);
-    content: "";
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    width: 526px;
-    height: 526px;
-    right: 15%;
-    bottom: 0;
+  background: #3556bf;
+  opacity: 0.05;
+  filter: blur(50px);
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  width: 526px;
+  height: 526px;
+  right: 15%;
+  bottom: 0;
 }
 .sub-page .left-img-col .vert-move {
-    left: inherit;
-    right: -12%;
-    top: 226px;
-    z-index: -9;
+  left: inherit;
+  right: -12%;
+  top: 226px;
+  z-index: -9;
 }
 .eorr-page {
-    text-align: center;
+  text-align: center;
 }
 .eorr-page span {
-    font-family: 'Nunito';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 225.248px;
-    line-height: 307px;
-    text-align: center;
-    color: #3556BF;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 225.248px;
+  line-height: 307px;
+  text-align: center;
+  color: #3556bf;
 }
 .eorr-page h2 {
-    margin-bottom: 23px;
-    margin-top: 23px;
+  margin-bottom: 23px;
+  margin-top: 23px;
 }
 .eorr-page p {
-    margin-bottom: 46px;
+  margin-bottom: 46px;
+}
+
+@media (max-width: 991px) {
+  .eorr-page .call-ss {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 767px) {
+  .eorr-page span {
+    font-size: 104.248px;
+  }
+  .eorr-page span img {
+    width: 27%;
+  }
 }

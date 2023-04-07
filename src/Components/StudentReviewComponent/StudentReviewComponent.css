@@ -145,3 +145,59 @@
     transition: 0.5s;
   }
 }
+
+@media (max-width: 991px) {
+  #troo-da-students-says-section .more-course {
+    max-width: 250px;
+    height: 250px;
+    padding: 48px 0;
+    margin: 0 auto;
+  }
+  #troo-da-students-says-section .feature-sec .cli-text span {
+    font-size: 10px;
+    line-height: 15px;
+    margin: 5px 0;
+  }
+  #troo-da-students-says-section .cli-text{
+    font-size: 17px;
+  }
+  #troo-da-students-says-section .client-col {
+    justify-content: space-between;
+    margin-top: 24px;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+  #troo-da-students-says-section {
+    padding: 50px 0;
+  }
+  .studen-tile {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    padding-right: 0;
+  }
+  #troo-da-students-says-section .feat-text h4 {
+    margin-left: 8px;
+    font-size: 16px;
+    line-height: 21px;
+  }
+  #troo-da-students-says-section .feat-text{
+    padding: 20px 15px;
+  }
+  #troo-da-students-says-section .col-md-4{
+    padding: 4px;
+  }
+}
+
+@media (max-width: 767px) {
+  #troo-da-students-says-section .client-col {
+    justify-content: space-between;
+  }
+ 
+  #troo-da-students-says-section .feature-sec .cli-text span{
+    font-size: 12px;
+  }
+  #troo-da-students-says-section .call-ss{
+    margin-left: 0
+  }
+}

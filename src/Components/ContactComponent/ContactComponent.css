@@ -107,5 +107,23 @@ input:focus + label {
   #troo-da-get-in-touch-section h2 {
     font-size: 30px;
   }
-  
+}
+
+@media (max-width: 991px) {
+  .get-in-touch-img img {
+    width: 100%;
+  }
+  #troo-da-get-in-touch-section h2 {
+    font-size: 19px;
+    line-height: 31px;
+  }
+}
+
+@media (max-width: 767px) {
+  #troo-da-get-in-touch-section .fome-section button.btn.btn-lg {
+    margin-top: 20px;
+  }
+  #contact-page .fome-section {
+    margin-top: 20px;
+}
 }

@@ -52,3 +52,18 @@ ul.breadcrumb li a {
     padding: 100px 0 100px 0;
   }
 }
+
+@media (max-width: 767px) {
+  .sub-page ul.breadcrumb {
+    padding: 12px 15px;
+  }
+  .sub-page-title h2 {
+    font-size: 30px;
+  }
+  .sub-page-title h2 br {
+    display: none;
+  }
+  .sub-page #troo-da-hero-section {
+    padding: 100px 0 100px 0;
+  }
+}

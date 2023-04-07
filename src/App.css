@@ -27,4 +27,9 @@
     padding: 0;
     margin: -4px 0px;
   }
+  body,
+  html {
+    position: relative;
+    overflow-x: hidden;
+  }
 }

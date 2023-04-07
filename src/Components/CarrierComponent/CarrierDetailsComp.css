@@ -1,9 +1,18 @@
 #troo-da-carrer-detail-section {
-    padding: 66px 0 100px 0;
+  padding: 66px 0 100px 0;
 }
 #troo-da-carrer-detail-section h4 {
-    margin-bottom: 9px;
+  margin-bottom: 9px;
 }
 #troo-da-carrer-detail-section ul {
-    padding: 0;
+  padding: 0;
+}
+
+@media (max-width: 991px) {
+  #troo-da-carrer-detail-section .col-md-9 {
+    width: 100%;
+  }
+  #troo-da-carrer-detail-section .col-md-3 {
+    width: 100%;
+  }
 }

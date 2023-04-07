@@ -36,8 +36,8 @@ const HeroComponent = () => {
                 <div class="sub-tile">Welcome to troostudy</div>
                 <div class="title">
                   <h1>
-                    Providing <span>Best Education </span>
-                    For <strong>Brighter future</strong>
+                    Providing <span>Best Education  </span>
+                      For <strong>Brighter future</strong>
                   </h1>
                 </div>
                 <p>

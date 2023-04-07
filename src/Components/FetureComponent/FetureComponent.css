@@ -307,8 +307,8 @@ body h2 {
     margin-top: 18px;
   }
   body h2 {
-    font-size: 25px;
-    line-height: 40px;
+    font-size: 28px;
+    line-height: 35px;
   }
 }
 
@@ -317,7 +317,73 @@ body h2 {
     font-size: 12px;
   }
   .feat-text {
-    padding-left: 10px;
-    padding-right: 10px;
+    padding: 15px 10px;
   }
+  .more-course {
+    margin-left: 0;
+    padding: 65px 5px;
+    background: transparent;
+    box-shadow: none;
+    border: none;
+  }
+  .feat-text h4 {
+    transition: 0.5s;
+    font-size: 15px;
+    line-height: 20px;
+  }
+  .cli-text {
+    font-size: 16px;
+    line-height: 19px;
+  }
+  .feat-text p {
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 15px;
+    padding: 7px 9px;
+    font-size: 15px;
+  }
+  .more-course h4 {
+    font-size: 20px;
+  }
+  .more-course p {
+    font-size: 13px;
+    line-height: 18px;
+    margin-top: 5px;
+    margin-bottom: 16px;
+  }
+  .more-course .call-ss a {
+    padding: 10px 14px;
+  }
+  #troo-da-feature-section {
+    padding-bottom: 50px;
+  }
+  .sub-tile-con h2 span:after{
+    display: none;
+  }
+}
+
+@media (max-width: 767px) {
+ 
+  .swing {
+    display: none;
+  }
+  .more-course p {
+    font-size: 11px;
+  }
+  #troo-da-feature-section {
+    padding: 115px 0 50px 0;
+  }
+  .feat-text p {
+    margin-right: 30px;
+    margin-top: 0;
+    padding: 6px 12px;
+    font-size: 15px;
+  }
+  .Cources-page.sub-page #troo-da-cources-detail-section .col-md-3 {
+    width: 50%;
+}
+.troo-da-feature-section .call-ss{
+  margin-left: 0;
+}
+
 }

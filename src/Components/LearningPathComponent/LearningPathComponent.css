@@ -307,3 +307,20 @@ button.vide-btn:hover:after {
     left: -40px;
   }
 }
+
+@media (max-width: 991px) {
+  #troo-da-learning-path-section {
+    padding-top: 100px;
+    padding-bottom: 50px;
+  }
+}
+
+@media (max-width: 767px) {
+  .path-text.hero-text {
+    position: initial !important;
+    margin-bottom: 57px;
+  }
+  .circles {
+    display: none;
+  }
+}

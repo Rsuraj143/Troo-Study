@@ -109,11 +109,56 @@
   #troo-da-course-categories-section .sub-tile-con h2 {
     font-size: 30px;
   }
-  .course-list h4{font-size: 20px;}
+  .course-list h4 {
+    font-size: 20px;
+    line-height: 25px;
+  }
 }
 
-@media (max-width:991px){
+@media (max-width: 991px) {
   #troo-da-course-categories-section .col-md-3 {
     width: 50%;
+  }
+  .cour-txt {
+    margin-left: 0;
+    padding-right: 0;
+    padding-top: 24px;
+  }
+  #troo-da-course-categories-section .call-ss {
+    float: left;
+    margin-left: 0;
+    margin-top: 15px;
+  }
+  #troo-da-course-categories-section .col-md-4 {
+    width: 50%;
+  }
+  #troo-da-course-categories-section .col-md-5 {
+    width: 50%;
+  }
+  #troo-da-course-categories-section .call-ss a {
+    padding: 15px 17px;
+  }
+  .course-list {
+    min-height: 250px;
+  }
+  #troo-da-course-categories-section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+}
+
+@media (max-width: 767px) {
+  #troo-da-course-categories-section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  #troo-da-course-categories-section .col-md-4 {
+    width: 100%;
+  }
+  #troo-da-course-categories-section .col-md-5 {
+    width: 100%;
+  }
+  #troo-da-course-categories-section .col-md-3 {
+    width: 100%;
 }
 }

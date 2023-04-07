@@ -1,119 +1,141 @@
 #troo-da-faq-section {
-    padding-top: 89px;
-    padding-bottom: 100px;
+  padding-top: 89px;
+  padding-bottom: 100px;
 }
 #troo-da-faq-section .sub-tile-con {
-    text-align: center;
+  text-align: center;
 }
 #troo-da-faq-section .sub-tile-con p {
-    margin-top: 29px;
-    margin-bottom: 58px;
+  margin-top: 29px;
+  margin-bottom: 58px;
 }
 .accordion-item {
-    border: 0 !important;
-    margin-bottom: 15px;
+  border: 0 !important;
+  margin-bottom: 15px;
 }
 button.accordion-button {
-    font-family: 'Nunito';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 25px;
-    color: #171717;
-    background: #FFFFFF !important;
-    border: 1px solid rgba(53, 86, 191, 0.2) !important;
-    box-shadow: 0px 8px 15px rgb(23 23 23 / 5%) !important;
-    border-radius: 5px !important;
-    padding-bottom: 18px;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  color: #171717;
+  background: #ffffff !important;
+  border: 1px solid rgba(53, 86, 191, 0.2) !important;
+  box-shadow: 0px 8px 15px rgb(23 23 23 / 5%) !important;
+  border-radius: 5px !important;
+  padding-bottom: 18px;
+  display: flex;
+  column-gap: 5px;
 }
 .accordion-button::after {
-    transition: transform .2s ease-in-out !important;
-    background-color: rgba(53, 86, 191, 0.2) !important;
-    border: 1px solid rgba(53, 86, 191, 0.2) !important;
-    border-radius: 5px !important;
-    width: 30px !important;
-    height: 30px !important;
-    background-position: center !important;
-    background-image: url(../../images/top-Icon.png) !important;
-    background-size: 14px !important;
-    background-position: center !important;
+  transition: transform 0.2s ease-in-out !important;
+  background-color: rgba(53, 86, 191, 0.2) !important;
+  border: 1px solid rgba(53, 86, 191, 0.2) !important;
+  border-radius: 5px !important;
+  width: 30px !important;
+  height: 30px !important;
+  background-position: center !important;
+  background-image: url(../../images/top-Icon.png) !important;
+  background-size: 14px !important;
+  background-position: center !important;
 }
 .accordion-button:not(.collapsed)::after {
-    background-color: rgba(26, 182, 157, 0.2) !important;
-    border: 1px solid rgba(26, 182, 157, 0.2) !important;
-    border-radius: 5px !important;
-    background-image: url(../../images/bottom-Icon.png) !important;
-    background-size: 14px !important;
-    background-position: center !important;
-    transform: rotate(0deg) !important;
+  background-color: rgba(26, 182, 157, 0.2) !important;
+  border: 1px solid rgba(26, 182, 157, 0.2) !important;
+  border-radius: 5px !important;
+  background-image: url(../../images/bottom-Icon.png) !important;
+  background-size: 14px !important;
+  background-position: center !important;
+  transform: rotate(0deg) !important;
 }
 .accordion-collapse {
-    background: #FFFFFF;
-    border: 1px solid rgba(53, 86, 191, 0.2);
-    box-shadow: 0px 8px 15px rgb(23 23 23 / 5%);
-    border-radius: 5px;
-    border-top: 0;
-    border-top-left-radius: 0;
-    border-top-right-radius: 0;
-    margin-top: -13px;
+  background: #ffffff;
+  border: 1px solid rgba(53, 86, 191, 0.2);
+  box-shadow: 0px 8px 15px rgb(23 23 23 / 5%);
+  border-radius: 5px;
+  border-top: 0;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  margin-top: -13px;
 }
 .accordion-button:not(.collapsed) {
-    color: #1AB69D !important;
-    background-color: transparent !important;
-    box-shadow: none !important;
-    border-bottom: 0 !important;
-    border-bottom-left-radius: 0 !important;
-    border-bottom-right-radius: 0 !important;
+  color: #1ab69d !important;
+  background-color: transparent !important;
+  box-shadow: none !important;
+  border-bottom: 0 !important;
+  border-bottom-left-radius: 0 !important;
+  border-bottom-right-radius: 0 !important;
 }
 .accordion-body {
-    border-left: 1px solid rgba(26, 182, 157, 0.2);
-    margin-left: 60px;
-    padding: 0px 0 0px 15px !important;
-    margin-bottom: 16px;
-    margin-top: 13px;
+  border-left: 1px solid rgba(26, 182, 157, 0.2);
+  margin-left: 60px;
+  padding: 0px 5px 0px 15px !important;
+  margin-bottom: 16px;
+  margin-top: 13px;
 }
 .find-ans {
-    text-align: center;
-    padding-top: 49px;
+  text-align: center;
+  padding-top: 49px;
 }
 .find-text {
-    background: rgba(26, 182, 157, 0.2);
-    max-width: 500px;
-    display: flex;
-    margin: 17px auto 0 auto;
-    width: 100%;
-    padding: 39px 41px;
-    justify-content: space-between;
+  background: rgba(26, 182, 157, 0.2);
+  max-width: 500px;
+  display: flex;
+  margin: 17px auto 0 auto;
+  width: 100%;
+  padding: 39px 41px;
+  justify-content: space-between;
 }
 .mail-cc {
-    text-align: left;
+  text-align: left;
 }
 .mail-cc span {
-    font-family: 'Nunito';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 19px;
-    color: #171717;
-    display: block;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 19px;
+  color: #171717;
+  display: block;
 }
 .mail-cc a {
-    color: #3556BF !important;
-    font-family: 'Nunito';
-    text-decoration: none;
-    line-height: 19px;
-    font-weight: 700;
-    font-size: 14px;
+  color: #3556bf !important;
+  font-family: "Nunito";
+  text-decoration: none;
+  line-height: 19px;
+  font-weight: 700;
+  font-size: 14px;
 }
 .or-ss {
-    background-color: rgb(23 23 23 / 6%);
-    font-family: 'Nunito';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 22px;
-    text-align: center;
-    color: #171717;
-    padding: 11px 9px;
-    border-radius: 45px;
+  background-color: rgb(23 23 23 / 6%);
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  color: #171717;
+  padding: 11px 9px;
+  border-radius: 45px;
+}
+
+@media (max-width: 991px) {
+  .find-text {
+    flex-wrap: wrap;
+  }
+  .accordion-body {
+    margin-left: 15px;
+  }
+  #troo-da-faq-section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  #troo-da-faq-section .row {
+    justify-content: center;
+   
+  }
+  #troo-da-faq-section .col-md-6{
+    padding: 5px;
+  }
 }

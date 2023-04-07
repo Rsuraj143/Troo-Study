@@ -1,101 +1,128 @@
 #troo-da-career-section {
-    padding: 100px 0;
+  padding: 100px 0;
 }
 .job-offer {
-    background: #FFFFFF;
-    border: 1px solid rgba(53, 86, 191, 0.1);
-    border-radius: 5px;
-    padding: 36px 30px 23px 30px;
-    cursor: pointer;
-    margin-bottom: 45px;
+  background: #ffffff;
+  border: 1px solid rgba(53, 86, 191, 0.1);
+  border-radius: 5px;
+  padding: 36px 30px 23px 30px;
+  cursor: pointer;
+  margin-bottom: 45px;
 }
 .job-title {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 .opening {
-    background: #171717;
-    border-radius: 5px;
-    padding: 16px 22px;
-    margin-right: 25px;
-    transition: 0.5s;
+  background: #171717;
+  border-radius: 5px;
+  padding: 16px 22px;
+  margin-right: 25px;
+  transition: 0.5s;
 }
 .opening span {
-    font-family: 'Nunito';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 19px;
-    text-align: center;
-    color: #FFFFFF;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 19px;
+  text-align: center;
+  color: #ffffff;
 }
 .opening h3 {
-    font-family: 'Nunito';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 49px;
-    text-align: center;
-    color: #FFFFFF;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 49px;
+  text-align: center;
+  color: #ffffff;
 }
 .job-name strong {
-    font-family: 'Nunito';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 33px;
-    color: #171717;
-    display: block;
-    transition: 0.5s;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 33px;
+  color: #171717;
+  display: block;
+  transition: 0.5s;
 }
 .job-name span {
-    font-family: 'Nunito';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 22px;
-    color: #171717;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #171717;
 }
 .job-type {
-    margin-bottom: 30px;
+  margin-bottom: 30px;
 }
 .job-type ul {
-    padding: 0;
-    margin-top: 30px;
+  padding: 0;
+  margin-top: 30px;
 }
 .job-type ul li {
-    list-style: none;
-    margin-bottom: 17px;
+  list-style: none;
+  margin-bottom: 17px;
 }
 .job-type strong {
-    font-family: 'Nunito';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 22px;
-    color: #171717;
-    margin-left: 8px;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  color: #171717;
+  margin-left: 8px;
 }
 .job-type span {
-    font-family: 'Nunito';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 22px;
-    color: #171717;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #171717;
 }
 .job-sign {
-    position: absolute;
+  position: absolute;
 }
 .job-sign img {
-    background: #171717;
-    padding: 13px 11px;
-    border-radius: 45px;
-    transition: 0.5s;
+  background: #171717;
+  padding: 13px 11px;
+  border-radius: 45px;
+  transition: 0.5s;
 }
 .job-offer:hover .job-sign img {
-  background-color: #3556BF;
+  background-color: #3556bf;
 }
 .job-offer:hover .opening {
-  background-color: #3556BF;
+  background-color: #3556bf;
+}
+
+@media (max-width: 991px) {
+  .job-name strong {
+    font-size: 22px;
+    line-height: 33px;
+    text-align: left;
+  }
+  .opening {
+    padding: 8px 7px;
+    margin-right: 9px;
+  }
+  .job-name strong {
+    font-size: 18px;
+    line-height: 25px;
+  }
+  .job-offer {
+    padding: 20px 10px 23px 10px;
+  }
+  .job-type span {
+    display: block;
+    padding-left: 24px;
+  }
+}
+
+@media (max-width:767px){
+    .job-type span { display: inline-block; padding-left: 7px;}
 }

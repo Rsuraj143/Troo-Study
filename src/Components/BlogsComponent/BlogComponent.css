@@ -114,3 +114,57 @@
     padding-right: 0;
   }
 }
+
+@media (max-width: 991px) {
+  #troo-da-blogs-section {
+    padding-top: 0;
+  }
+  #troo-da-blogs-section .cour-txt {
+    margin-left: 0;
+    padding-right: 0;
+  }
+  #troo-da-blogs-section .client-col:after {
+    min-width: inherit;
+    left: 0;
+  }
+  #troo-da-blogs-section .feature-sec {
+    margin-top: 37px;
+  }
+  #troo-da-students-says-section .feat-text span {
+    padding: 0 6px;
+  }
+
+  #troo-da-blogs-section .sub-tile-con h2{
+    font-size: 28px;
+    line-height: 35px;
+  }
+  #troo-da-blogs-section .col-md-5{
+    width: 36%;
+  }
+  #troo-da-blogs-section .col-md-3{
+    width: 30.5%;
+  }
+}
+
+@media (max-width: 767px) {
+  #troo-da-blogs-section {
+    padding-top: 0;
+    padding-bottom: 50px;
+  }
+  #troo-da-blogs-section .client-col {
+    margin-bottom: 19px;
+  }
+  #troo-da-blogs-section .client-col:after {
+    display: none;
+  }
+  #troo-da-blogs-section .read-cta {
+    padding-top: 0;
+  }
+  #troo-da-blogs-section .col-md-5{
+    width: 100%;
+  }
+  #troo-da-blogs-section .col-md-3{
+    width: 100%;
+    flex-direction: column;
+  }
+}
