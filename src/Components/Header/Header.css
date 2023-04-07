@@ -252,6 +252,8 @@ a.nav-link.active:before {
 .navbar-expand .navbar-collapse {
   justify-content: space-between;
 }
+
+
 a.btnn.btn-lg {
   border-radius: 5px;
   padding: 13px 26px;
@@ -293,20 +295,22 @@ a.btnn.btn-lg {
   bottom: 0;
   left: 0;
 }
+.btnn:hover::after {
+  opacity: 1;
+  height: 100%;
+}
 .btnn:hover::before {
   width: 100%;
   height: 100%;
   top: 0;
   left: 0;
 }
-a.btnn.btn-lg:hover {
-  border: 1px solid #1ab69d !important;
-  color: #fff;
-  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
-  background-color: #1ab69d;
-}
 a.btnn.btn-lg:hover .btnn.btn-lg {
   z-index: -1;
+}
+a.btnn.btn-lg:hover {
+  border: 1px solid #1AB69D;
+  color: #fff;
 }
 
 @media (max-width: 1800px) {

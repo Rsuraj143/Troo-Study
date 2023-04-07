@@ -73,7 +73,7 @@ const AboutComponent = () => {
               </ul>
               <div class="cta-section">
                 <div class="call-ss">
-                  <Link class="btnn btn-lg" href="#">
+                  <Link class="btnn btn-lg" to="#">
                     Learn More
                   </Link>
                 </div>
