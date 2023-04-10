@@ -21,7 +21,7 @@ const AboutComponent = () => {
               <div class="sub-tile-con">
                 <div class="sub-txt">Who We Are</div>
                 <h2>
-                  We Are Largest <span>Education Platform</span>
+                  We Are Largest <span>Education Flatform</span>
                 </h2>
               </div>
               <strong>
@@ -73,7 +73,7 @@ const AboutComponent = () => {
               </ul>
               <div class="cta-section">
                 <div class="call-ss">
-                  <Link class="btnn btn-lg" to="#">
+                  <Link class="btnn btn-lg" to="/Home/About_Us">
                     Learn More
                   </Link>
                 </div>

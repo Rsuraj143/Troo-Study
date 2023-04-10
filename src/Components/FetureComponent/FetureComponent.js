@@ -92,7 +92,7 @@ const FetureComponent = () => {
                 typesetting industry.
               </p>
               <div class="call-ss">
-                <Link class="btnn btn-lg" to="/Home/Course">
+                <Link class="btnn btn-lg" to="/Home/Cources_Grid">
                   View All Courses
                 </Link>
               </div>

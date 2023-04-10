@@ -41,27 +41,32 @@ const Header = () => {
     window.scrollTo(0, 0);
   }, []);
 
+  const linkdin = "https://in.linkedin.com/company/trooinbound-pvt-ltd";
+  const facebk = "https://www.facebook.com/";
+  const insta = "https://www.instagram.com/trooinbound/?hl=en";
+  const twtr = "https://twitter.com/i/flow/login";
+
   return (
     <div className="troo_header">
       <div class="fllowa-socail">
         <ul>
           <li>
-            <Link href="#">
+            <Link to={facebk}>
               <FaFacebookF />
             </Link>
           </li>
           <li>
-            <Link href="#">
+            <Link to={insta}>
               <FaInstagram />
             </Link>
           </li>
           <li>
-            <Link href="#">
+            <Link to={linkdin}>
               <FaLinkedinIn />
             </Link>
           </li>
           <li>
-            <Link href="#">
+            <Link to={twtr}>
               <FaTwitter />
             </Link>
           </li>
@@ -129,22 +134,22 @@ const Header = () => {
                   <span>We Are on </span>
                   <ul>
                     <li>
-                      <Link href="#">
+                      <Link to={facebk}>
                         <FaFacebookF />
                       </Link>
                     </li>
                     <li>
-                      <Link href="#">
+                      <Link to={insta}>
                         <FaInstagram />
                       </Link>
                     </li>
                     <li>
-                      <Link href="#">
+                      <Link to={linkdin}>
                         <FaLinkedinIn />
                       </Link>
                     </li>
                     <li>
-                      <Link href="#">
+                      <Link to={twtr}>
                         <FaTwitter />
                       </Link>
                     </li>

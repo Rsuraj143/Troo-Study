@@ -38,7 +38,7 @@ const CounterComponent = () => {
                             )}
                             <strong>K</strong>
                           </ScrollTrigger>
-                          <p>Students Anroll</p>
+                          <p>Students Enroll</p>
                         </div>
                       </div>
                     </div>

@@ -16,8 +16,8 @@ const BlogComponent = () => {
         <div class="c8 c"></div>
       </div>
       <div class="container">
-        <div class="row">
-          <div class="row">
+      
+          <div class="row bloghead">
             <div class="col-md-5">
               <div class="sub-tile-con">
                 <div class="sub-txt">News And Blogs</div>
@@ -40,13 +40,13 @@ const BlogComponent = () => {
             </div>
             <div class="col-md-3">
               <div class="call-ss">
-                <Link class="btnn btn-lg" to="#">
+                <Link class="btnn btn-lg" to="/Home/Blogs">
                   View All Blogs
                 </Link>
               </div>
             </div>
           </div>
-        </div>
+       
         <div class="row">
           {BlogData.slice(0, 3).map((e, i) => (
             <div class="col-md-4">

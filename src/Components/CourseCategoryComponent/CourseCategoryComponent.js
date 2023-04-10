@@ -42,7 +42,7 @@ const CourseCategoryComponent = () => {
           </div>
           <div class="col-md-3">
             <div class="call-ss">
-              <Link class="btnn btn-lg" to="/Home/Course">
+              <Link class="btnn btn-lg" to="/Home/Cources_Grid">
                 View All Courses
               </Link>
             </div>

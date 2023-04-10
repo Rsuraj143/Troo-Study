@@ -1,8 +1,7 @@
-import React from 'react'
+import React from "react";
 import { ReviewData } from "./ReviewData";
 import fatcher from "../../images/facher-dots.png";
 import "./StudentReviewComponent.css";
-
 
 const StudentReviewComponent2 = () => {
   return (
@@ -26,8 +25,8 @@ const StudentReviewComponent2 = () => {
                   <p>{e.message}</p>
                   <div class="client-col">
                     <div class="cli-text">
-                      {e.name}
-                      <span>{e.clg} </span>
+                      <div>{e.name}</div>
+                      <div class="clg">{e.clg} </div>
                     </div>
                     <div class="cli-img">
                       <img src={e.img} alt="student1" />
@@ -39,7 +38,7 @@ const StudentReviewComponent2 = () => {
           ))}
         </div>
         <div class="row">
-          {ReviewData.slice(3,6).map((e, i) => (
+          {ReviewData.slice(3, 6).map((e, i) => (
             <div class="col-md-4" key={i}>
               <div class="feature-sec">
                 <div class="feat-text">
@@ -50,8 +49,8 @@ const StudentReviewComponent2 = () => {
                   <p>{e.message}</p>
                   <div class="client-col">
                     <div class="cli-text">
-                      {e.name}
-                      <span>{e.clg} </span>
+                      <div>{e.name}</div>
+                      <div class="clg">{e.clg} </div>
                     </div>
                     <div class="cli-img">
                       <img src={e.img} alt="student1" />
@@ -60,10 +59,10 @@ const StudentReviewComponent2 = () => {
                 </div>
               </div>
             </div>
-          ))}         
+          ))}
         </div>
         <div class="row">
-          {ReviewData.slice(6,9).map((e, i) => (
+          {ReviewData.slice(6, 9).map((e, i) => (
             <div class="col-md-4" key={i}>
               <div class="feature-sec">
                 <div class="feat-text">
@@ -74,8 +73,8 @@ const StudentReviewComponent2 = () => {
                   <p>{e.message}</p>
                   <div class="client-col">
                     <div class="cli-text">
-                      {e.name}
-                      <span>{e.clg} </span>
+                      <div>{e.name}</div>
+                      <div class="clg">{e.clg} </div>
                     </div>
                     <div class="cli-img">
                       <img src={e.img} alt="student1" />
@@ -84,10 +83,10 @@ const StudentReviewComponent2 = () => {
                 </div>
               </div>
             </div>
-          ))}         
+          ))}
         </div>
         <div class="row">
-          {ReviewData.slice(9,12).map((e, i) => (
+          {ReviewData.slice(9, 12).map((e, i) => (
             <div class="col-md-4" key={i}>
               <div class="feature-sec">
                 <div class="feat-text">
@@ -97,9 +96,9 @@ const StudentReviewComponent2 = () => {
                   </div>
                   <p>{e.message}</p>
                   <div class="client-col">
-                    <div class="cli-text">
-                      {e.name}
-                      <span>{e.clg} </span>
+                  <div class="cli-text">
+                      <div>{e.name}</div>
+                      <div class="clg">{e.clg} </div>
                     </div>
                     <div class="cli-img">
                       <img src={e.img} alt="student1" />
@@ -108,11 +107,11 @@ const StudentReviewComponent2 = () => {
                 </div>
               </div>
             </div>
-          ))}         
+          ))}
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default StudentReviewComponent2
+export default StudentReviewComponent2;

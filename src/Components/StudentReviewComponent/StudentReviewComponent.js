@@ -78,7 +78,7 @@ const StudentReviewComponent = () => {
                 40+ <br /> More Revivew
               </h4>
               <div class="call-ss">
-                <Link class="btnn btn-lg" href="#">
+                <Link class="btnn btn-lg" to="/Home/Pages/Teastimonial">
                   Read All Review
                 </Link>
               </div>
