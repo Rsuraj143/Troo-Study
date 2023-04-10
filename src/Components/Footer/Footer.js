@@ -76,7 +76,7 @@ const Footer = () => {
         <div class="row botmff">
           <div class="col-md-6">
             <div class="copy-right-ss">
-              <p>© 2022 Restaurant Theme by Troo Theme. All rights reserved</p>
+              <p>© 2023 TRoo Study by TRoo Theme. All rights reserved</p>
             </div>
           </div>
           <div class="col-md-6">

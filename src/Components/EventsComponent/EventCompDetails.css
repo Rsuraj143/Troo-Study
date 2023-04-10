@@ -16,6 +16,9 @@
   height: 424px;
   margin-bottom: 31px;
 }
+.deail-lit ul{
+  padding-left: 0;
+}
 .deail-lit ul li {
   list-style: none;
   display: flex;

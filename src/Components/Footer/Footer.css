@@ -85,7 +85,7 @@ p {
 }
 .logo-link-ss ul {
   position: relative;
-  z-index: 999;
+  /* z-index: 999; */
   padding-left: 0;
 }
 .logo-link-ss ul li {

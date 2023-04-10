@@ -177,6 +177,9 @@
   #troo-da-cources-detail-section .col-md-3 {
     width: 100%;
   }
+  #troo-da-cources-detail-section .cources-call-desls .col-md-3{
+    width: 25%;
+  } 
   .sidebar {
     margin-top: 30px;
   }
@@ -196,6 +199,17 @@
     border: none;
   }
   .instructor-col {
-    justify-content: left;
+    justify-content: center;
   }
+  #troo-da-cources-detail-section .cources-call-desls .col-md-3{
+    width: 50%;
+    padding-top: 20px;
+  } 
+}
+
+@media (max-width: 420px){
+  #troo-da-cources-detail-section .cources-call-desls .col-md-3{
+    width: 100%;
+    padding-top: 20px;
+  } 
 }

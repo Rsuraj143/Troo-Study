@@ -168,6 +168,8 @@ body h1 {
   text-decoration: none;
   box-shadow: none;
   transition: 0.5s;
+  border-radius: 5px;
+    padding: 13px 26px;
 }
 li.call-ss {
   margin-left: 53px;
