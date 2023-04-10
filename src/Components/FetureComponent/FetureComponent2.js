@@ -6,20 +6,20 @@ import { Link } from "react-router-dom";
 
 const FetureComponent2 = () => {
   return (
-    <div class="troo-da-feature-section" id="troo-da-feature-section">
-      <figure class="swing">
+    <div className="troo-da-feature-section" id="troo-da-feature-section">
+      <figure className="swing">
         <img src={facher} alt="facher" />
       </figure>
-      <div class="container">
-        <div class="row">
+      <div className="container">
+        <div className="row">
           {CourseData.slice(0, 3).map((item, i) => (
-            <div class="col-md-4">
-              <div class="feature-sec">
-                <div class="feac-img">
+            <div className="col-md-4">
+              <div className="feature-sec">
+                <div className="feac-img">
                   <img src={item.courseImg} alt="feture1" />
                   <span>{item.price}</span>
                 </div>
-                <div class="feat-text">
+                <div className="feat-text">
                   <p>{item.courseType}</p>
                   {item.rating}
                   {item.rating}
@@ -27,11 +27,11 @@ const FetureComponent2 = () => {
                   {item.rating}
                   {item.rating}
                   <h4>{item.courseTitle}</h4>
-                  <div class="client-col">
-                    <div class="cli-img">
+                  <div className="client-col">
+                    <div className="cli-img">
                       <img src={item.authorImg} alt="client1" />
                     </div>
-                    <div class="cli-text">
+                    <div className="cli-text">
                       {item.authorTitle}
                       <br /> {item.authodName}
                     </div>
@@ -41,15 +41,15 @@ const FetureComponent2 = () => {
             </div>
           ))}
         </div>
-        <div class="row">
+        <div className="row">
           {CourseData.slice(3, 6).map((item, i) => (
-            <div class="col-md-4">
-              <div class="feature-sec">
-                <div class="feac-img">
+            <div className="col-md-4">
+              <div className="feature-sec">
+                <div className="feac-img">
                   <img src={item.courseImg} alt="feture1" />
                   <span>{item.price}</span>
                 </div>
-                <div class="feat-text">
+                <div className="feat-text">
                   <p>{item.courseType}</p>
                   {item.rating}
                   {item.rating}
@@ -58,11 +58,11 @@ const FetureComponent2 = () => {
                   {item.rating}
 
                   <h4>{item.courseTitle}</h4>
-                  <div class="client-col">
-                    <div class="cli-img">
+                  <div className="client-col">
+                    <div className="cli-img">
                       <img src={item.authorImg} alt="client1" />
                     </div>
-                    <div class="cli-text">
+                    <div className="cli-text">
                       {item.authorTitle}
                       <br /> {item.authodName}
                     </div>
@@ -72,15 +72,15 @@ const FetureComponent2 = () => {
             </div>
           ))}
         </div>
-        <div class="row">
+        <div className="row">
           {CourseData.slice(6, 9).map((item, i) => (
-            <div class="col-md-4">
-              <div class="feature-sec">
-                <div class="feac-img">
+            <div className="col-md-4">
+              <div className="feature-sec">
+                <div className="feac-img">
                   <img src={item.courseImg} alt="feture1" />
                   <span>{item.price}</span>
                 </div>
-                <div class="feat-text">
+                <div className="feat-text">
                   <p>{item.courseType}</p>
                   {item.rating}
                   {item.rating}
@@ -89,11 +89,11 @@ const FetureComponent2 = () => {
                   {item.rating}
 
                   <h4>{item.courseTitle}</h4>
-                  <div class="client-col">
-                    <div class="cli-img">
+                  <div className="client-col">
+                    <div className="cli-img">
                       <img src={item.authorImg} alt="client1" />
                     </div>
-                    <div class="cli-text">
+                    <div className="cli-text">
                       {item.authorTitle}
                       <br /> {item.authodName}
                     </div>
@@ -103,16 +103,16 @@ const FetureComponent2 = () => {
             </div>
           ))}
         </div>
-        <div class="row">
-          <div class="col-md-12">
-            <div class="call-ss">
-              <Link class="btnn btn-lg" href="#">
+        <div className="row">
+          <div className="col-md-12">
+            <div className="call-ss">
+              <Link className="btnn btn-lg" href="#">
                 View All Courses
               </Link>
             </div>
           </div>
         </div>
-        <div class="loader-ss">
+        <div className="loader-ss">
           <span></span>
           <span></span>
           <span></span>

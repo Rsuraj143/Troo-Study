@@ -13,23 +13,23 @@ import twodot from "../../images/two-dot.png"
 
 const CommingSoonPage = () => {
   return (
-    <div id="troo-da-coming-soon" class="troo-da-coming-soon">
-      <div class="spinner-wrap">
-        <div class="spinner-item"></div>
-        <div class="spinner-item spinner-item--2"></div>
-        <div class="spinner-item spinner-item--3"></div>
+    <div id="troo-da-coming-soon" className="troo-da-coming-soon">
+      <div className="spinner-wrap">
+        <div className="spinner-item"></div>
+        <div className="spinner-item spinner-item--2"></div>
+        <div className="spinner-item spinner-item--3"></div>
       </div>
-      <div class="vert-move">
+      <div className="vert-move">
         <img src={dotSpacing} alt="dotSpacing" />
       </div>
-      <div class="container">
-        <div class="row">
-          <div class="col-md-8">
-            <div class="coming-text">
-              <div class="zoom-in-zoom-out">
+      <div className="container">
+        <div className="row">
+          <div className="col-md-8">
+            <div className="coming-text">
+              <div className="zoom-in-zoom-out">
                 <img src={cross} alt="cross" />
               </div>
-              <div class="commingsoon-title">
+              <div className="commingsoon-title">
                 We Are <br />
                 Coming Very Soon
               </div>
@@ -41,7 +41,7 @@ const CommingSoonPage = () => {
               <span>
                 For more inquiry: <Link href="#">contact@troostudy.com</Link>
               </span>
-              <div class="foot-socail">
+              <div className="foot-socail">
                 <span>Social Media</span>
                 <ul>
                   <li>
@@ -69,67 +69,67 @@ const CommingSoonPage = () => {
             </div>
           </div>
 
-          <div class="col-md-4">
-            <div class="fome-section">
-              <div class="fomr-tile">Contact With Us</div>
+          <div className="col-md-4">
+            <div className="fome-section">
+              <div className="fomr-tile">Contact With Us</div>
               <p>Lorem ipsum doller sit it is simply dumy text.</p>
-              <form class="row g-3">
-                <div class="col-md-12">
-                  <div class="field">
-                    <input type="name" class="form-control" id="inputName" />
-                    <label for="inputName" class="form-label">
+              <form className="row g-3">
+                <div className="col-md-12">
+                  <div className="field">
+                    <input type="name" className="form-control" id="inputName" />
+                    <label for="inputName" className="form-label">
                       Your Name
                     </label>
                   </div>
                 </div>
-                <div class="col-md-12">
-                  <div class="field">
-                    <input type="phone" class="form-control" id="inputPhone" />
-                    <label for="inputPhone" class="form-label">
+                <div className="col-md-12">
+                  <div className="field">
+                    <input type="phone" className="form-control" id="inputPhone" />
+                    <label for="inputPhone" className="form-label">
                       Your Phone
                     </label>
                   </div>
                 </div>
-                <div class="col-md-12">
-                  <div class="field">
-                    <input type="email" class="form-control" id="inputEmail" />
-                    <label for="inputEmail" class="form-label">
+                <div className="col-md-12">
+                  <div className="field">
+                    <input type="email" className="form-control" id="inputEmail" />
+                    <label for="inputEmail" className="form-label">
                       Your Email
                     </label>
                   </div>
                 </div>
-                <div class="col-md-12">
-                  <div class="field">
+                <div className="col-md-12">
+                  <div className="field">
                     <input
                       type="subject"
-                      class="form-control"
+                      className="form-control"
                       id="inputsubject"
                     />
-                    <label for="inputSubject" class="form-label">
+                    <label for="inputSubject" className="form-label">
                       Subject
                     </label>
                   </div>
                 </div>
-                <div class="col-md-12">
-                  <div class="field">
+                <div className="col-md-12">
+                  <div className="field">
                     <input
                       type="Whrite"
-                      class="form-control"
+                      className="form-control"
                       id="inputWhrite"
                     />
-                    <label for="inputWhrite" class="form-label">
+                    <label for="inputWhrite" className="form-label">
                       Whrite something
                     </label>
                   </div>
                 </div>
-                <div class="col-12">
-                  <button type="submit" class="btnn btn-lg">
+                <div className="col-12">
+                  <button type="submit" className="btnn btn-lg">
                     Submit
                   </button>
                 </div>
               </form>
             </div>
-            <div class="dot-zik">
+            <div className="dot-zik">
               <img src={twodot} alt="twodot" />
             </div>
           </div>

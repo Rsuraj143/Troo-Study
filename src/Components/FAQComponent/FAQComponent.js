@@ -4,12 +4,12 @@ import Accordion from "react-bootstrap/Accordion";
 
 const FAQComponent = () => {
   return (
-    <div class="troo-da-faq-section" id="troo-da-faq-section">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-            <div class="sub-tile-con">
-              <div class="sub-txt">Have a Question in Mind?</div>
+    <div className="troo-da-faq-section" id="troo-da-faq-section">
+      <div className="container">
+        <div className="row">
+          <div className="col-md-12">
+            <div className="sub-tile-con">
+              <div className="sub-txt">Have a Question in Mind?</div>
               <h2>
                 Frequently <span> Asked </span> Questions{" "}
               </h2>
@@ -19,8 +19,8 @@ const FAQComponent = () => {
               </p>
             </div>
           </div>
-          <div class="row">
-            <div class="col-md-6">
+          <div className="row">
+            <div className="col-md-6">
               <Accordion defaultActiveKey="0">
                 <Accordion.Item eventKey="0">
                   <Accordion.Header>
@@ -68,7 +68,7 @@ const FAQComponent = () => {
                 </Accordion.Item>
               </Accordion>
             </div>
-            <div class="col-md-6">
+            <div className="col-md-6">
               <Accordion>
                 <Accordion.Item eventKey="0">
                   <Accordion.Header>
@@ -128,17 +128,17 @@ const FAQComponent = () => {
               </Accordion>
             </div>
           </div>
-          <div class="row">
-            <div class="col-md-12">
-              <div class="find-ans">
+          <div className="row">
+            <div className="col-md-12">
+              <div className="find-ans">
                 <h4>Don’t Find Your Answer?</h4>
-                <div class="find-text">
-                  <div class="mail-cc">
+                <div className="find-text">
+                  <div className="mail-cc">
                     <span>Email Us on</span>
                     <a href="mailto:troostudy@email.com">troostudy@email.com</a>
                   </div>
-                  <div class="or-ss">OR</div>
-                  <div class="mail-cc call-tt">
+                  <div className="or-ss">OR</div>
+                  <div className="mail-cc call-tt">
                     <span>Call Us on</span>
                     <a href="tel:+44 123 456 7890">+44 123 456 7890</a>
                   </div>

@@ -13,28 +13,28 @@ import {Link} from "react-router-dom"
 
 const HeroComponent = () => {
   return (
-    <div class="troo-da-hero-section" id="troo-da-hero-section">
-      <div class="wave-img">
+    <div className="troo-da-hero-section" id="troo-da-hero-section">
+      <div className="wave-img">
         <img src={zikzakline} alt="zikzakline" />
       </div>
-      <div class="lin-move">
+      <div className="lin-move">
         <img src={dortline} alt="dortline" />
       </div>
-      <div class="spinner-wrap">
-        <div class="spinner-item"></div>
-        <div class="spinner-item spinner-item--2"></div>
-        <div class="spinner-item spinner-item--3"></div>
+      <div className="spinner-wrap">
+        <div className="spinner-item"></div>
+        <div className="spinner-item spinner-item--2"></div>
+        <div className="spinner-item spinner-item--3"></div>
       </div>
-      <div class="container">
-        <div class="row">
-          <div class="col-md-8">
-            <div class="hero-text">
-              <div class="vert-move">
+      <div className="container">
+        <div className="row">
+          <div className="col-md-8">
+            <div className="hero-text">
+              <div className="vert-move">
                 <img src={dot} alt="dot" />
               </div>
-              <div class="hero-title">
-                <div class="sub-tile">Welcome to troostudy</div>
-                <div class="title">
+              <div className="hero-title">
+                <div className="sub-tile">Welcome to troostudy</div>
+                <div className="title">
                   <h1>
                     Providing <span>Best Education  </span>
                       For <strong>Brighter future</strong>
@@ -51,40 +51,40 @@ const HeroComponent = () => {
                   <li>
                     <Link to="/Home/Cources_Grid">View All Courses</Link>
                   </li>
-                  <li class="call-ss">
-                    <Link class="btnn btn-lg" to="/Home/Contact_Us">
+                  <li className="call-ss">
+                    <Link className="btnn btn-lg" to="/Home/Contact_Us">
                       Contact Us
                     </Link>
                   </li>
                 </ul>
               </div>
-              <div class="dot-zik">
+              <div className="dot-zik">
                 <img src={twodot} alt="twodot" />
               </div>
             </div>
           </div>
-          <div class="col-md-4">
-            <div class="left-img-col">
-              <div class="zoom-in-zoom-out">
+          <div className="col-md-4">
+            <div className="left-img-col">
+              <div className="zoom-in-zoom-out">
                 <img src={crose} alt="crose" />
               </div>
               <img src={personalGirl} alt="personalGirl" />
-              <div class="vert-move">
+              <div className="vert-move">
                 <img src={dotspacing} alt="dotspacing" />
               </div>
-              <div class="loader-line">
+              <div className="loader-line">
                 <img src={linespacing} alt="linespacing" />
               </div>
-              <div class="mercury"></div>
+              <div className="mercury"></div>
             </div>
           </div>
         </div>
       </div>
-      <div class="radius">
-        <span class="place"></span>
-        <span class="border-animation ba1"></span>
-        <span class="border-animation ba2"></span>
-        <span class="border-animation ba3"></span>
+      <div className="radius">
+        <span className="place"></span>
+        <span className="border-animation ba1"></span>
+        <span className="border-animation ba2"></span>
+        <span className="border-animation ba3"></span>
       </div>
     </div>
   );

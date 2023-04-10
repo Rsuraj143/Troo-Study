@@ -20,36 +20,36 @@ import courseImg from "../../images/cours-image.png";
 const BlogDetailsComponent = () => {
   return (
     <div
-      class="troo-da-cources-detail-section"
+      className="troo-da-cources-detail-section"
       id="troo-da-cources-detail-section"
     >
-      <div class="container">
-        <div class="row">
-          <div class="col-md-9">
-            <div class="cources-call-desls">
-              <div class="row">
-                <div class="col-md-4">
-                  <div class="instructor-col">
-                    <div class="ins-cr">
+      <div className="container">
+        <div className="row">
+          <div className="col-md-9">
+            <div className="cources-call-desls">
+              <div className="row">
+                <div className="col-md-4">
+                  <div className="instructor-col">
+                    <div className="ins-cr">
                       <img src={courseImg} alt="courseImg" />
                     </div>
-                    <div class="ins-de">
+                    <div className="ins-de">
                       <span>instructor</span>
                       <strong>Serena Deen</strong>
                     </div>
                   </div>
                 </div>
-                <div class="col-md-4">
-                  <div class="instructor-col">
-                    <div class="ins-de">
+                <div className="col-md-4">
+                  <div className="instructor-col">
+                    <div className="ins-de">
                       <span>Category</span>
                       <strong>Managment</strong>
                     </div>
                   </div>
                 </div>
-                <div class="col-md-4">
-                  <div class="instructor-col">
-                    <div class="ins-de">
+                <div className="col-md-4">
+                  <div className="instructor-col">
+                    <div className="ins-de">
                       <span>Date</span>
                       <strong>22 Sep, 2022</strong>
                     </div>
@@ -58,9 +58,9 @@ const BlogDetailsComponent = () => {
               </div>
             </div>
 
-            <div class="row">
-              <div class="col-md-12">
-                <div class="over-vi">
+            <div className="row">
+              <div className="col-md-12">
+                <div className="over-vi">
                   <img src={blogdetails} alt="blogdetails" />
                 </div>
                 <h4>Essential High School Reads From the Last Decade</h4>
@@ -85,21 +85,21 @@ const BlogDetailsComponent = () => {
                 </p>
               </div>
             </div>
-            <div class="row">
-              <div class="col-md-6">
-                <div class="blog-ss-img">
+            <div className="row">
+              <div className="col-md-6">
+                <div className="blog-ss-img">
                   <img src={block1} alt="block1" />
                 </div>
               </div>
-              <div class="col-md-6">
-                <div class="blog-ss-img">
+              <div className="col-md-6">
+                <div className="blog-ss-img">
                   <img src={block2} alt="block2" />
                 </div>
               </div>
             </div>
-            <div class="row">
-              <div class="col-md-12">
-                <div class="deail-lit">
+            <div className="row">
+              <div className="col-md-12">
+                <div className="deail-lit">
                   <p>
                     Lorem Ipsum is simply dummy text of the printing and
                     typesetting industry. what is Lorem Ipsum has been the
@@ -121,8 +121,8 @@ const BlogDetailsComponent = () => {
                     sheets containing Lorem Ipsum passages, and more recently
                     with Aldus PageMaker including versions of Lorem Ipsum.
                   </p>
-                  <div class="row">
-                    <div class="col-md-6">
+                  <div className="row">
+                    <div className="col-md-6">
                       <ul>
                         <li>
                           <img src={circle} alt="circle" />
@@ -144,7 +144,7 @@ const BlogDetailsComponent = () => {
                         </li>
                       </ul>
                     </div>
-                    <div class="col-md-6">
+                    <div className="col-md-6">
                       <ul>
                         <li>
                           <img src={circle} alt="circle" />
@@ -167,8 +167,8 @@ const BlogDetailsComponent = () => {
                       </ul>
                     </div>
                   </div>
-                  <div class="row">
-                    <div class="col-md-12">
+                  <div className="row">
+                    <div className="col-md-12">
                       <p>
                         Lorem Ipsum is simply dummy text of the printing and
                         typesetting industry. what is Lorem Ipsum has been the
@@ -179,9 +179,9 @@ const BlogDetailsComponent = () => {
                       </p>
                     </div>
                   </div>
-                  <div class="row border-col">
-                    <div class="col-md-8">
-                      <div class="tag-ss">
+                  <div className="row border-col">
+                    <div className="col-md-8">
+                      <div className="tag-ss">
                         <strong>Tags:</strong>
                         <span>
                           Education, Study, Students, Career, Business,
@@ -189,8 +189,8 @@ const BlogDetailsComponent = () => {
                         </span>
                       </div>
                     </div>
-                    <div class="col-md-4">
-                      <div class="foot-socail tag-co">
+                    <div className="col-md-4">
+                      <div className="foot-socail tag-co">
                         <span>Share on</span>
                         <ul>
                           <li>
@@ -217,74 +217,74 @@ const BlogDetailsComponent = () => {
                       </div>
                     </div>
                   </div>
-                  <div class="row">
-                    <div class="col-md-12">
-                      <div class="commet-form">
+                  <div className="row">
+                    <div className="col-md-12">
+                      <div className="commet-form">
                         <h4>0 Comments</h4>
-                        <div class="fome-section">
-                          <form class="row g-3">
-                            <div class="col-md-12">
-                              <div class="field">
+                        <div className="fome-section">
+                          <form className="row g-3">
+                            <div className="col-md-12">
+                              <div className="field">
                                 <input
                                   type="name"
-                                  class="form-control"
+                                  className="form-control"
                                   id="inputName"
                                 />
-                                <label for="inputName" class="form-label">
+                                <label for="inputName" className="form-label">
                                   Your Name
                                 </label>
                               </div>
                             </div>
-                            <div class="col-md-12">
-                              <div class="field">
+                            <div className="col-md-12">
+                              <div className="field">
                                 <input
                                   type="phone"
-                                  class="form-control"
+                                  className="form-control"
                                   id="inputPhone"
                                 />
-                                <label for="inputPhone" class="form-label">
+                                <label for="inputPhone" className="form-label">
                                   Your Phone
                                 </label>
                               </div>
                             </div>
-                            <div class="col-md-12">
-                              <div class="field">
+                            <div className="col-md-12">
+                              <div className="field">
                                 <input
                                   type="email"
-                                  class="form-control"
+                                  className="form-control"
                                   id="inputEmail"
                                 />
-                                <label for="inputEmail" class="form-label">
+                                <label for="inputEmail" className="form-label">
                                   Your Email
                                 </label>
                               </div>
                             </div>
-                            <div class="col-md-12">
-                              <div class="field">
+                            <div className="col-md-12">
+                              <div className="field">
                                 <input
                                   type="subject"
-                                  class="form-control"
+                                  className="form-control"
                                   id="inputsubject"
                                 />
-                                <label for="inputSubject" class="form-label">
+                                <label for="inputSubject" className="form-label">
                                   Subject
                                 </label>
                               </div>
                             </div>
-                            <div class="col-md-12">
-                              <div class="field">
+                            <div className="col-md-12">
+                              <div className="field">
                                 <input
                                   type="Whrite"
-                                  class="form-control"
+                                  className="form-control"
                                   id="inputWhrite"
                                 />
-                                <label for="inputWhrite" class="form-label">
+                                <label for="inputWhrite" className="form-label">
                                   Whrite something
                                 </label>
                               </div>
                             </div>
-                            <div class="col-12">
-                              <button type="submit" class="btnn btn-lg">
+                            <div className="col-12">
+                              <button type="submit" className="btnn btn-lg">
                                 Submit
                               </button>
                             </div>
@@ -297,9 +297,9 @@ const BlogDetailsComponent = () => {
               </div>
             </div>
           </div>
-          <div class="col-md-3">
-            <div class="sidebar">
-              <div class="course-features">
+          <div className="col-md-3">
+            <div className="sidebar">
+              <div className="course-features">
                 <h4>Categories</h4>
                 <ul>
                   <li>
@@ -338,7 +338,7 @@ const BlogDetailsComponent = () => {
                   </li>
                 </ul>
               </div>
-              <div class="course-features tag-ss">
+              <div className="course-features tag-ss">
                 <h4>Tags </h4>
                 <ul>
                   <li>
@@ -367,37 +367,37 @@ const BlogDetailsComponent = () => {
                   </li>
                 </ul>
               </div>
-              <div class="course-features">
+              <div className="course-features">
                 <h4>Related Blogs </h4>
-                <div class="resent-courcse">
-                  <div class="ret-img">
+                <div className="resent-courcse">
+                  <div className="ret-img">
                     <img src={seatReading} alt="seatReading" />
                   </div>
-                  <div class="ret-tile">
+                  <div className="ret-tile">
                     Machine Learning A-Z: Hands-On Python & java
                   </div>
                 </div>
-                <div class="resent-courcse">
-                  <div class="ret-img">
+                <div className="resent-courcse">
+                  <div className="ret-img">
                     <img src={personStd} alt="personStd" />
                   </div>
-                  <div class="ret-tile">
+                  <div className="ret-tile">
                     Competitive Strategy law for all students
                   </div>
                 </div>
-                <div class="resent-courcse">
-                  <div class="ret-img">
+                <div className="resent-courcse">
+                  <div className="ret-img">
                     <img src={book} alt="book" />
                   </div>
-                  <div class="ret-tile">
+                  <div className="ret-tile">
                     Music Theory Learn New student & Fundamentals
                   </div>
                 </div>
-                <div class="resent-courcse">
-                  <div class="ret-img">
+                <div className="resent-courcse">
+                  <div className="ret-img">
                     <img src={personWomen} alt="personWomen" />
                   </div>
-                  <div class="ret-tile">
+                  <div className="ret-tile">
                     Bases Matemáticas dios Álgebra Ecuacion
                   </div>
                 </div>

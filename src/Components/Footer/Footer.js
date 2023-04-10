@@ -14,22 +14,22 @@ import {
 
 const Footer = () => {
   return (
-    <div class="troo-da-footer-section" id="troo-da-footer-section">
-      <div class="wave">
+    <div className="troo-da-footer-section" id="troo-da-footer-section">
+      <div className="wave">
         <img src={wave} alt="wave" />
       </div>
-      <div class="container">
-        <div class="row">
-          <div class="col-md-2">
-            <div class="footer-address">
+      <div className="container">
+        <div className="row">
+          <div className="col-md-2">
+            <div className="footer-address">
               <h4>Address</h4>
               <p>32 Park Row, Edinburgh United Kingdom, EH2 1TT</p>
             </div>
           </div>
-          <div class="col-md-8">
-            <div class="mercury"></div>
-            <div class="logo-link-ss">
-              <div class="foot-logo">
+          <div className="col-md-8">
+            <div className="mercury"></div>
+            <div className="logo-link-ss">
+              <div className="foot-logo">
                 <img src={footerLogo} alt="footerLogo" />
               </div>
               <ul>
@@ -50,12 +50,12 @@ const Footer = () => {
                 </li>
               </ul>
             </div>
-            <div class="quadrado">
+            <div className="quadrado">
               <img src={blueBottom} alt="blueBottom" />
             </div>
           </div>
-          <div class="col-md-2">
-            <div class="foot-cll">
+          <div className="col-md-2">
+            <div className="foot-cll">
               <h4>Contact Us</h4>
               <ul>
                 <li>
@@ -73,14 +73,14 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div class="row botmff">
-          <div class="col-md-6">
-            <div class="copy-right-ss">
+        <div className="row botmff">
+          <div className="col-md-6">
+            <div className="copy-right-ss">
               <p>© 2023 TRoo Study by TRoo Theme. All rights reserved</p>
             </div>
           </div>
-          <div class="col-md-6">
-            <div class="foot-socail">
+          <div className="col-md-6">
+            <div className="foot-socail">
               <span>Social Media  :</span>
               <ul>
                 <li>
@@ -107,7 +107,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div class="loader-line">
+        <div className="loader-line">
           <img src={footline} alt="footline" />
         </div>
       </div>

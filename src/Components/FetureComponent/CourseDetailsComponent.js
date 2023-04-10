@@ -21,39 +21,39 @@ import book from "../../images/book-novel.png"
 const CourseDetailsComponent = () => {
   return (
     <div
-      class="troo-da-cources-detail-section"
+      className="troo-da-cources-detail-section"
       id="troo-da-cources-detail-section"
     >
-      <div class="container">
-        <div class="row">
-          <div class="col-md-9">
-            <div class="cources-call-desls">
-              <div class="row">
-                <div class="col-md-3">
-                  <div class="instructor-col">
-                    <div class="ins-cr">
+      <div className="container">
+        <div className="row">
+          <div className="col-md-9">
+            <div className="cources-call-desls">
+              <div className="row">
+                <div className="col-md-3">
+                  <div className="instructor-col">
+                    <div className="ins-cr">
                       <img src={courseImg} alt="courseImg" />
                     </div>
-                    <div class="ins-de">
+                    <div className="ins-de">
                       <span>instructor</span>
                       <strong>Serena Deen</strong>
                     </div>
                   </div>
                 </div>
-                <div class="col-md-3">
-                  <div class="instructor-col">
-                    <div class="ins-cr">
+                <div className="col-md-3">
+                  <div className="instructor-col">
+                    <div className="ins-cr">
                       <img src={clientimg} alt="clientimg" />
                     </div>
-                    <div class="ins-de">
+                    <div className="ins-de">
                       <span>Category</span>
                       <strong>Managment</strong>
                     </div>
                   </div>
                 </div>
-                <div class="col-md-3">
-                  <div class="instructor-col">
-                    <div class="ins-de">
+                <div className="col-md-3">
+                  <div className="instructor-col">
+                    <div className="ins-de">
                       <span>Rating</span>
                       <FaStar />
                       <FaStar />
@@ -63,9 +63,9 @@ const CourseDetailsComponent = () => {
                     </div>
                   </div>
                 </div>
-                <div class="col-md-3">
-                  <div class="instructor-col">
-                    <div class="ins-de">
+                <div className="col-md-3">
+                  <div className="instructor-col">
+                    <div className="ins-de">
                       <span>Call Us on</span>
                       <strong>
                         <Link href="#">+44 123 456 7890</Link>
@@ -76,9 +76,9 @@ const CourseDetailsComponent = () => {
               </div>
             </div>
 
-            <div class="row">
-              <div class="col-md-12">
-                <div class="over-vi">
+            <div className="row">
+              <div className="col-md-12">
+                <div className="over-vi">
                   <img src={womenmodel} alt="womenmodel" />
                 </div>
                 <h4>Overview</h4>
@@ -135,12 +135,12 @@ const CourseDetailsComponent = () => {
                 
 
                 <h4>Instructor</h4>
-                <div class="instructor-section">
-                  <div class="instructor-col">
-                    <div class="ins-cr">
+                <div className="instructor-section">
+                  <div className="instructor-col">
+                    <div className="ins-cr">
                       <img src={courseImg} alt="courseImg" />
                     </div>
-                    <div class="ins-de">
+                    <div className="ins-de">
                       <span>instructor</span>
                       <strong>Serena Deen</strong>
                     </div>
@@ -152,7 +152,7 @@ const CourseDetailsComponent = () => {
                     unknown printer took a galley this is of type and scrambled
                     it to make a type specimen book.
                   </p>
-                  <div class="foot-socail">
+                  <div className="foot-socail">
                     <span>Social Media</span>
                     <ul>
                       <li>
@@ -181,9 +181,9 @@ const CourseDetailsComponent = () => {
               </div>
             </div>
           </div>
-          <div class="col-md-3">
-            <div class="sidebar ">
-              <div class="course-features">
+          <div className="col-md-3">
+            <div className="sidebar ">
+              <div className="course-features">
                 <h4>Course features:</h4>
                 <ul>
                   <li>
@@ -205,48 +205,48 @@ const CourseDetailsComponent = () => {
                     <span>2 Quizzes </span>
                   </li>
                 </ul>
-                <div class="call-ss">
-                  <Link class="btnn btn-lg" href="#">
+                <div className="call-ss">
+                  <Link className="btnn btn-lg" href="#">
                     <img src={shareIcon} alt="shareIcon" /> Share This Course
                   </Link>
                 </div>
               </div>
-              <div class="course-features">
+              <div className="course-features">
                 <h4>Also You May Like </h4>
-                <div class="resent-courcse">
-                  <div class="ret-img">
+                <div className="resent-courcse">
+                  <div className="ret-img">
                     <img src={seatReading} alt="seatReading" />
                   </div>
-                  <div class="ret-tile">
+                  <div className="ret-tile">
                     Machine Learning A-Z: Hands-On Python & java
                   </div>
                 </div>
-                <div class="resent-courcse">
-                  <div class="ret-img">
+                <div className="resent-courcse">
+                  <div className="ret-img">
                     <img src={personStudent} alt="personStudent" />
                   </div>
-                  <div class="ret-tile">
+                  <div className="ret-tile">
                     Competitive Strategy law for all students
                   </div>
                 </div>
-                <div class="resent-courcse">
-                  <div class="ret-img">
+                <div className="resent-courcse">
+                  <div className="ret-img">
                     <img src={book} alt="book" />
                   </div>
-                  <div class="ret-tile">
+                  <div className="ret-tile">
                     Music Theory Learn New student & Fundamentals
                   </div>
                 </div>
-                <div class="resent-courcse">
-                  <div class="ret-img">
+                <div className="resent-courcse">
+                  <div className="ret-img">
                     <img src={personWomen} alt="personWomen" />
                   </div>
-                  <div class="ret-tile">
+                  <div className="ret-tile">
                     Bases Matemáticas dios Álgebra Ecuacion
                   </div>
                 </div>
-                <div class="call-ss">
-                  <Link class="btnn btn-lg" href="#">
+                <div className="call-ss">
+                  <Link className="btnn btn-lg" href="#">
                     View All Courses
                   </Link>
                 </div>

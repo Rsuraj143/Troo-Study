@@ -5,22 +5,22 @@ import getImg from "../../images/get-img.png";
 
 const ContactComponent = () => {
   return (
-    <div class="troo-da-get-in-touch-section" id="troo-da-get-in-touch-section">
-      <div class="arrow-icon">
+    <div className="troo-da-get-in-touch-section" id="troo-da-get-in-touch-section">
+      <div className="arrow-icon">
         <img src={blueArrow} alt="blueArrow" />
       </div>
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-            <div class="get-in-touch-img">
+      <div className="container">
+        <div className="row">
+          <div className="col-md-12">
+            <div className="get-in-touch-img">
               <img src={getImg} alt="getImg" />
             </div>
           </div>
         </div>
-        <div class="row">
-          <div class="col-md-6">
-            <div class="sub-tile-con">
-              <div class="sub-txt">Get in Touch</div>
+        <div className="row">
+          <div className="col-md-6">
+            <div className="sub-tile-con">
+              <div className="sub-txt">Get in Touch</div>
               <h2>
                 Leave Your Contact Detail and <br />
                 We’ll <span> Get in Touch </span> with You.
@@ -32,27 +32,27 @@ const ContactComponent = () => {
               dummy text ever since.
             </p>
           </div>
-          <div class="col-md-6">
-            <div class="fome-section">
-              <div class="fomr-tile">Contact Form</div>
-              <form class="row g-3">
-                <div class="col-md-6">
-                  <div class="form-floating">
+          <div className="col-md-6">
+            <div className="fome-section">
+              <div className="fomr-tile">Contact Form</div>
+              <form className="row g-3">
+                <div className="col-md-6">
+                  <div className="form-floating">
                     <input
                       type="email"
-                      class="form-control"
+                      className="form-control"
                       id="floatingInput"
                       placeholder="Your Name"
                     />
                     <label for="floatingInput">Your Name</label>
                   </div>
                 </div>
-                <div class="col-md-6">
-                  <div class="field">
-                    <div class="form-floating">
+                <div className="col-md-6">
+                  <div className="field">
+                    <div className="form-floating">
                       <input
                         type="email"
-                        class="form-control"
+                        className="form-control"
                         id="floatingInput"
                         placeholder="Your Phone"
                       />
@@ -60,12 +60,12 @@ const ContactComponent = () => {
                     </div>
                   </div>
                 </div>
-                <div class="col-md-6">
-                  <div class="field">
-                    <div class="form-floating">
+                <div className="col-md-6">
+                  <div className="field">
+                    <div className="form-floating">
                       <input
                         type="email"
-                        class="form-control"
+                        className="form-control"
                         id="floatingInput"
                         placeholder="Your Email"
                       />
@@ -73,12 +73,12 @@ const ContactComponent = () => {
                     </div>
                   </div>
                 </div>
-                <div class="col-md-6">
-                  <div class="field">
-                    <div class="form-floating">
+                <div className="col-md-6">
+                  <div className="field">
+                    <div className="form-floating">
                       <input
                         type="email"
-                        class="form-control"
+                        className="form-control"
                         id="floatingInput"
                         placeholder="Subject"
                       />
@@ -86,12 +86,12 @@ const ContactComponent = () => {
                     </div>
                   </div>
                 </div>
-                <div class="col-md-12">
-                  <div class="field">
-                    <div class="form-floating">
+                <div className="col-md-12">
+                  <div className="field">
+                    <div className="form-floating">
                       <input
                         type="email"
-                        class="form-control"
+                        className="form-control"
                         id="floatingInput"
                         placeholder="Whrite something"
                       />
@@ -99,8 +99,8 @@ const ContactComponent = () => {
                     </div>
                   </div>
                 </div>
-                <div class="col-12">
-                  <button type="submit" class="btnn btn-lg">
+                <div className="col-12">
+                  <button type="submit" className="btnn btn-lg">
                     Submit
                   </button>
                 </div>

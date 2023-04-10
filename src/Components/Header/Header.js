@@ -48,7 +48,7 @@ const Header = () => {
 
   return (
     <div className="troo_header">
-      <div class="fllowa-socail">
+      <div className="fllowa-socail">
         <ul>
           <li>
             <Link to={facebk}>
@@ -83,7 +83,7 @@ const Header = () => {
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
-              <ul class="navbar-nav my-2 my-lg-0 navbar-nav-scroll">
+              <ul className="navbar-nav my-2 my-lg-0 navbar-nav-scroll">
                 {NavData.slice(0, 6).map((item, i) => {
                   return <Navmenu key={i} item={item} />;
                 })}
@@ -102,18 +102,18 @@ const Header = () => {
         </Navbar>
       </div>
       <div>
-        <section id="troo-da-top-header" class="troo-da-top-header">
-          <div class="container">
-            <div class="row">
-              <div class="col-md-4">
-                <div class="troo-con">
+        <section id="troo-da-top-header" className="troo-da-top-header">
+          <div className="container">
+            <div className="row">
+              <div className="col-md-4">
+                <div className="troo-con">
                   <img src={icon} alt="icon" />
                   <span>Welcome to TRooStudy Website</span>
                 </div>
               </div>
-              <div class="col-md-6">
-                <div class="cll-de">
-                  <div class="cll-mail-link">
+              <div className="col-md-6">
+                <div className="cll-de">
+                  <div className="cll-mail-link">
                     <ul>
                       <li>
                         <img src={call} alt="call" />
@@ -129,8 +129,8 @@ const Header = () => {
                   </div>
                 </div>
               </div>
-              <div class="col-md-2">
-                <div class="socal-icon">
+              <div className="col-md-2">
+                <div className="socal-icon">
                   <span>We Are on </span>
                   <ul>
                     <li>
@@ -168,7 +168,7 @@ const Header = () => {
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
-              <ul class="navbar-nav my-2 my-lg-0 navbar-nav-scroll">
+              <ul className="navbar-nav my-2 my-lg-0 navbar-nav-scroll">
                 {NavData.slice(0, 6).map((item, i) => {
                   return <Navmenu key={i} item={item} />;
                 })}

@@ -22,21 +22,21 @@ const LearningPathComponent = () => {
 
   return (
     <div
-      class="troo-da-learning-path-section"
+      className="troo-da-learning-path-section"
       id="troo-da-learning-path-section"
     >
-      <div class="cr-ss">
+      <div className="cr-ss">
         <img src={ellips} alt="ellips" />
       </div>
-      <div class="circle"></div>
-      <div class="arr-ss">
+      <div className="circle"></div>
+      <div className="arr-ss">
         <img src={frame} alt="frame" />
       </div>
-      <div class="container">
-        <div class="row">
-          <div class="col-md-8">
-            <div class="path-text hero-text">
-              <div class="circles pulse orange"></div>
+      <div className="container">
+        <div className="row">
+          <div className="col-md-8">
+            <div className="path-text hero-text">
+              <div className="circles pulse orange"></div>
               <h2>
                 Find the right
                 <br />
@@ -48,28 +48,28 @@ const LearningPathComponent = () => {
                 text ever is it since the 1500s, when an unknown printer took a
                 galley of type and scrambled it to make
               </p>
-              <div class="dot-zik">
+              <div className="dot-zik">
                 <img src={dotframe} alt="dotframe" />
               </div>
               <ul>
                 <li>
                   <Link to="/Home/Cources_Grid">Get Started Now</Link>
                 </li>
-                <li class="call-ss">
-                  <Link class="btnn btn-lg" to="/Home/Contact_Us">
+                <li className="call-ss">
+                  <Link className="btnn btn-lg" to="/Home/Contact_Us">
                     Contcat Us
                   </Link>
                 </li>
               </ul>
             </div>
           </div>
-          <div class="col-md-4">
-            <div class="zoomin">
+          <div className="col-md-4">
+            <div className="zoomin">
               <img src={sqframe} alt="sqframe" />
             </div>
             <button
               type="button"
-              class="vide-btn"
+              className="vide-btn"
               onClick={openModal}
             >
               <img src={partimg} alt="partimg" />
@@ -102,7 +102,7 @@ const LearningPathComponent = () => {
               }
             </button>
             <div
-              class="modal fade"
+              className="modal fade"
               id="staticBackdrop"
               data-bs-backdrop="static"
               data-bs-keyboard="false"
@@ -110,17 +110,17 @@ const LearningPathComponent = () => {
               aria-labelledby="staticBackdropLabel"
               aria-hidden="true"
             >
-              <div class="modal-dialog">
-                <div class="modal-content">
-                  <div class="modal-header">
+              <div className="modal-dialog">
+                <div className="modal-content">
+                  <div className="modal-header">
                     <button
                       type="button"
-                      class="btn-close"
+                      className="btn-close"
                       data-bs-dismiss="modal"
                       aria-label="Close"
                     ></button>
                   </div>
-                  {/* <div class="modal-body">
+                  {/* <div className="modal-body">
                   <video  controls>
                     <source src="movie.mp4" type="video/mp4">
                     <source src="movie.ogg" type="video/ogg">
@@ -132,13 +132,13 @@ const LearningPathComponent = () => {
           </div>
         </div>
       </div>
-      <div class="loader-ss">
+      <div className="loader-ss">
         <span></span>
         <span></span>
         <span></span>
         <span></span>
       </div>
-      <div class="outerCircle"></div>
+      <div className="outerCircle"></div>
     </div>
   );
 };

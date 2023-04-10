@@ -12,13 +12,13 @@ import { Link } from "react-router-dom";
 
 const PartnerComponent = () => {
   return (
-    <div class="troo-da-our-partner-section" id="troo-da-our-partner-section">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-4">
-            <div class="partner-text">
-              <div class="sub-tile-con">
-                <div class="sub-txt">Our Partner</div>
+    <div className="troo-da-our-partner-section" id="troo-da-our-partner-section">
+      <div className="container">
+        <div className="row">
+          <div className="col-md-4">
+            <div className="partner-text">
+              <div className="sub-tile-con">
+                <div className="sub-txt">Our Partner</div>
                 <h2>
                   We collabrate <span> 250+</span>
                   <br />
@@ -35,64 +35,64 @@ const PartnerComponent = () => {
               </h6>
             </div>
           </div>
-          <div class="col-md-8">
-            <div class="spinner-wraps">
-              <div class="spinner-items"></div>
-              <div class="spinner-items spinner-items--2"></div>
-              <div class="spinner-items spinner-items--3"></div>
+          <div className="col-md-8">
+            <div className="spinner-wraps">
+              <div className="spinner-items"></div>
+              <div className="spinner-items spinner-items--2"></div>
+              <div className="spinner-items spinner-items--3"></div>
             </div>
-            <div class="row">
-              <div class="col-md-4">
-                <div class="logo-ss">
+            <div className="row">
+              <div className="col-md-4">
+                <div className="logo-ss">
                   <img src={logo1} alt="logo1" />
                 </div>
               </div>
-              <div class="col-md-4">
-                <div class="logo-ss">
+              <div className="col-md-4">
+                <div className="logo-ss">
                   <img src={logo2} alt="logo2" />
                 </div>
               </div>
-              <div class="col-md-4">
-                <div class="logo-ss">
+              <div className="col-md-4">
+                <div className="logo-ss">
                   <img src={logo3} alt="logo3" />
                 </div>
               </div>
             </div>
-            <div class="row">
-              <div class="col-md-3">
-                <div class="logo-ss">
+            <div className="row">
+              <div className="col-md-3">
+                <div className="logo-ss">
                   <img src={logo4} alt="logo4" />
                 </div>
               </div>
-              <div class="col-md-3">
-                <div class="logo-ss">
+              <div className="col-md-3">
+                <div className="logo-ss">
                   <img src={logo5} alt="logo5" />
                 </div>
               </div>
-              <div class="col-md-3">
-                <div class="logo-ss">
+              <div className="col-md-3">
+                <div className="logo-ss">
                   <img src={logo6} alt="logo6" />
                 </div>
               </div>
-              <div class="col-md-3">
-                <div class="logo-ss">
+              <div className="col-md-3">
+                <div className="logo-ss">
                   <img src={logo7} alt="logo7" />
                 </div>
               </div>
             </div>
-            <div class="row">
-              <div class="col-md-4">
-                <div class="logo-ss">
+            <div className="row">
+              <div className="col-md-4">
+                <div className="logo-ss">
                   <img src={logo8} alt="logo8" />
                 </div>
               </div>
-              <div class="col-md-4">
-                <div class="logo-ss">
+              <div className="col-md-4">
+                <div className="logo-ss">
                   <img src={logo5} alt="logo5" />
                 </div>
               </div>
-              <div class="col-md-4">
-                <div class="logo-ss">
+              <div className="col-md-4">
+                <div className="logo-ss">
                   <img src={logo2} alt="logo2" />
                 </div>
               </div>

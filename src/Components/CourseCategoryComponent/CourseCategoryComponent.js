@@ -14,48 +14,48 @@ import { Link } from "react-router-dom";
 const CourseCategoryComponent = () => {
   return (
     <div
-      class="troo-da-course-categories-section"
+      className="troo-da-course-categories-section"
       id="troo-da-course-categories-section"
     >
-      <div class="container">
-        <div class="row">
-          <div class="col-md-4">
-            <div class="sub-tile-con">
-              <div class="sub-txt">Course Categories</div>
+      <div className="container">
+        <div className="row">
+          <div className="col-md-4">
+            <div className="sub-tile-con">
+              <div className="sub-txt">Course Categories</div>
               <h2>
                 Browsw Course
                 <br /> with top<span> Categories</span>
               </h2>
             </div>
           </div>
-          <div class="col-md-5">
-            <div class="cour-txt">
+          <div className="col-md-5">
+            <div className="cour-txt">
               <p>
                 Lorem Ipsum is simply dummy text of the printing and is
                 typesetting industry. Lorem Ipsum has been the industry's
                 standard dummy text ever since.
               </p>
             </div>
-            <div class="vert-move">
+            <div className="vert-move">
               <img src={arrow} alt="arrow" />
             </div>
           </div>
-          <div class="col-md-3">
-            <div class="call-ss">
-              <Link class="btnn btn-lg" to="/Home/Cources_Grid">
+          <div className="col-md-3">
+            <div className="call-ss">
+              <Link className="btnn btn-lg" to="/Home/Cources_Grid">
                 View All Courses
               </Link>
             </div>
           </div>
         </div>
-        <div class="row">
-          <div class="col-md-3">
-            <div class="course-list">
-              <div class="shape">
+        <div className="row">
+          <div className="col-md-3">
+            <div className="course-list">
+              <div className="shape">
                 <span></span>
                 <span></span>
                 <span></span>
-                <div class="content">
+                <div className="content">
                   <img src={coin} alt="coin" />
                 </div>
               </div>
@@ -63,13 +63,13 @@ const CourseCategoryComponent = () => {
               <p>20+ Cources</p>
             </div>
           </div>
-          <div class="col-md-3">
-            <div class="course-list">
-              <div class="shape">
+          <div className="col-md-3">
+            <div className="course-list">
+              <div className="shape">
                 <span></span>
                 <span></span>
                 <span></span>
-                <div class="content">
+                <div className="content">
                   <img src={usercheck} alt="usercheck" />
                 </div>
               </div>
@@ -77,13 +77,13 @@ const CourseCategoryComponent = () => {
               <p>20+ Cources</p>
             </div>
           </div>
-          <div class="col-md-3">
-            <div class="course-list">
-              <div class="shape">
+          <div className="col-md-3">
+            <div className="course-list">
+              <div className="shape">
                 <span></span>
                 <span></span>
                 <span></span>
-                <div class="content">
+                <div className="content">
                   <img src={flower} alt="flower" />
                 </div>
               </div>
@@ -91,13 +91,13 @@ const CourseCategoryComponent = () => {
               <p>20+ Cources</p>
             </div>
           </div>
-          <div class="col-md-3">
-            <div class="course-list">
-              <div class="shape">
+          <div className="col-md-3">
+            <div className="course-list">
+              <div className="shape">
                 <span></span>
                 <span></span>
                 <span></span>
-                <div class="content">
+                <div className="content">
                   <img src={enternainment} alt="enternainment" />
                 </div>
               </div>
@@ -106,14 +106,14 @@ const CourseCategoryComponent = () => {
             </div>
           </div>
         </div>
-        <div class="row">
-          <div class="col-md-3">
-            <div class="course-list">
-              <div class="shape">
+        <div className="row">
+          <div className="col-md-3">
+            <div className="course-list">
+              <div className="shape">
                 <span></span>
                 <span></span>
                 <span></span>
-                <div class="content">
+                <div className="content">
                   <img src={computerdatabase} alt="computerdatabase" />
                 </div>
               </div>
@@ -121,13 +121,13 @@ const CourseCategoryComponent = () => {
               <p>20+ Cources</p>
             </div>
           </div>
-          <div class="col-md-3">
-            <div class="course-list">
-              <div class="shape">
+          <div className="col-md-3">
+            <div className="course-list">
+              <div className="shape">
                 <span></span>
                 <span></span>
                 <span></span>
-                <div class="content">
+                <div className="content">
                   <img src={healthmediacal} alt="healthmediacal" />
                 </div>
               </div>
@@ -135,13 +135,13 @@ const CourseCategoryComponent = () => {
               <p>20+ Cources</p>
             </div>
           </div>
-          <div class="col-md-3">
-            <div class="course-list">
-              <div class="shape">
+          <div className="col-md-3">
+            <div className="course-list">
+              <div className="shape">
                 <span></span>
                 <span></span>
                 <span></span>
-                <div class="content">
+                <div className="content">
                   <img src={recording} alt="recording" />
                 </div>
               </div>
@@ -149,13 +149,13 @@ const CourseCategoryComponent = () => {
               <p>20+ Cources</p>
             </div>
           </div>
-          <div class="col-md-3">
-            <div class="course-list">
-              <div class="shape">
+          <div className="col-md-3">
+            <div className="course-list">
+              <div className="shape">
                 <span></span>
                 <span></span>
                 <span></span>
-                <div class="content">
+                <div className="content">
                   <img src={cameraImg} alt="cameraImg" />
                 </div>
               </div>

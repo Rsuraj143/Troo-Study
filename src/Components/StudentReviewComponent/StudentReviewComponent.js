@@ -8,39 +8,39 @@ import { ReviewData } from "./ReviewData";
 const StudentReviewComponent = () => {
   return (
     <div
-      class="troo-da-students-says-section"
+      className="troo-da-students-says-section"
       id="troo-da-students-says-section"
     >
-      <figure class="swing">
+      <figure className="swing">
         <img src={fatcher} alt="fatcher" />
       </figure>
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-            <div class="sub-tile-con">
-              <div class="sub-txt">Our Stuents Review</div>
+      <div className="container">
+        <div className="row">
+          <div className="col-md-12">
+            <div className="sub-tile-con">
+              <div className="sub-txt">Our Stuents Review</div>
               <h2>
                 What <span> Students </span> Says
               </h2>
             </div>
           </div>
         </div>
-        <div class="row">
+        <div className="row">
           {ReviewData.slice(0, 3).map((e, i) => (
-            <div class="col-md-4" key={i}>
-              <div class="feature-sec">
-                <div class="feat-text">
-                  <div class="studen-tile">
+            <div className="col-md-4" key={i}>
+              <div className="feature-sec">
+                <div className="feat-text">
+                  <div className="studen-tile">
                     <span>“</span>
                     <h4>{e.title} </h4>
                   </div>
                   <p>{e.message}</p>
-                  <div class="client-col">
-                    <div class="cli-text">
+                  <div className="client-col">
+                    <div className="cli-text">
                      <div> {e.name}</div>
-                      <div class="clg">{e.clg} </div>
+                      <div className="clg">{e.clg} </div>
                     </div>
-                    <div class="cli-img">
+                    <div className="cli-img">
                       <img src={e.img} alt="student1" />
                     </div>
                   </div>
@@ -49,22 +49,22 @@ const StudentReviewComponent = () => {
             </div>
           ))}
         </div>
-        <div class="row">
+        <div className="row">
           {ReviewData.slice(3, 5).map((e, i) => (
-            <div class="col-md-4" key={i}>
-              <div class="feature-sec">
-                <div class="feat-text">
-                  <div class="studen-tile">
+            <div className="col-md-4" key={i}>
+              <div className="feature-sec">
+                <div className="feat-text">
+                  <div className="studen-tile">
                     <span>“</span>
                     <h4>{e.title} </h4>
                   </div>
                   <p>{e.message}</p>
-                  <div class="client-col">
-                    <div class="cli-text">
+                  <div className="client-col">
+                    <div className="cli-text">
                       <div>{e.name}</div>
-                      <div class="clg">{e.clg} </div>
+                      <div className="clg">{e.clg} </div>
                     </div>
-                    <div class="cli-img">
+                    <div className="cli-img">
                       <img src={e.img} alt="student1" />
                     </div>
                   </div>
@@ -72,13 +72,13 @@ const StudentReviewComponent = () => {
               </div>
             </div>
           ))}
-          <div class="col-md-4">
-            <div class="more-course">
+          <div className="col-md-4">
+            <div className="more-course">
               <h4>
                 40+ <br /> More Revivew
               </h4>
-              <div class="call-ss">
-                <Link class="btnn btn-lg" to="/Home/Pages/Teastimonial">
+              <div className="call-ss">
+                <Link className="btnn btn-lg" to="/Home/Pages/Teastimonial">
                   Read All Review
                 </Link>
               </div>
@@ -86,7 +86,7 @@ const StudentReviewComponent = () => {
           </div>
         </div>
       </div>
-      <div class="quadrado">
+      <div className="quadrado">
         <img src={vector} alt="vector" />
       </div>
     </div>

@@ -7,30 +7,30 @@ import mail from "../../images/mail-icon.png";
 const ContactDetails = () => {
   return (
     <>
-      <div class="troo-da-contact-section" id="troo-da-contact-section">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-5">
-              <div class="con-add-col">
+      <div className="troo-da-contact-section" id="troo-da-contact-section">
+        <div className="container">
+          <div className="row">
+            <div className="col-md-5">
+              <div className="con-add-col">
                 <h4>We Want to Here From You.</h4>
                 <p>
                   Lorem Ipsum is simply dummy text of the printing and
                   typesetting industry.
                 </p>
-                <div class="conadd-ss">
-                  <div class="conimg">
+                <div className="conadd-ss">
+                  <div className="conimg">
                     <img src={map} alt="map" />
                   </div>
-                  <div class="con-text">
+                  <div className="con-text">
                     <strong>Address</strong>
                     <p>32 Park Row, Edinburgh United Kingdom, EH2 1TT</p>
                   </div>
                 </div>
-                <div class="conadd-ss">
-                  <div class="conimg">
+                <div className="conadd-ss">
+                  <div className="conimg">
                     <img src={callIcon} alt="callIcon" />
                   </div>
-                  <div class="con-text">
+                  <div className="con-text">
                     <strong>Call Us on</strong>
                     <p>
                       +44 123 456 7890
@@ -39,11 +39,11 @@ const ContactDetails = () => {
                     </p>
                   </div>
                 </div>
-                <div class="conadd-ss">
-                  <div class="conimg">
+                <div className="conadd-ss">
+                  <div className="conimg">
                     <img src={mail} alt="mail" />
                   </div>
-                  <div class="con-text">
+                  <div className="con-text">
                     <strong>Email Us on</strong>
                     <p>
                       registrar@troostudy.edu.com
@@ -54,22 +54,22 @@ const ContactDetails = () => {
                 </div>
               </div>
             </div>
-            <div class="col-md-7">
-              <div class="fome-section">
-                <div class="con-form-tile">
+            <div className="col-md-7">
+              <div className="fome-section">
+                <div className="con-form-tile">
                   <h4>Send Us Message</h4>
                   <p>
                     Lorem Ipsum is simply dummy text of the printing and
                     typesetting industry.
                   </p>
                 </div>
-                <form class="row g-3">
-                  <div class="col-md-12">
-                    <div class="field">
-                      <div class="form-floating">
+                <form className="row g-3">
+                  <div className="col-md-12">
+                    <div className="field">
+                      <div className="form-floating">
                         <input
                           type="email"
-                          class="form-control"
+                          className="form-control"
                           id="floatingInput"
                           placeholder="Your Name"
                         />
@@ -77,12 +77,12 @@ const ContactDetails = () => {
                       </div>
                     </div>
                   </div>
-                  <div class="col-md-12">
-                    <div class="field">
-                      <div class="form-floating">
+                  <div className="col-md-12">
+                    <div className="field">
+                      <div className="form-floating">
                         <input
                           type="email"
-                          class="form-control"
+                          className="form-control"
                           id="floatingInput"
                           placeholder="Your Phone"
                         />
@@ -90,12 +90,12 @@ const ContactDetails = () => {
                       </div>
                     </div>
                   </div>
-                  <div class="col-md-12">
-                    <div class="field">
-                      <div class="form-floating">
+                  <div className="col-md-12">
+                    <div className="field">
+                      <div className="form-floating">
                         <input
                           type="email"
-                          class="form-control"
+                          className="form-control"
                           id="floatingInput"
                           placeholder="Your Email"
                         />
@@ -103,12 +103,12 @@ const ContactDetails = () => {
                       </div>
                     </div>
                   </div>
-                  <div class="col-md-12">
-                    <div class="field">
-                      <div class="form-floating">
+                  <div className="col-md-12">
+                    <div className="field">
+                      <div className="form-floating">
                         <input
                           type="email"
-                          class="form-control"
+                          className="form-control"
                           id="floatingInput"
                           placeholder="Subject"
                         />
@@ -116,12 +116,12 @@ const ContactDetails = () => {
                       </div>
                     </div>
                   </div>
-                  <div class="col-md-12">
-                    <div class="field">
-                      <div class="form-floating">
+                  <div className="col-md-12">
+                    <div className="field">
+                      <div className="form-floating">
                         <input
                           type="email"
-                          class="form-control"
+                          className="form-control"
                           id="floatingInput"
                           placeholder="Whrite something"
                         />
@@ -129,8 +129,8 @@ const ContactDetails = () => {
                       </div>
                     </div>
                   </div>
-                  <div class="col-12">
-                    <button type="submit" class="btnn btn-lg">
+                  <div className="col-12">
+                    <button type="submit" className="btnn btn-lg">
                       Submit
                     </button>
                   </div>
@@ -140,11 +140,11 @@ const ContactDetails = () => {
           </div>
         </div>
       </div>
-      <div class="troo-da-map-section" id="troo-da-map-section">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-12">
-              <div class="map-section">
+      <div className="troo-da-map-section" id="troo-da-map-section">
+        <div className="container">
+          <div className="row">
+            <div className="col-md-12">
+              <div className="map-section">
                 <iframe
                   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3671.8850349918985!2d72.49642611542339!3d23.027993021903114!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e9b278e046fa5%3A0xd837def63555f791!2sTRooInbound%20Private%20Limited!5e0!3m2!1sen!2sin!4v1675143868509!5m2!1sen!2sin"
                   allowfullscreen=""

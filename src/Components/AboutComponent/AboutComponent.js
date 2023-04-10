@@ -10,16 +10,16 @@ import who3 from "../../images/who-3.png";
 
 const AboutComponent = () => {
   return (
-    <div class="troo-da-who-we-are-section" id="troo-da-who-we-are-section">
-      <div class="quadrado">
+    <div className="troo-da-who-we-are-section" id="troo-da-who-we-are-section">
+      <div className="quadrado">
         <img src={bigcross} alt="bigcross" />
       </div>
-      <div class="container">
-        <div class="row">
-          <div class="col-md-6">
-            <div class="who-we-are-text">
-              <div class="sub-tile-con">
-                <div class="sub-txt">Who We Are</div>
+      <div className="container">
+        <div className="row">
+          <div className="col-md-6">
+            <div className="who-we-are-text">
+              <div className="sub-tile-con">
+                <div className="sub-txt">Who We Are</div>
                 <h2>
                   We Are Largest <span>Education Flatform</span>
                 </h2>
@@ -71,39 +71,39 @@ const AboutComponent = () => {
                   </span>
                 </li>
               </ul>
-              <div class="cta-section">
-                <div class="call-ss">
-                  <Link class="btnn btn-lg" to="/Home/About_Us">
+              <div className="cta-section">
+                <div className="call-ss">
+                  <Link className="btnn btn-lg" to="/Home/About_Us">
                     Learn More
                   </Link>
                 </div>
-                <div class="cta-r">OR</div>
-                <div class="cal-col">
+                <div className="cta-r">OR</div>
+                <div className="cal-col">
                   <span>Call Us on</span>
                   <a href="tel:+44 123 456 7890">+44 123 456 7890</a>
                 </div>
               </div>
             </div>
           </div>
-          <div class="col-md-6">
-            <div class="who-we-are-img">
-              <div class="row">
-                <div class="zoomm">
+          <div className="col-md-6">
+            <div className="who-we-are-img">
+              <div className="row">
+                <div className="zoomm">
                   <img src={greencross} alt="greencross" />
                 </div>
-                <div class="col-md-6">
+                <div className="col-md-6">
                   <img src={who1} alt="who1" />
                 </div>
-                <div class="col-md-6">
+                <div className="col-md-6">
                   <img src={who2} alt="who2" />
                 </div>
               </div>
-              <div class="row">
-                <div class="col-md-12">
-                  <div class="boto-img">
+              <div className="row">
+                <div className="col-md-12">
+                  <div className="boto-img">
                     <img src={who3} alt="who3" />
                   </div>
-                  <div class="circle"></div>
+                  <div className="circle"></div>
                 </div>
               </div>
             </div>

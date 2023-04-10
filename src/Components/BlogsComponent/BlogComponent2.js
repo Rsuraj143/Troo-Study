@@ -8,16 +8,16 @@ import { BlogData } from "./BlogData";
 
 const BlogComponent2 = () => {
   return (
-    <div class="troo-da-blogs-section" id="troo-da-blogs-section">
-      <figure class="swing">
+    <div className="troo-da-blogs-section" id="troo-da-blogs-section">
+      <figure className="swing">
         <img src={fatcher} alt="fatcher" />
       </figure>
-      <div class="container">
-        <div class="row">
+      <div className="container">
+        <div className="row">
         {BlogData.slice(0, 3).map((e, i) => (
-            <div class="col-md-4">
-              <div class="feature-sec">
-                <div class="feac-img">
+            <div className="col-md-4">
+              <div className="feature-sec">
+                <div className="feac-img">
                   <img src={e.img} alt="blog1" />
                   <span>
                     {e.date}
@@ -25,15 +25,15 @@ const BlogComponent2 = () => {
                     {e.year}
                   </span>
                 </div>
-                <div class="feat-text">
+                <div className="feat-text">
                   <h4>{e.title}</h4>
-                  <div class="client-col">
-                    <div class="cli-img">
+                  <div className="client-col">
+                    <div className="cli-img">
                       <img src={e.clientImg} alt="clientblog" />
                     </div>
-                    <div class="cli-text">{e.desg} </div>
+                    <div className="cli-text">{e.desg} </div>
                   </div>
-                  <div class="read-cta">
+                  <div className="read-cta">
                     <Link href="#">
                       Read More <img src={e.arrow} alt="arroeNerrowRignt" />
                     </Link>
@@ -44,11 +44,11 @@ const BlogComponent2 = () => {
           ))}
           
         </div>
-        <div class="row">
+        <div className="row">
         {BlogData.slice(3,6).map((e, i) => (
-            <div class="col-md-4">
-              <div class="feature-sec">
-                <div class="feac-img">
+            <div className="col-md-4">
+              <div className="feature-sec">
+                <div className="feac-img">
                   <img src={e.img} alt="blog1" />
                   <span>
                     {e.date}
@@ -56,15 +56,15 @@ const BlogComponent2 = () => {
                     {e.year}
                   </span>
                 </div>
-                <div class="feat-text">
+                <div className="feat-text">
                   <h4>{e.title}</h4>
-                  <div class="client-col">
-                    <div class="cli-img">
+                  <div className="client-col">
+                    <div className="cli-img">
                       <img src={e.clientImg} alt="clientblog" />
                     </div>
-                    <div class="cli-text">{e.desg} </div>
+                    <div className="cli-text">{e.desg} </div>
                   </div>
-                  <div class="read-cta">
+                  <div className="read-cta">
                     <Link href="#">
                       Read More <img src={e.arrow} alt="arroeNerrowRignt" />
                     </Link>
@@ -75,11 +75,11 @@ const BlogComponent2 = () => {
           ))}
           
         </div>
-        <div class="row">
+        <div className="row">
         {BlogData.slice(6,9).map((e, i) => (
-            <div class="col-md-4">
-              <div class="feature-sec">
-                <div class="feac-img">
+            <div className="col-md-4">
+              <div className="feature-sec">
+                <div className="feac-img">
                   <img src={e.img} alt="blog1" />
                   <span>
                     {e.date}
@@ -87,15 +87,15 @@ const BlogComponent2 = () => {
                     {e.year}
                   </span>
                 </div>
-                <div class="feat-text">
+                <div className="feat-text">
                   <h4>{e.title}</h4>
-                  <div class="client-col">
-                    <div class="cli-img">
+                  <div className="client-col">
+                    <div className="cli-img">
                       <img src={e.clientImg} alt="clientblog" />
                     </div>
-                    <div class="cli-text">{e.desg} </div>
+                    <div className="cli-text">{e.desg} </div>
                   </div>
-                  <div class="read-cta">
+                  <div className="read-cta">
                     <Link href="#">
                       Read More <img src={e.arrow} alt="arroeNerrowRignt" />
                     </Link>

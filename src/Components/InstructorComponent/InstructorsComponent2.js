@@ -5,30 +5,30 @@ import { Link } from "react-router-dom";
 
 const InstructorsComponent2 = () => {
   return (
-    <div class="troo-da-team-section" id="troo-da-team-section">
-      <div class="container">
-        {/* <div class="row">
-          <div class="col-md-12">
-            <div class="sub-tile-con">
-              <div class="sub-txt">Our Instructor</div>
+    <div className="troo-da-team-section" id="troo-da-team-section">
+      <div className="container">
+        {/* <div className="row">
+          <div className="col-md-12">
+            <div className="sub-tile-con">
+              <div className="sub-txt">Our Instructor</div>
               <h2>
                 Troostudy’s <span>Best Instructor</span>
               </h2>
             </div>
           </div>
         </div> */}
-        <div class="row">
+        <div className="row">
           {InstructrsData.slice(0, 3).map((item, i) => (
-            <div class="col-md-4">
-              <div class="instructor">
-                <div class="ins-img">
+            <div className="col-md-4">
+              <div className="instructor">
+                <div className="ins-img">
                   <img src={item.img} alt="team1" />
                 </div>
-                <div class="ins-txt">
+                <div className="ins-txt">
                   <h4>{item.name}</h4>
                   <p>{item.title} </p>
                 </div>
-                <div class="team-deatils">
+                <div className="team-deatils">
                   <p>{item.media} </p>
                   <ul>
                     {item.social.map((e, i) => (
@@ -44,18 +44,18 @@ const InstructorsComponent2 = () => {
             </div>
           ))}
         </div>
-        <div class="row">
+        <div className="row">
           {InstructrsData.slice(3, 6).map((item, i) => (
-            <div class="col-md-4">
-              <div class="instructor">
-                <div class="ins-img">
+            <div className="col-md-4">
+              <div className="instructor">
+                <div className="ins-img">
                   <img src={item.img} alt="team1" />
                 </div>
-                <div class="ins-txt">
+                <div className="ins-txt">
                   <h4>{item.name}</h4>
                   <p>{item.title} </p>
                 </div>
-                <div class="team-deatils">
+                <div className="team-deatils">
                   <p>{item.media} </p>
                   <ul>
                     {item.social.map((e, i) => (
@@ -71,18 +71,18 @@ const InstructorsComponent2 = () => {
             </div>
           ))}
         </div>
-        <div class="row">
+        <div className="row">
           {InstructrsData.slice(6,9).map((item, i) => (
-            <div class="col-md-4">
-              <div class="instructor">
-                <div class="ins-img">
+            <div className="col-md-4">
+              <div className="instructor">
+                <div className="ins-img">
                   <img src={item.img} alt="team1" />
                 </div>
-                <div class="ins-txt">
+                <div className="ins-txt">
                   <h4>{item.name}</h4>
                   <p>{item.title} </p>
                 </div>
-                <div class="team-deatils">
+                <div className="team-deatils">
                   <p>{item.media} </p>
                   <ul>
                     {item.social.map((e, i) => (
@@ -98,18 +98,18 @@ const InstructorsComponent2 = () => {
             </div>
           ))}
         </div>
-        <div class="row">
+        <div className="row">
           {InstructrsData.slice(9,12).map((item, i) => (
-            <div class="col-md-4">
-              <div class="instructor">
-                <div class="ins-img">
+            <div className="col-md-4">
+              <div className="instructor">
+                <div className="ins-img">
                   <img src={item.img} alt="team1" />
                 </div>
-                <div class="ins-txt">
+                <div className="ins-txt">
                   <h4>{item.name}</h4>
                   <p>{item.title} </p>
                 </div>
-                <div class="team-deatils">
+                <div className="team-deatils">
                   <p>{item.media} </p>
                   <ul>
                     {item.social.map((e, i) => (
@@ -125,18 +125,18 @@ const InstructorsComponent2 = () => {
             </div>
           ))}
         </div>
-        <div class="row">
+        <div className="row">
           {InstructrsData.slice(12,15).map((item, i) => (
-            <div class="col-md-4">
-              <div class="instructor">
-                <div class="ins-img">
+            <div className="col-md-4">
+              <div className="instructor">
+                <div className="ins-img">
                   <img src={item.img} alt="team1" />
                 </div>
-                <div class="ins-txt">
+                <div className="ins-txt">
                   <h4>{item.name}</h4>
                   <p>{item.title} </p>
                 </div>
-                <div class="team-deatils">
+                <div className="team-deatils">
                   <p>{item.media} </p>
                   <ul>
                     {item.social.map((e, i) => (
@@ -152,10 +152,10 @@ const InstructorsComponent2 = () => {
             </div>
           ))}
         </div>
-        {/* <div class="row">
-          <div class="col-md-12">
-            <div class="call-ss">
-              <Link class="btnn btn-lg" href="#">
+        {/* <div className="row">
+          <div className="col-md-12">
+            <div className="call-ss">
+              <Link className="btnn btn-lg" href="#">
                 View All Instuctor
               </Link>
             </div>

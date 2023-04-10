@@ -6,29 +6,29 @@ import "./StudentReviewComponent.css";
 const StudentReviewComponent2 = () => {
   return (
     <div
-      class="troo-da-students-says-section"
+      className="troo-da-students-says-section"
       id="troo-da-students-says-section"
     >
-      <figure class="swing">
+      <figure className="swing">
         <img src={fatcher} alt="fatcher" />
       </figure>
-      <div class="container">
-        <div class="row">
+      <div className="container">
+        <div className="row">
           {ReviewData.slice(0, 3).map((e, i) => (
-            <div class="col-md-4" key={i}>
-              <div class="feature-sec">
-                <div class="feat-text">
-                  <div class="studen-tile">
+            <div className="col-md-4" key={i}>
+              <div className="feature-sec">
+                <div className="feat-text">
+                  <div className="studen-tile">
                     <span>“</span>
                     <h4>{e.title} </h4>
                   </div>
                   <p>{e.message}</p>
-                  <div class="client-col">
-                    <div class="cli-text">
+                  <div className="client-col">
+                    <div className="cli-text">
                       <div>{e.name}</div>
-                      <div class="clg">{e.clg} </div>
+                      <div className="clg">{e.clg} </div>
                     </div>
-                    <div class="cli-img">
+                    <div className="cli-img">
                       <img src={e.img} alt="student1" />
                     </div>
                   </div>
@@ -37,22 +37,22 @@ const StudentReviewComponent2 = () => {
             </div>
           ))}
         </div>
-        <div class="row">
+        <div className="row">
           {ReviewData.slice(3, 6).map((e, i) => (
-            <div class="col-md-4" key={i}>
-              <div class="feature-sec">
-                <div class="feat-text">
-                  <div class="studen-tile">
+            <div className="col-md-4" key={i}>
+              <div className="feature-sec">
+                <div className="feat-text">
+                  <div className="studen-tile">
                     <span>“</span>
                     <h4>{e.title} </h4>
                   </div>
                   <p>{e.message}</p>
-                  <div class="client-col">
-                    <div class="cli-text">
+                  <div className="client-col">
+                    <div className="cli-text">
                       <div>{e.name}</div>
-                      <div class="clg">{e.clg} </div>
+                      <div className="clg">{e.clg} </div>
                     </div>
-                    <div class="cli-img">
+                    <div className="cli-img">
                       <img src={e.img} alt="student1" />
                     </div>
                   </div>
@@ -61,22 +61,22 @@ const StudentReviewComponent2 = () => {
             </div>
           ))}
         </div>
-        <div class="row">
+        <div className="row">
           {ReviewData.slice(6, 9).map((e, i) => (
-            <div class="col-md-4" key={i}>
-              <div class="feature-sec">
-                <div class="feat-text">
-                  <div class="studen-tile">
+            <div className="col-md-4" key={i}>
+              <div className="feature-sec">
+                <div className="feat-text">
+                  <div className="studen-tile">
                     <span>“</span>
                     <h4>{e.title} </h4>
                   </div>
                   <p>{e.message}</p>
-                  <div class="client-col">
-                    <div class="cli-text">
+                  <div className="client-col">
+                    <div className="cli-text">
                       <div>{e.name}</div>
-                      <div class="clg">{e.clg} </div>
+                      <div className="clg">{e.clg} </div>
                     </div>
-                    <div class="cli-img">
+                    <div className="cli-img">
                       <img src={e.img} alt="student1" />
                     </div>
                   </div>
@@ -85,22 +85,22 @@ const StudentReviewComponent2 = () => {
             </div>
           ))}
         </div>
-        <div class="row">
+        <div className="row">
           {ReviewData.slice(9, 12).map((e, i) => (
-            <div class="col-md-4" key={i}>
-              <div class="feature-sec">
-                <div class="feat-text">
-                  <div class="studen-tile">
+            <div className="col-md-4" key={i}>
+              <div className="feature-sec">
+                <div className="feat-text">
+                  <div className="studen-tile">
                     <span>“</span>
                     <h4>{e.title} </h4>
                   </div>
                   <p>{e.message}</p>
-                  <div class="client-col">
-                  <div class="cli-text">
+                  <div className="client-col">
+                  <div className="cli-text">
                       <div>{e.name}</div>
-                      <div class="clg">{e.clg} </div>
+                      <div className="clg">{e.clg} </div>
                     </div>
-                    <div class="cli-img">
+                    <div className="cli-img">
                       <img src={e.img} alt="student1" />
                     </div>
                   </div>

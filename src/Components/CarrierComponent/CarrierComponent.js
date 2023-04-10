@@ -8,22 +8,22 @@ import arrow from "../../images/evnt-arrow.png";
 
 const CarrierComponent = () => {
   return (
-    <div class="troo-da-career-section" id="troo-da-career-section">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-4">
-            <div class="job-offer">
-              <div class="job-title">
-                <div class="opening">
+    <div className="troo-da-career-section" id="troo-da-career-section">
+      <div className="container">
+        <div className="row">
+          <div className="col-md-4">
+            <div className="job-offer">
+              <div className="job-title">
+                <div className="opening">
                   <span>Opening</span>
                   <h3>02</h3>
                 </div>
-                <div class="job-name">
+                <div className="job-name">
                   <strong>Yoga Teacher</strong>
                   <span>3.5 Year Experience</span>
                 </div>
               </div>
-              <div class="job-type">
+              <div className="job-type">
                 <ul>
                   <li>
                     <img src={fl} alt="fl" />
@@ -46,24 +46,24 @@ const CarrierComponent = () => {
                   </li>
                 </ul>
               </div>
-              <div class="job-sign">
+              <div className="job-sign">
                 <img src={arrow} alt="arrow" />
               </div>
             </div>
           </div>
-          <div class="col-md-4">
-            <div class="job-offer">
-              <div class="job-title">
-                <div class="opening">
+          <div className="col-md-4">
+            <div className="job-offer">
+              <div className="job-title">
+                <div className="opening">
                   <span>Opening</span>
                   <h3>02</h3>
                 </div>
-                <div class="job-name">
+                <div className="job-name">
                   <strong>Finance Manager</strong>
                   <span>2.5 Year Experience</span>
                 </div>
               </div>
-              <div class="job-type">
+              <div className="job-type">
                 <ul>
                   <li>
                     <img src={fl} alt="fl" />
@@ -86,24 +86,24 @@ const CarrierComponent = () => {
                   </li>
                 </ul>
               </div>
-              <div class="job-sign">
+              <div className="job-sign">
                 <img src={arrow} alt="arrow" />
               </div>
             </div>
           </div>
-          <div class="col-md-4">
-            <div class="job-offer">
-              <div class="job-title">
-                <div class="opening">
+          <div className="col-md-4">
+            <div className="job-offer">
+              <div className="job-title">
+                <div className="opening">
                   <span>Opening</span>
                   <h3>02</h3>
                 </div>
-                <div class="job-name">
+                <div className="job-name">
                   <strong>Human Resource</strong>
                   <span>5 Year Experience</span>
                 </div>
               </div>
-              <div class="job-type">
+              <div className="job-type">
                 <ul>
                   <li>
                     <img src={fl} alt="fl" />
@@ -126,26 +126,26 @@ const CarrierComponent = () => {
                   </li>
                 </ul>
               </div>
-              <div class="job-sign">
+              <div className="job-sign">
                 <img src={arrow} alt="arrow" />
               </div>
             </div>
           </div>
         </div>
-        <div class="row">
-          <div class="col-md-4">
-            <div class="job-offer">
-              <div class="job-title">
-                <div class="opening">
+        <div className="row">
+          <div className="col-md-4">
+            <div className="job-offer">
+              <div className="job-title">
+                <div className="opening">
                   <span>Opening</span>
                   <h3>02</h3>
                 </div>
-                <div class="job-name">
+                <div className="job-name">
                   <strong>Senior Editor</strong>
                   <span>2.5 Year Experience</span>
                 </div>
               </div>
-              <div class="job-type">
+              <div className="job-type">
                 <ul>
                   <li>
                     <img src={fl} alt="fl" />
@@ -168,24 +168,24 @@ const CarrierComponent = () => {
                   </li>
                 </ul>
               </div>
-              <div class="job-sign">
+              <div className="job-sign">
                 <img src={arrow} alt="arrow" />
               </div>
             </div>
           </div>
-          <div class="col-md-4">
-            <div class="job-offer">
-              <div class="job-title">
-                <div class="opening">
+          <div className="col-md-4">
+            <div className="job-offer">
+              <div className="job-title">
+                <div className="opening">
                   <span>Opening</span>
                   <h3>02</h3>
                 </div>
-                <div class="job-name">
+                <div className="job-name">
                   <strong>Technical Engineer</strong>
                   <span>1 Year Experience</span>
                 </div>
               </div>
-              <div class="job-type">
+              <div className="job-type">
                 <ul>
                   <li>
                     <img src={fl} alt="fl" />
@@ -208,24 +208,24 @@ const CarrierComponent = () => {
                   </li>
                 </ul>
               </div>
-              <div class="job-sign">
+              <div className="job-sign">
                 <img src={arrow} alt="arrow" />
               </div>
             </div>
           </div>
-          <div class="col-md-4">
-            <div class="job-offer">
-              <div class="job-title">
-                <div class="opening">
+          <div className="col-md-4">
+            <div className="job-offer">
+              <div className="job-title">
+                <div className="opening">
                   <span>Opening</span>
                   <h3>02</h3>
                 </div>
-                <div class="job-name">
+                <div className="job-name">
                   <strong>Technical Writer</strong>
                   <span>2 Year Experience</span>
                 </div>
               </div>
-              <div class="job-type">
+              <div className="job-type">
                 <ul>
                   <li>
                     <img src={fl} alt="fl" />
@@ -248,7 +248,7 @@ const CarrierComponent = () => {
                   </li>
                 </ul>
               </div>
-              <div class="job-sign">
+              <div className="job-sign">
                 <img src={arrow} alt="arrow" />
               </div>
             </div>

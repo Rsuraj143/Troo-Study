@@ -15,15 +15,15 @@ import personWomen from "../../images/person-woman.png"
 
 const BlogListComponent = () => {
   return (
-    <div class="troo-da-blogs-section" id="troo-da-blogs-section">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-8">
-            <div class="row">
-              <div class="col-md-12">
+    <div className="troo-da-blogs-section" id="troo-da-blogs-section">
+      <div className="container">
+        <div className="row">
+          <div className="col-md-8">
+            <div className="row">
+              <div className="col-md-12">
     
-                  <div class="feature-sec">
-                    <div class="feac-img">
+                  <div className="feature-sec">
+                    <div className="feac-img">
                       <img src={blogList1} alt="blogList1" />
                       <span>
                         22 Sep
@@ -31,7 +31,7 @@ const BlogListComponent = () => {
                         2022
                       </span>
                     </div>
-                    <div class="feat-text">
+                    <div className="feat-text">
                       <h4>
                         25 Essential High School Reads From the Last Decade
                       </h4>
@@ -46,13 +46,13 @@ const BlogListComponent = () => {
                         It was popularised in the 1960s with the release of
                         Letraset sheets.
                       </p>
-                      <div class="client-col">
-                        <div class="cli-img">
+                      <div className="client-col">
+                        <div className="cli-img">
                           <img src={blogClient} alt="blogClient" />
                         </div>
-                        <div class="cli-text">By.Admin</div>
+                        <div className="cli-text">By.Admin</div>
                       </div>
-                      <div class="read-cta">
+                      <div className="read-cta">
                         <Link href="#">
                           Read More <img src={arrowRight} alt="arrowRight" />
                         </Link>
@@ -63,10 +63,10 @@ const BlogListComponent = () => {
               </div>
             </div>
 
-            <div class="row">
-              <div class="col-md-12">
-                  <div class="feature-sec">
-                    <div class="feac-img">
+            <div className="row">
+              <div className="col-md-12">
+                  <div className="feature-sec">
+                    <div className="feac-img">
                       <img src={blogList2} alt="blogList2" />
                       <span>
                         22 Sep
@@ -74,7 +74,7 @@ const BlogListComponent = () => {
                         2022
                       </span>
                     </div>
-                    <div class="feat-text">
+                    <div className="feat-text">
                       <h4>
                         Sleepless with AI: My First AI Poetry and 7 Thoughts
                         about #AI
@@ -90,13 +90,13 @@ const BlogListComponent = () => {
                         It was popularised in the 1960s with the release of
                         Letraset sheets.
                       </p>
-                      <div class="client-col">
-                        <div class="cli-img">
+                      <div className="client-col">
+                        <div className="cli-img">
                           <img src={blogClient} alt="blogClient" />
                         </div>
-                        <div class="cli-text">By.Admin</div>
+                        <div className="cli-text">By.Admin</div>
                       </div>
-                      <div class="read-cta">
+                      <div className="read-cta">
                       <Link href="#">
                           Read More <img src={arrowRight} alt="arrowRight" />
                         </Link>
@@ -105,10 +105,10 @@ const BlogListComponent = () => {
                   </div>
               </div>
             </div>
-            <div class="row">
-              <div class="col-md-12">
-                  <div class="feature-sec">
-                    <div class="feac-img">
+            <div className="row">
+              <div className="col-md-12">
+                  <div className="feature-sec">
+                    <div className="feac-img">
                       <img src={blogList3} alt="blogList3" />
                       <span>
                         22 Sep
@@ -116,7 +116,7 @@ const BlogListComponent = () => {
                         2022
                       </span>
                     </div>
-                    <div class="feat-text">
+                    <div className="feat-text">
                       <h4>
                         ISTE Day 0 Recap for my #NotatISTE #ISTELive Learning
                       </h4>
@@ -131,13 +131,13 @@ const BlogListComponent = () => {
                         It was popularised in the 1960s with the release of
                         Letraset sheets.
                       </p>
-                      <div class="client-col">
-                        <div class="cli-img">
+                      <div className="client-col">
+                        <div className="cli-img">
                         <img src={blogClient} alt="blogClient" />
                         </div>
-                        <div class="cli-text">By.Admin</div>
+                        <div className="cli-text">By.Admin</div>
                       </div>
-                      <div class="read-cta">
+                      <div className="read-cta">
                       <Link href="#">
                           Read More <img src={arrowRight} alt="arrowRight" />
                         </Link>
@@ -146,10 +146,10 @@ const BlogListComponent = () => {
                   </div>
               </div>
             </div>
-            <div class="row">
-              <div class="col-md-12">
-                  <div class="feature-sec">
-                    <div class="feac-img">
+            <div className="row">
+              <div className="col-md-12">
+                  <div className="feature-sec">
+                    <div className="feac-img">
                       <img src={blogList4} alt="blogList4" />
                       <span>
                         22 Sep
@@ -157,7 +157,7 @@ const BlogListComponent = () => {
                         2022
                       </span>
                     </div>
-                    <div class="feat-text">
+                    <div className="feat-text">
                       <h4>6 Sustainable Self-Care Tips for Teachers</h4>
                       <p>
                         Lorem Ipsum is simply dummy text of the printing and
@@ -170,13 +170,13 @@ const BlogListComponent = () => {
                         It was popularised in the 1960s with the release of
                         Letraset sheets.
                       </p>
-                      <div class="client-col">
-                        <div class="cli-img">
+                      <div className="client-col">
+                        <div className="cli-img">
                         <img src={blogClient} alt="blogClient" />
                         </div>
-                        <div class="cli-text">By.Admin</div>
+                        <div className="cli-text">By.Admin</div>
                       </div>
-                      <div class="read-cta">
+                      <div className="read-cta">
                       <Link href="#">
                           Read More <img src={arrowRight} alt="arrowRight" />
                         </Link>
@@ -187,9 +187,9 @@ const BlogListComponent = () => {
             </div>
           </div>
 
-          <div class="col-md-4">
-            <div class="sidebar">
-              <div class="course-features">
+          <div className="col-md-4">
+            <div className="sidebar">
+              <div className="course-features">
                 <h4>Categories</h4>
                 <ul>
                   <li>
@@ -228,7 +228,7 @@ const BlogListComponent = () => {
                   </li>
                 </ul>
               </div>
-              <div class="course-features tag-ss">
+              <div className="course-features tag-ss">
                 <h4>Tags </h4>
                 <ul>
                   <li>
@@ -257,37 +257,37 @@ const BlogListComponent = () => {
                   </li>
                 </ul>
               </div>
-              <div class="course-features">
+              <div className="course-features">
                 <h4>Related Blogs </h4>
-                <div class="resent-courcse">
-                  <div class="ret-img">
+                <div className="resent-courcse">
+                  <div className="ret-img">
                     <img src={seatReading} alt="seatReading" />
                   </div>
-                  <div class="ret-tile">
+                  <div className="ret-tile">
                     Machine Learning A-Z: Hands-On Python & java
                   </div>
                 </div>
-                <div class="resent-courcse">
-                  <div class="ret-img">
+                <div className="resent-courcse">
+                  <div className="ret-img">
                     <img src={personStd} alt="personStd" />
                   </div>
-                  <div class="ret-tile">
+                  <div className="ret-tile">
                     Competitive Strategy law for all students
                   </div>
                 </div>
-                <div class="resent-courcse">
-                  <div class="ret-img">
+                <div className="resent-courcse">
+                  <div className="ret-img">
                     <img src={book} alt="book" />
                   </div>
-                  <div class="ret-tile">
+                  <div className="ret-tile">
                     Music Theory Learn New student & Fundamentals
                   </div>
                 </div>
-                <div class="resent-courcse">
-                  <div class="ret-img">
+                <div className="resent-courcse">
+                  <div className="ret-img">
                     <img src={personWomen} alt="personWomen" />
                   </div>
-                  <div class="ret-tile">
+                  <div className="ret-tile">
                     Bases Matemáticas dios Álgebra Ecuacion
                   </div>
                 </div>

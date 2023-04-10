@@ -27,13 +27,13 @@ import personwmn from "../../images/person-woman.png"
 
 const EventCompDetails = () => {
   return (
-    <div class="troo-da-event-detail-section" id="troo-da-event-detail-section">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-9">
-            <div class="row">
-              <div class="col-md-12">
-                <div class="over-vi">
+    <div className="troo-da-event-detail-section" id="troo-da-event-detail-section">
+      <div className="container">
+        <div className="row">
+          <div className="col-md-9">
+            <div className="row">
+              <div className="col-md-12">
+                <div className="over-vi">
                   <img src={blogDetails1} alt="blogDetails1" />
                 </div>
                 <h4>Overview</h4>
@@ -58,21 +58,21 @@ const EventCompDetails = () => {
                 </p>
               </div>
             </div>
-            <div class="row">
-              <div class="col-md-6">
-                <div class="blog-ss-img">
+            <div className="row">
+              <div className="col-md-6">
+                <div className="blog-ss-img">
                   <img src={blogdd1} alt="blogdd1" />
                 </div>
               </div>
-              <div class="col-md-6">
-                <div class="blog-ss-img">
+              <div className="col-md-6">
+                <div className="blog-ss-img">
                   <img src={blogdd2} alt="blogdd2" />
                 </div>
               </div>
             </div>
-            <div class="row">
-              <div class="col-md-12">
-                <div class="deail-lit">
+            <div className="row">
+              <div className="col-md-12">
+                <div className="deail-lit">
                   <p>
                     Lorem Ipsum is simply dummy text of the printing and
                     typesetting industry. what is Lorem Ipsum has been the
@@ -94,8 +94,8 @@ const EventCompDetails = () => {
                     sheets containing Lorem Ipsum passages, and more recently
                     with Aldus PageMaker including versions of Lorem Ipsum.
                   </p>
-                  <div class="row">
-                    <div class="col-md-6">
+                  <div className="row">
+                    <div className="col-md-6">
                       <ul>
                         <li>
                           <img src={circle} alt="circle" />
@@ -117,7 +117,7 @@ const EventCompDetails = () => {
                         </li>
                       </ul>
                     </div>
-                    <div class="col-md-6">
+                    <div className="col-md-6">
                       <ul>
                         <li>
                           <img src={circle} alt="circle" />
@@ -140,8 +140,8 @@ const EventCompDetails = () => {
                       </ul>
                     </div>
                   </div>
-                  <div class="row">
-                    <div class="col-md-12">
+                  <div className="row">
+                    <div className="col-md-12">
                       <p>
                         Lorem Ipsum is simply dummy text of the printing and
                         typesetting industry. what is Lorem Ipsum has been the
@@ -152,9 +152,9 @@ const EventCompDetails = () => {
                       </p>
                     </div>
                   </div>
-                  <div class="row border-col">
-                    <div class="col-md-12">
-                      <div class="foot-socail tag-co">
+                  <div className="row border-col">
+                    <div className="col-md-12">
+                      <div className="foot-socail tag-co">
                         <span>Share on</span>
                         <ul>
                           <li>
@@ -185,39 +185,39 @@ const EventCompDetails = () => {
               </div>
             </div>
           </div>
-          <div class="col-md-3">
-            <div class="sidebar">
-              <div class="special-guest">
+          <div className="col-md-3">
+            <div className="sidebar">
+              <div className="special-guest">
                 <h4>Special Guest</h4>
-                <div class="gest-deals">
-                  <div class="gest-img">
+                <div className="gest-deals">
+                  <div className="gest-img">
                     <img src={gest1} alt="gest1" />
                   </div>
-                  <div class="gest-text">
+                  <div className="gest-text">
                     <strong>Lana Hutson</strong>
                     <span>Ph.D. , University Berlin</span>
                   </div>
                 </div>
-                <div class="gest-deals">
-                  <div class="gest-img">
+                <div className="gest-deals">
+                  <div className="gest-img">
                     <img src={gest2} alt="gest2" />
                   </div>
-                  <div class="gest-text">
+                  <div className="gest-text">
                     <strong>Adam Hangman</strong>
                     <span>Ph.D. , University Mumbai</span>
                   </div>
                 </div>
-                <div class="gest-deals">
-                  <div class="gest-img">
+                <div className="gest-deals">
+                  <div className="gest-img">
                   <img src={gest3} alt="gest3" />
                   </div>
-                  <div class="gest-text">
+                  <div className="gest-text">
                     <strong>Charlote Bless</strong>
                     <span>Ph.D. , University Paris</span>
                   </div>
                 </div>
               </div>
-              <div class="event-informatio">
+              <div className="event-informatio">
                 <h4>Event Information</h4>
                 <ul>
                   <li>
@@ -247,37 +247,37 @@ const EventCompDetails = () => {
                   </li>
                 </ul>
               </div>
-              <div class="course-features">
+              <div className="course-features">
                 <h4>Related Event</h4>
-                <div class="resent-courcse">
-                  <div class="ret-img">
+                <div className="resent-courcse">
+                  <div className="ret-img">
                     <img src={setReading} alt="setReading" />
                   </div>
-                  <div class="ret-tile">
+                  <div className="ret-tile">
                     Machine Learning A-Z: Hands-On Python & java
                   </div>
                 </div>
-                <div class="resent-courcse">
-                  <div class="ret-img">
+                <div className="resent-courcse">
+                  <div className="ret-img">
                     <img src={personstd} alt="personstd" />
                   </div>
-                  <div class="ret-tile">
+                  <div className="ret-tile">
                     Competitive Strategy law for all students
                   </div>
                 </div>
-                <div class="resent-courcse">
-                  <div class="ret-img">
+                <div className="resent-courcse">
+                  <div className="ret-img">
                     <img src={book} alt="book" />
                   </div> 
-                  <div class="ret-tile">
+                  <div className="ret-tile">
                     Music Theory Learn New student & Fundamentals
                   </div>
                 </div>
-                <div class="resent-courcse">
-                  <div class="ret-img">
+                <div className="resent-courcse">
+                  <div className="ret-img">
                     <img src={personwmn} alt="personwmn" />
                   </div>
-                  <div class="ret-tile">
+                  <div className="ret-tile">
                     Bases Matemáticas dios Álgebra Ecuacion
                   </div>
                 </div>

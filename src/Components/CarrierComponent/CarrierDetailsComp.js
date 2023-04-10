@@ -5,14 +5,14 @@ import checkCircle from "../../images/check-circle.png";
 const CarrierDetailsComp = () => {
   return (
     <div
-      class="troo-da-carrer-detail-section"
+      className="troo-da-carrer-detail-section"
       id="troo-da-carrer-detail-section"
     >
-      <div class="container">
-        <div class="row">
-          <div class="col-md-9">
-            <div class="row">
-              <div class="col-md-12">
+      <div className="container">
+        <div className="row">
+          <div className="col-md-9">
+            <div className="row">
+              <div className="col-md-12">
                 <h4>Yoga Teacher</h4>
                 <p>Posted by: Admin / Location: London School</p>
                 <h4>Overview</h4>
@@ -37,9 +37,9 @@ const CarrierDetailsComp = () => {
                 </p>
               </div>
             </div>
-            <div class="row">
-              <div class="col-md-12">
-                <div class="deail-lit">
+            <div className="row">
+              <div className="col-md-12">
+                <div className="deail-lit">
                   <p>
                     Lorem Ipsum is simply dummy text of the printing and
                     typesetting industry. what is Lorem Ipsum has been the
@@ -49,8 +49,8 @@ const CarrierDetailsComp = () => {
                     centuries, but also the leap.
                   </p>
                   <h4>Responsabilities</h4>
-                  <div class="row">
-                    <div class="col-md-6">
+                  <div className="row">
+                    <div className="col-md-6">
                       <ul>
                         <li>
                           <img src={checkCircle} alt="checkCircle" />
@@ -72,7 +72,7 @@ const CarrierDetailsComp = () => {
                         </li>
                       </ul>
                     </div>
-                    <div class="col-md-6">
+                    <div className="col-md-6">
                       <ul>
                         <li>
                           <img src={checkCircle} alt="checkCircle" />
@@ -96,8 +96,8 @@ const CarrierDetailsComp = () => {
                     </div>
                   </div>
                   <h4>Requirements</h4>
-                  <div class="row">
-                    <div class="col-md-6">
+                  <div className="row">
+                    <div className="col-md-6">
                       <ul>
                         <li>
                           <img src={checkCircle} alt="checkCircle" />
@@ -119,7 +119,7 @@ const CarrierDetailsComp = () => {
                         </li>
                       </ul>
                     </div>
-                    <div class="col-md-6">
+                    <div className="col-md-6">
                       <ul>
                         <li>
                           <img src={checkCircle} alt="checkCircle" />
@@ -143,8 +143,8 @@ const CarrierDetailsComp = () => {
                     </div>
                   </div>
                   <h4>Skills</h4>
-                  <div class="row">
-                    <div class="col-md-6">
+                  <div className="row">
+                    <div className="col-md-6">
                       <ul>
                         <li>
                           <img src={checkCircle} alt="checkCircle" />
@@ -166,7 +166,7 @@ const CarrierDetailsComp = () => {
                         </li>
                       </ul>
                     </div>
-                    <div class="col-md-6">
+                    <div className="col-md-6">
                       <ul>
                         <li>
                           <img src={checkCircle} alt="checkCircle" />
@@ -193,9 +193,9 @@ const CarrierDetailsComp = () => {
               </div>
             </div>
           </div>
-          <div class="col-md-3">
-            <div class="sidebar">
-              <div class="course-features">
+          <div className="col-md-3">
+            <div className="sidebar">
+              <div className="course-features">
                 <h4>Information</h4>
                 <ul>
                   <li>
