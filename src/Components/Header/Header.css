@@ -259,19 +259,23 @@ a.btnn.btn-lg {
   padding: 13px 26px;
 }
 .btnn.btn-lg {
+  text-transform: capitalize;
+  z-index: 1;
+  border-radius: 0;
+  padding: 14px 38px;
   font-family: "Nunito";
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
   line-height: 22px;
   color: #ffffff;
-  background: #3556bf;
-  border-radius: 0;
-  text-transform: capitalize;
-  text-decoration: none;
-  padding: 14px 24px;
   position: relative;
-  z-index: 1;
+  display: inline-block;
+  background: #3556bf;
+  border: none;
+  text-decoration: none;
+  box-shadow: none;
+  transition: 0.5s;
 }
 .btnn:before,
 .btnn:after {
@@ -370,6 +374,9 @@ a.btnn.btn-lg:hover {
     width: 100%;
     left: 0;
     padding-top: 0;
+  }
+  nav.navbar .call-ss{
+    justify-content: flex-start;
   }
   .navbar-nav.my-2.my-lg-0.navbar-nav-scroll {
     align-items: flex-start;

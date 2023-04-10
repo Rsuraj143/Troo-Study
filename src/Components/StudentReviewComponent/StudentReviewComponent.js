@@ -37,8 +37,8 @@ const StudentReviewComponent = () => {
                   <p>{e.message}</p>
                   <div class="client-col">
                     <div class="cli-text">
-                      {e.name}
-                      <span>{e.clg} </span>
+                     <div> {e.name}</div>
+                      <div class="clg">{e.clg} </div>
                     </div>
                     <div class="cli-img">
                       <img src={e.img} alt="student1" />
@@ -61,8 +61,8 @@ const StudentReviewComponent = () => {
                   <p>{e.message}</p>
                   <div class="client-col">
                     <div class="cli-text">
-                      {e.name}
-                      <span>{e.clg} </span>
+                      <div>{e.name}</div>
+                      <div class="clg">{e.clg} </div>
                     </div>
                     <div class="cli-img">
                       <img src={e.img} alt="student1" />

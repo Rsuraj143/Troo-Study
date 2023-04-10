@@ -117,6 +117,9 @@ form.aplyfome .row {
 #troo-da-apply-section form.aplyfome button.btnn.btn-lg {
   margin-top: 30px;
 }
+.form-select:focus {
+  box-shadow: none !important;
+}
 
 @media (max-width: 1024px) {
   #troo-da-apply-section .fome-section label {

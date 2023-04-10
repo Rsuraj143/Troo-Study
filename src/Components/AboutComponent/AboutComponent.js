@@ -67,7 +67,7 @@ const AboutComponent = () => {
 
                   <span>
                     We hire only seasoned, professional technicians with at
-                    least 5-10 years experience and usually many more.{" "}
+                    least 5-10 years experience and usually many more.
                   </span>
                 </li>
               </ul>

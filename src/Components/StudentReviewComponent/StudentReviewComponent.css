@@ -89,14 +89,13 @@
   color: #171717;
   margin-left: 0;
 }
-#troo-da-students-says-section .feature-sec .cli-text span {
+#troo-da-students-says-section .feature-sec .cli-text .clg {
   font-family: "Poppins";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
   color: #171717;
-  display: block;
   width: 100% !important;
   border-radius: 0;
   background: transparent;
@@ -164,7 +163,6 @@
   #troo-da-students-says-section .client-col {
     justify-content: space-between;
     margin-top: 24px;
-    flex-wrap: wrap;
     text-align: center;
   }
   #troo-da-students-says-section {
@@ -194,7 +192,7 @@
     justify-content: space-between;
   }
  
-  #troo-da-students-says-section .feature-sec .cli-text span{
+  #troo-da-students-says-section .feature-sec .cli-text .clg{
     font-size: 12px;
   }
   #troo-da-students-says-section .call-ss{
