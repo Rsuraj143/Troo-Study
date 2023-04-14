@@ -1,11 +1,11 @@
-import React, { useEffect, useRef } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import "./Header.css";
 import { Link } from "react-router-dom";
 import icon from "../../images/Icon.png";
 import call from "../../images/call.png";
 import mail from "../../images/mail.png";
 import logo from "../../images/Logo.png";
-import humbuirger from "../../images/Humberders.png";
+
 import {
   FaTwitter,
   FaFacebookF,
@@ -18,6 +18,9 @@ import { NavData } from "./NavData";
 import Navmenu from "./Navmenu";
 
 const Header = () => {
+  const [click, setClick] = useState(false);
+  const handleClick = () => setClick(!click);
+
   const navbar_ref = useRef();
   function handleScroll() {
     if (window.pageYOffset > 20 || document.documentElement.scrollTop > 20) {
@@ -40,6 +43,19 @@ const Header = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
+
+  const handleScrollBar = () => {
+    if (!click) {
+      document.body.classList.add("stopScroll");
+    } else {
+      document.body.classList.remove("stopScroll");
+    }
+    setClick(!click);
+  };
+
+  const handleParentClick = () => {
+    document.body.classList.remove("stopScroll");
+  };
 
   const linkdin = "https://in.linkedin.com/company/trooinbound-pvt-ltd";
   const facebk = "https://www.facebook.com/";
@@ -77,11 +93,14 @@ const Header = () => {
         <Navbar expand="lg" className="troo-da-bottom-header">
           <Container>
             <Navbar.Brand>
-              <Link to="/">
+              <Link to="/Home">
                 <img src={logo} alt="logo" />
               </Link>
             </Navbar.Brand>
-            <Navbar.Toggle aria-controls="basic-navbar-nav" />
+            <Navbar.Toggle
+              aria-controls="basic-navbar-nav"
+              onClick={handleScrollBar}
+            />
             <Navbar.Collapse id="basic-navbar-nav">
               <ul className="navbar-nav my-2 my-lg-0 navbar-nav-scroll">
                 {NavData.slice(0, 6).map((item, i) => {
@@ -91,7 +110,12 @@ const Header = () => {
               <div className="call-ss">
                 {NavData.slice(-1).map((e, i) => {
                   return (
-                    <Link className="btnn btn-lg" key={i} to={e.path}>
+                    <Link
+                      className="btnn btn-lg"
+                      key={i}
+                      to={e.path}
+                      onClick={handleParentClick}
+                    >
                       {e.title}
                     </Link>
                   );
@@ -162,11 +186,14 @@ const Header = () => {
         <Navbar expand="lg" className="troo-da-bottom-header">
           <Container>
             <Navbar.Brand>
-              <Link to="/">
+              <Link to="/Home">
                 <img src={logo} alt="logo" />
               </Link>
             </Navbar.Brand>
-            <Navbar.Toggle aria-controls="basic-navbar-nav" />
+            <Navbar.Toggle
+              aria-controls="basic-navbar-nav"
+              onClick={handleScrollBar}
+            />
             <Navbar.Collapse id="basic-navbar-nav">
               <ul className="navbar-nav my-2 my-lg-0 navbar-nav-scroll">
                 {NavData.slice(0, 6).map((item, i) => {
@@ -176,7 +203,12 @@ const Header = () => {
               <div className="call-ss">
                 {NavData.slice(-1).map((e, i) => {
                   return (
-                    <Link className="btnn btn-lg" key={i} to={e.path}>
+                    <Link
+                      className="btnn btn-lg"
+                      key={i}
+                      to={e.path}
+                      onClick={handleParentClick}
+                    >
                       {e.title}
                     </Link>
                   );

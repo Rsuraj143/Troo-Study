@@ -9,6 +9,7 @@ import { NavData } from "../Header/NavData";
 const HeroGlobal = () => {
   const location = useLocation();
   const [heading, setHeading] = useState();
+  const [breadcrumbs, setBreadcrumbs] = useState([]);
   console.log(location);
   let pathName = location.pathname;
 
@@ -17,11 +18,9 @@ const HeroGlobal = () => {
       if (d?.subNav) {
         const subTitle = d?.subNav?.find((s) => s.path === pathName);
         if (subTitle) {
-          // setHeading(subTitle.heading);
           return d;
         }
       } else if (d.path === pathName) {
-        // setHeading(d.title)
         return d;
       }
     });
@@ -33,6 +32,15 @@ const HeroGlobal = () => {
       setHeading(data.title);
     }
   }, []);
+
+  useEffect(() => {
+    const pathnamee = location.pathname.split("/").filter((p) => !!p);
+    const breadcrumbs = pathnamee.map((e, i) => ({
+      title: e,
+      path: `/${pathnamee.slice(0, i + 1).join("/")}`,
+    }));
+    setBreadcrumbs(breadcrumbs);
+  }, [location]);
 
   return (
     <div className="troo-da-hero-section" id="troo-da-hero-section">
@@ -61,9 +69,16 @@ const HeroGlobal = () => {
             <div className="sub-page-title">
               <ul className="breadcrumb">
                 <li>
-                  <Link to="">
+                  {/* <Link to="">
                     {pathName.slice(1).replace(/_/g, " ").replace(/\//g, "\xa0 / \xa0")}
-                  </Link>
+                  </Link> */}
+                  {breadcrumbs.map((breadcrumb, index) => (
+                    <Link key={index} to={breadcrumb.path}>
+                      {breadcrumb.title
+                        .replace(/_/g, " ")
+                        .replace(/\//g, "\xa0 / \xa0")}
+                    </Link>
+                  ))}
                 </li>
               </ul>
               <h2>{heading}</h2>

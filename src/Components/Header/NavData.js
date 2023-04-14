@@ -1,7 +1,7 @@
 export const NavData = [
   {
     title: "Home",
-    path: "/",
+    path: "/Home",
   },
   {
     title: "About Us",
@@ -12,9 +12,9 @@ export const NavData = [
     path: "#",
     subNav: [
       {
-        subTitle: "Course Grid",
+        subTitle: "Courses",
         heading: " Pick a Course to Get Started ",
-        path: "/Home/Cources_Grid",
+        path: "/Home/Cources",
       },
       {
         subTitle: "Course Details",
@@ -30,47 +30,47 @@ export const NavData = [
       {
         subTitle: "Our Team",
         heading: "Troostudy’s Best Instructor",
-        path: "/Home/Pages/Our_Team",
+        path: "/Home/Our_Team",
       },
       {
         subTitle: "Teastimonial",
         heading: "What Say students About Us",
-        path: "/Home/Pages/Teastimonial",
+        path: "/Home/Teastimonial",
       },
       {
         subTitle: "FAQs",
         heading: "Most Asked Questions",
-        path: "/Home/Pages/FAQs",
+        path: "/Home/FAQs",
       },
       {
         subTitle: "404 Error",
         heading: "",
-        path: "/Home/Pages/404_Error",
+        path: "/Home/404_Error",
       },
       {
         subTitle: "Comming Soon",
         heading: "",
-        path: "/Home/Pages/Comming_Soon",
+        path: "/Home/Comming_Soon",
       },
       {
         subTitle: "Events",
         heading: "What's Coming Up ?",
-        path: "/Home/Pages/Events",
+        path: "/Home/Event",
       },
       {
         subTitle: "Event Details",
         heading: "Bond Twenty Minutes Still Meditation In",
-        path: "/Home/Pages/Event/Event_Details",
+        path: "/Home/Event/Event_Details",
       },
       {
         subTitle: "Carrier",
         heading: "Featured Job Offers",
-        path: "/Home/Pages/Carrier",
+        path: "/Home/Carrier",
       },
       {
         subTitle: "Carrier Details",
         heading: "Yoga Teacher",
-        path: "/Home/Pages/Carrier/Carrier_Details",
+        path: "/Home/Carrier/Carrier_Details",
       },
     ],
   },

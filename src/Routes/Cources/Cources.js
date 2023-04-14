@@ -8,8 +8,10 @@ import HeroGlobal from "../../Components/HeroComponent/HeroGlobal";
 import InstructorComponent from "../../Components/InstructorComponent/InstructorComponent";
 import PartnerComponent from "../../Components/PartnerComponent/PartnerComponent";
 import StudentReviewComponent from "../../Components/StudentReviewComponent/StudentReviewComponent";
+import useDocumentTitle from "../../PageTitle";
 
 const Cources = () => {
+  useDocumentTitle("TRooStudy Course")
   return (
     <div className="Cources-page sub-page">
       <Header />

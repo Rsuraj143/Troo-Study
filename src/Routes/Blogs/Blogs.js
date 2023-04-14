@@ -4,8 +4,10 @@ import ContactComponent from '../../Components/ContactComponent/ContactComponent
 import Footer from '../../Components/Footer/Footer'
 import Header from '../../Components/Header/Header'
 import HeroGlobal from '../../Components/HeroComponent/HeroGlobal'
+import useDocumentTitle from '../../PageTitle'
 
 const Blogs = () => {
+  useDocumentTitle("TRooStudy Blogs")
   return (
     <div className="blogs-page sub-page">
         <Header/>

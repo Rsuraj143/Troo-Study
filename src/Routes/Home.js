@@ -13,8 +13,10 @@ import InstructorComponent from '../Components/InstructorComponent/InstructorCom
 import LearningPathComponent from '../Components/LearningPathComponent/LearningPathComponent'
 import PartnerComponent from '../Components/PartnerComponent/PartnerComponent'
 import StudentReviewComponent from '../Components/StudentReviewComponent/StudentReviewComponent'
+import useDocumentTitle from '../PageTitle'
 
 const Home = () => {
+  useDocumentTitle("TRooStudy Home ")
   return (
     <div>
         <Header/>

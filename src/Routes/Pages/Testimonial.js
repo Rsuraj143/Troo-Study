@@ -4,8 +4,10 @@ import Footer from '../../Components/Footer/Footer'
 import Header from '../../Components/Header/Header'
 import HeroGlobal from '../../Components/HeroComponent/HeroGlobal'
 import StudentReviewComponent2 from '../../Components/StudentReviewComponent/StudentReviewComponent2'
+import useDocumentTitle from '../../PageTitle'
 
 const Testimonial = () => {
+  useDocumentTitle("TRooStudy Testimonial")
   return (
     <div className="teastimonial-page sub-page">
         <Header/>

@@ -4,8 +4,10 @@ import FAQComponent2 from '../../Components/FAQComponent/FAQComponent2'
 import Footer from '../../Components/Footer/Footer'
 import Header from '../../Components/Header/Header'
 import HeroGlobal from '../../Components/HeroComponent/HeroGlobal'
+import useDocumentTitle from '../../PageTitle'
 
 const FAQs = () => {
+  useDocumentTitle("TRooStudy FAQs")
   return (
     <div className="404-page sub-page">
       <Header/>

@@ -11,8 +11,10 @@ import InstructorComponent from "../Components/InstructorComponent/InstructorCom
 import LearningPathComponent from "../Components/LearningPathComponent/LearningPathComponent";
 import PartnerComponent from "../Components/PartnerComponent/PartnerComponent";
 import StudentReviewComponent from "../Components/StudentReviewComponent/StudentReviewComponent";
+import useDocumentTitle from "../PageTitle";
 
 const About = () => {
+  useDocumentTitle("TRooStudy About")
   return (
     <div class="about-page sub-page">
       <Header />
