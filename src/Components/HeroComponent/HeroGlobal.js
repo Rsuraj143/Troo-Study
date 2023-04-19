@@ -39,6 +39,7 @@ const HeroGlobal = () => {
       title: e,
       path: `/${pathnamee.slice(0, i + 1).join("/")}`,
     }));
+    console.log(breadcrumbs);
     setBreadcrumbs(breadcrumbs);
   }, [location]);
 
@@ -68,18 +69,15 @@ const HeroGlobal = () => {
           <div className="col-md-12">
             <div className="sub-page-title">
               <ul className="breadcrumb">
-                <li>
-                  {/* <Link to="">
-                    {pathName.slice(1).replace(/_/g, " ").replace(/\//g, "\xa0 / \xa0")}
-                  </Link> */}
-                  {breadcrumbs.map((breadcrumb, index) => (
+             
+              {breadcrumbs.map((breadcrumb, index) => (
+                    <li className={`breadcrumb-item${index === breadcrumbs.length - 1 ? ' current' : ''}`}>
                     <Link key={index} to={breadcrumb.path}>
-                      {breadcrumb.title
-                        .replace(/_/g, " ")
-                        .replace(/\//g, "\xa0 / \xa0")}
+                      {breadcrumb.title.replace(/_/g, " ")}
                     </Link>
+                  </li>
                   ))}
-                </li>
+           
               </ul>
               <h2>{heading}</h2>
             </div>

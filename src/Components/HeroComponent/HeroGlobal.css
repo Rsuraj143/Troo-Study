@@ -46,6 +46,9 @@ ul.breadcrumb li a {
   text-decoration: none;
   padding: 0 10px 0 10px;
 }
+ul.breadcrumb .current a{
+  color: #1ab69d ;
+}
 
 @media (max-width: 991px) {
   .sub-page #troo-da-hero-section {
