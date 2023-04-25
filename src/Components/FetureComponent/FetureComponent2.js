@@ -2,7 +2,7 @@ import React from "react";
 import "./FetureComponent.css";
 import facher from "../../images/facher-dots.png";
 import { CourseData } from "./CourseData";
-import { Link } from "react-router-dom";
+import { Link, createSearchParams } from "react-router-dom";
 
 const FetureComponent2 = () => {
   return (
@@ -14,92 +14,110 @@ const FetureComponent2 = () => {
         <div className="row">
           {CourseData.slice(0, 3).map((item, i) => (
             <div className="col-md-4">
-              <div className="feature-sec">
-                <div className="feac-img">
-                  <img src={item.courseImg} alt="feture1" />
-                  <span>{item.price}</span>
-                </div>
-                <div className="feat-text">
-                  <p>{item.courseType}</p>
-                  {item.rating}
-                  {item.rating}
-                  {item.rating}
-                  {item.rating}
-                  {item.rating}
-                  <h4>{item.courseTitle}</h4>
-                  <div className="client-col">
-                    <div className="cli-img">
-                      <img src={item.authorImg} alt="client1" />
-                    </div>
-                    <div className="cli-text">
-                      {item.authorTitle}
-                      <br /> {item.authodName}
+              <Link
+                to={`/Home/Courses/Course_Details?${createSearchParams({
+                  id: item.id,
+                })}`}
+              >
+                <div className="feature-sec">
+                  <div className="feac-img">
+                    <img src={item.courseImg} alt="feture1" />
+                    <span>{item.price}</span>
+                  </div>
+                  <div className="feat-text">
+                    <p>{item.courseType}</p>
+                    {item.rating}
+                    {item.rating}
+                    {item.rating}
+                    {item.rating}
+                    {item.rating}
+                    <h4>{item.courseTitle}</h4>
+                    <div className="client-col">
+                      <div className="cli-img">
+                        <img src={item.authorImg} alt="client1" />
+                      </div>
+                      <div className="cli-text">
+                        {item.authorTitle}
+                        <br /> {item.authodName}
+                      </div>
                     </div>
                   </div>
                 </div>
-              </div>
+              </Link>
             </div>
           ))}
         </div>
         <div className="row">
           {CourseData.slice(3, 6).map((item, i) => (
             <div className="col-md-4">
-              <div className="feature-sec">
-                <div className="feac-img">
-                  <img src={item.courseImg} alt="feture1" />
-                  <span>{item.price}</span>
-                </div>
-                <div className="feat-text">
-                  <p>{item.courseType}</p>
-                  {item.rating}
-                  {item.rating}
-                  {item.rating}
-                  {item.rating}
-                  {item.rating}
+              <Link
+                to={`/Home/Courses/Course_Details?${createSearchParams({
+                  id: item.id,
+                })}`}
+              >
+                <div className="feature-sec">
+                  <div className="feac-img">
+                    <img src={item.courseImg} alt="feture1" />
+                    <span>{item.price}</span>
+                  </div>
+                  <div className="feat-text">
+                    <p>{item.courseType}</p>
+                    {item.rating}
+                    {item.rating}
+                    {item.rating}
+                    {item.rating}
+                    {item.rating}
 
-                  <h4>{item.courseTitle}</h4>
-                  <div className="client-col">
-                    <div className="cli-img">
-                      <img src={item.authorImg} alt="client1" />
-                    </div>
-                    <div className="cli-text">
-                      {item.authorTitle}
-                      <br /> {item.authodName}
+                    <h4>{item.courseTitle}</h4>
+                    <div className="client-col">
+                      <div className="cli-img">
+                        <img src={item.authorImg} alt="client1" />
+                      </div>
+                      <div className="cli-text">
+                        {item.authorTitle}
+                        <br /> {item.authodName}
+                      </div>
                     </div>
                   </div>
                 </div>
-              </div>
+              </Link>
             </div>
           ))}
         </div>
         <div className="row">
           {CourseData.slice(6, 9).map((item, i) => (
             <div className="col-md-4">
-              <div className="feature-sec">
-                <div className="feac-img">
-                  <img src={item.courseImg} alt="feture1" />
-                  <span>{item.price}</span>
-                </div>
-                <div className="feat-text">
-                  <p>{item.courseType}</p>
-                  {item.rating}
-                  {item.rating}
-                  {item.rating}
-                  {item.rating}
-                  {item.rating}
+              <Link
+                to={`/Home/Courses/Course_Details?${createSearchParams({
+                  id: item.id,
+                })}`}
+              >
+                <div className="feature-sec">
+                  <div className="feac-img">
+                    <img src={item.courseImg} alt="feture1" />
+                    <span>{item.price}</span>
+                  </div>
+                  <div className="feat-text">
+                    <p>{item.courseType}</p>
+                    {item.rating}
+                    {item.rating}
+                    {item.rating}
+                    {item.rating}
+                    {item.rating}
 
-                  <h4>{item.courseTitle}</h4>
-                  <div className="client-col">
-                    <div className="cli-img">
-                      <img src={item.authorImg} alt="client1" />
-                    </div>
-                    <div className="cli-text">
-                      {item.authorTitle}
-                      <br /> {item.authodName}
+                    <h4>{item.courseTitle}</h4>
+                    <div className="client-col">
+                      <div className="cli-img">
+                        <img src={item.authorImg} alt="client1" />
+                      </div>
+                      <div className="cli-text">
+                        {item.authorTitle}
+                        <br /> {item.authodName}
+                      </div>
                     </div>
                   </div>
                 </div>
-              </div>
+              </Link>
             </div>
           ))}
         </div>

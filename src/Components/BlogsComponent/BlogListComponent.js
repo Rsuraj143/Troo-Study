@@ -1,16 +1,11 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, createSearchParams } from "react-router-dom";
 import "./BlogListComponent.css";
-import blogList1 from "../../images/blog-list-1.png"
-import blogClient from "../../images/blog-client.png"
-import arrowRight from "../../images/arrow-narrow-right.png"
-import blogList2 from "../../images/blog-list-2.png"
-import blogList3 from "../../images/blog-list-3.png"
-import blogList4 from "../../images/blog-list-4.png"
 import seatReading from "../../images/seat-reading-counter.png"
 import personStd from "../../images/person-student.png"
 import book from "../../images/book-novel.png"
 import personWomen from "../../images/person-woman.png"
+import { BlogData } from "./BlogData";
 
 
 const BlogListComponent = () => {
@@ -19,172 +14,43 @@ const BlogListComponent = () => {
       <div className="container">
         <div className="row">
           <div className="col-md-8">
-            <div className="row">
+            {
+              BlogData.slice(0,4).map((e,i)=>
+              <div className="row">
               <div className="col-md-12">
-    
                   <div className="feature-sec">
                     <div className="feac-img">
-                      <img src={blogList1} alt="blogList1" />
+                      <img src={e.img2} alt="blogList1" />
                       <span>
-                        22 Sep
+                        {e.date}
                         <br />
-                        2022
+                        {e.year}
                       </span>
                     </div>
                     <div className="feat-text">
                       <h4>
-                        25 Essential High School Reads From the Last Decade
+                        {e.title}
                       </h4>
                       <p>
-                        Lorem Ipsum is simply dummy text of the printing and
-                        typesetting industry. Lorem Ipsum has been the
-                        industry's standard dummy text ever since the 1500s,
-                        when an unknown printer took a galley of type and
-                        scrambled it to make a type specimen book. It has
-                        survived not only five centuries, but also the leap into
-                        electronic typesetting, remaining essentially unchanged.
-                        It was popularised in the 1960s with the release of
-                        Letraset sheets.
+                        {e.para}
                       </p>
                       <div className="client-col">
                         <div className="cli-img">
-                          <img src={blogClient} alt="blogClient" />
+                          <img src={e.clientImg} alt="blogClient" />
                         </div>
-                        <div className="cli-text">By.Admin</div>
+                        <div className="cli-text">{e.desg} </div>
                       </div>
                       <div className="read-cta">
-                        <Link href="#">
-                          Read More <img src={arrowRight} alt="arrowRight" />
-                        </Link>
-                      </div>
-                    </div>
-                  </div>
-            
-              </div>
-            </div>
-
-            <div className="row">
-              <div className="col-md-12">
-                  <div className="feature-sec">
-                    <div className="feac-img">
-                      <img src={blogList2} alt="blogList2" />
-                      <span>
-                        22 Sep
-                        <br />
-                        2022
-                      </span>
-                    </div>
-                    <div className="feat-text">
-                      <h4>
-                        Sleepless with AI: My First AI Poetry and 7 Thoughts
-                        about #AI
-                      </h4>
-                      <p>
-                        Lorem Ipsum is simply dummy text of the printing and
-                        typesetting industry. Lorem Ipsum has been the
-                        industry's standard dummy text ever since the 1500s,
-                        when an unknown printer took a galley of type and
-                        scrambled it to make a type specimen book. It has
-                        survived not only five centuries, but also the leap into
-                        electronic typesetting, remaining essentially unchanged.
-                        It was popularised in the 1960s with the release of
-                        Letraset sheets.
-                      </p>
-                      <div className="client-col">
-                        <div className="cli-img">
-                          <img src={blogClient} alt="blogClient" />
-                        </div>
-                        <div className="cli-text">By.Admin</div>
-                      </div>
-                      <div className="read-cta">
-                      <Link href="#">
-                          Read More <img src={arrowRight} alt="arrowRight" />
+                        <Link to={`/Home/Blogs/Blog_Details?${createSearchParams({id : e.id})}`}>
+                          Read More <img src={e.arrow} alt="arrowRight" />
                         </Link>
                       </div>
                     </div>
                   </div>
               </div>
             </div>
-            <div className="row">
-              <div className="col-md-12">
-                  <div className="feature-sec">
-                    <div className="feac-img">
-                      <img src={blogList3} alt="blogList3" />
-                      <span>
-                        22 Sep
-                        <br />
-                        2022
-                      </span>
-                    </div>
-                    <div className="feat-text">
-                      <h4>
-                        ISTE Day 0 Recap for my #NotatISTE #ISTELive Learning
-                      </h4>
-                      <p>
-                        Lorem Ipsum is simply dummy text of the printing and
-                        typesetting industry. Lorem Ipsum has been the
-                        industry's standard dummy text ever since the 1500s,
-                        when an unknown printer took a galley of type and
-                        scrambled it to make a type specimen book. It has
-                        survived not only five centuries, but also the leap into
-                        electronic typesetting, remaining essentially unchanged.
-                        It was popularised in the 1960s with the release of
-                        Letraset sheets.
-                      </p>
-                      <div className="client-col">
-                        <div className="cli-img">
-                        <img src={blogClient} alt="blogClient" />
-                        </div>
-                        <div className="cli-text">By.Admin</div>
-                      </div>
-                      <div className="read-cta">
-                      <Link href="#">
-                          Read More <img src={arrowRight} alt="arrowRight" />
-                        </Link>
-                      </div>
-                    </div>
-                  </div>
-              </div>
-            </div>
-            <div className="row">
-              <div className="col-md-12">
-                  <div className="feature-sec">
-                    <div className="feac-img">
-                      <img src={blogList4} alt="blogList4" />
-                      <span>
-                        22 Sep
-                        <br />
-                        2022
-                      </span>
-                    </div>
-                    <div className="feat-text">
-                      <h4>6 Sustainable Self-Care Tips for Teachers</h4>
-                      <p>
-                        Lorem Ipsum is simply dummy text of the printing and
-                        typesetting industry. Lorem Ipsum has been the
-                        industry's standard dummy text ever since the 1500s,
-                        when an unknown printer took a galley of type and
-                        scrambled it to make a type specimen book. It has
-                        survived not only five centuries, but also the leap into
-                        electronic typesetting, remaining essentially unchanged.
-                        It was popularised in the 1960s with the release of
-                        Letraset sheets.
-                      </p>
-                      <div className="client-col">
-                        <div className="cli-img">
-                        <img src={blogClient} alt="blogClient" />
-                        </div>
-                        <div className="cli-text">By.Admin</div>
-                      </div>
-                      <div className="read-cta">
-                      <Link href="#">
-                          Read More <img src={arrowRight} alt="arrowRight" />
-                        </Link>
-                      </div>
-                    </div>
-                  </div>
-              </div>
-            </div>
+              )
+            }
           </div>
 
           <div className="col-md-4">

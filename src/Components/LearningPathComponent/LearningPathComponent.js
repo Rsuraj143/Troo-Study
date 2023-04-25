@@ -53,7 +53,7 @@ const LearningPathComponent = () => {
               </div>
               <ul>
                 <li>
-                  <Link to="/Home/Cources_Grid">Get Started Now</Link>
+                  <Link to="/Home/Courses">Get Started Now</Link>
                 </li>
                 <li className="call-ss">
                   <Link className="btnn btn-lg" to="/Home/Contact_Us">

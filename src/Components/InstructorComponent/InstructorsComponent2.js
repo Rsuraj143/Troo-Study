@@ -7,16 +7,6 @@ const InstructorsComponent2 = () => {
   return (
     <div className="troo-da-team-section" id="troo-da-team-section">
       <div className="container">
-        {/* <div className="row">
-          <div className="col-md-12">
-            <div className="sub-tile-con">
-              <div className="sub-txt">Our Instructor</div>
-              <h2>
-                Troostudy’s <span>Best Instructor</span>
-              </h2>
-            </div>
-          </div>
-        </div> */}
         <div className="row">
           {InstructrsData.slice(0, 3).map((item, i) => (
             <div className="col-md-4">
@@ -152,15 +142,6 @@ const InstructorsComponent2 = () => {
             </div>
           ))}
         </div>
-        {/* <div className="row">
-          <div className="col-md-12">
-            <div className="call-ss">
-              <Link className="btnn btn-lg" href="#">
-                View All Instuctor
-              </Link>
-            </div>
-          </div>
-        </div> */}
       </div>
     </div>
   );

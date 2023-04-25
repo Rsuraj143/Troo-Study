@@ -1,7 +1,7 @@
 import React from "react";
 import "./BlogComponent.css";
 import fatcher from "../../images/facher-dots.png"
-import { Link } from "react-router-dom";
+import { Link, createSearchParams } from "react-router-dom";
 import { BlogData } from "./BlogData";
 
 
@@ -16,6 +16,7 @@ const BlogComponent2 = () => {
         <div className="row">
         {BlogData.slice(0, 3).map((e, i) => (
             <div className="col-md-4">
+              <Link to={`/Home/Blogs/Blog_Details?${createSearchParams({id : e.id})}`}>
               <div className="feature-sec">
                 <div className="feac-img">
                   <img src={e.img} alt="blog1" />
@@ -40,6 +41,7 @@ const BlogComponent2 = () => {
                   </div>
                 </div>
               </div>
+              </Link>
             </div>
           ))}
           
@@ -47,6 +49,7 @@ const BlogComponent2 = () => {
         <div className="row">
         {BlogData.slice(3,6).map((e, i) => (
             <div className="col-md-4">
+              <Link to={`/Home/Blogs/Blog_Details?${createSearchParams({id : e.id})}`}>
               <div className="feature-sec">
                 <div className="feac-img">
                   <img src={e.img} alt="blog1" />
@@ -71,6 +74,7 @@ const BlogComponent2 = () => {
                   </div>
                 </div>
               </div>
+              </Link>
             </div>
           ))}
           
@@ -78,6 +82,7 @@ const BlogComponent2 = () => {
         <div className="row">
         {BlogData.slice(6,9).map((e, i) => (
             <div className="col-md-4">
+              <Link to={`/Home/Blogs/Blog_Details?${createSearchParams({id : e.id})}`}>
               <div className="feature-sec">
                 <div className="feac-img">
                   <img src={e.img} alt="blog1" />
@@ -102,6 +107,7 @@ const BlogComponent2 = () => {
                   </div>
                 </div>
               </div>
+              </Link>
             </div>
           ))}
         

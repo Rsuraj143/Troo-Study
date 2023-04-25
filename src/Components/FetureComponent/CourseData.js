@@ -12,6 +12,7 @@ import { FaStar } from "react-icons/fa";
 
 export const CourseData = [
     {
+        id : 1,
         courseTitle : "The Business Intelligence Analyst Course",
         courseImg : feture1,
         price : "$40.00",
@@ -22,6 +23,7 @@ export const CourseData = [
         authodName : "Shawn Adward"
     },
     {
+        id : 2,
         courseTitle : "German language Learning Course",
         courseImg : feture2,
         price : "$50.00",
@@ -32,6 +34,7 @@ export const CourseData = [
         authodName : "Hitesh Adward"
     },
     {
+        id : 3,
         courseTitle : "Complete Advance Architecture Study",
         courseImg : feture3,
         price : "$80.00",
@@ -42,6 +45,7 @@ export const CourseData = [
         authodName : "Julia heart"
     },
     {
+        id : 4,
         courseTitle : "Intelligence Studies & International History",
         courseImg : feture4,
         price : "$20.00",
@@ -52,6 +56,7 @@ export const CourseData = [
         authodName : "Shawn Adward"
     },
     {
+        id : 5,
         courseTitle : "MScEcon International Finance (Specialist/Research)",
         courseImg : feture5,
         price : "$100.00",
@@ -62,6 +67,7 @@ export const CourseData = [
         authodName : "Julia heart"
     },
     {
+        id : 6,
         courseTitle : "The Business Intelligence Analyst Course",
         courseImg : feture1,
         price : "$40.00",
@@ -72,6 +78,7 @@ export const CourseData = [
         authodName : "Shawn Adward"
     },
     {
+        id : 7,
         courseTitle : "The Business Intelligence Analyst Course",
         courseImg : feture1,
         price : "$40.00",
@@ -82,6 +89,7 @@ export const CourseData = [
         authodName : "Shawn Adward"
     },
     {
+        id : 8,
         courseTitle : "The Business Intelligence Analyst Course",
         courseImg : feture1,
         price : "$40.00",
@@ -92,6 +100,7 @@ export const CourseData = [
         authodName : "Shawn Adward"
     },
     {
+        id : 9,
         courseTitle : "German language Learning Course",
         courseImg : feture2,
         price : "$50.00",
@@ -102,6 +111,7 @@ export const CourseData = [
         authodName : "Hitesh Adward"
     },
     {
+        iid : 10,
         courseTitle : "Complete Advance Architecture Study",
         courseImg : feture3,
         price : "$80.00",
@@ -112,6 +122,7 @@ export const CourseData = [
         authodName : "Julia heart"
     },
     {
+        id : 11,
         courseTitle : "Intelligence Studies & International History",
         courseImg : feture4,
         price : "$20.00",
@@ -122,6 +133,7 @@ export const CourseData = [
         authodName : "Shawn Adward"
     },
     {
+        id : 12,
         courseTitle : "MScEcon International Finance (Specialist/Research)",
         courseImg : feture5,
         price : "$100.00",

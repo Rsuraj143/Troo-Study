@@ -246,7 +246,7 @@ const CourseDetailsComponent = () => {
                   </div>
                 </div>
                 <div className="call-ss">
-                  <Link className="btnn btn-lg" href="#">
+                  <Link className="btnn btn-lg" to="/Home/Courses">
                     View All Courses
                   </Link>
                 </div>

@@ -2,6 +2,9 @@
   padding: 100px 0;
   position: relative;
 }
+#troo-da-blogs-section a{
+  text-decoration: none;
+}
 .half-cricle {
   position: absolute;
   right: 10%;

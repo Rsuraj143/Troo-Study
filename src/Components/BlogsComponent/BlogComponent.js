@@ -2,7 +2,7 @@ import React from "react";
 import "./BlogComponent.css";
 import fatcherdot from "../../images/facher-dots.png";
 import arrow from "../../images/arrow.png";
-import { Link } from "react-router-dom";
+import { Link, createSearchParams } from "react-router-dom";
 import { BlogData } from "./BlogData";
 
 const BlogComponent = () => {
@@ -50,7 +50,8 @@ const BlogComponent = () => {
         <div className="row">
           {BlogData.slice(0, 3).map((e, i) => (
             <div className="col-md-4">
-              <div className="feature-sec">
+             <Link to={`/Home/Blogs/Blog_Details?${createSearchParams({id : e.id})}`}>
+             <div className="feature-sec">
                 <div className="feac-img">
                   <img src={e.img} alt="blog1" />
                   <span>
@@ -74,6 +75,7 @@ const BlogComponent = () => {
                   </div>
                 </div>
               </div>
+             </Link>
             </div>
           ))}
         </div>

@@ -44,7 +44,6 @@ ul.breadcrumb li a {
   text-align: center;
   color: #171717;
   text-decoration: none;
-  padding: 0 10px 0 10px;
 }
 ul.breadcrumb .current a{
   color: #1ab69d ;
@@ -58,7 +57,7 @@ ul.breadcrumb .current a{
 
 @media (max-width: 767px) {
   .sub-page ul.breadcrumb {
-    padding: 12px 15px;
+    padding: 12px 10px;
   }
   .sub-page-title h2 {
     font-size: 30px;

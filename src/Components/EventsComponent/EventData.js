@@ -12,54 +12,63 @@ import hoverArrow from "../../images/hoverarrow.png"
 
 export const EventData = [
     {
+        id : 1,
         title : "Tournment Indoor Court Women’s Basketball",
         img : event1,
         arrowbtn : arroew,
         hoverbtn : hoverArrow
     },
     {
+        id : 2,
         title : "Twenty Minutes Still Meditation in Bond ",
         img : event2,
         arrowbtn : arroew,
         hoverbtn : hoverArrow
     },
     {
+        id : 3,
         title : "Art Exhibit Student Chairs   by Design Student",
         img : event3,
         arrowbtn : arroew,
         hoverbtn : hoverArrow
     },
     {
+        id : 4,
         title : "Get The Best Courses & Upgrade Your Skills",
         img : event4,
         arrowbtn : arroew,
         hoverbtn : hoverArrow
     },
     {
+        id : 5,
         title : " Applying Natural Laws to Technology and Society ",
         img : event5,
         arrowbtn : arroew,
         hoverbtn : hoverArrow
     },
     {
+        id : 6,
         title : "SAT Implementation Workshops Dec 2022",
         img : event6,
         arrowbtn : arroew,
         hoverbtn : hoverArrow
     },
     {
+        id : 7,
         title : "National Capital Leadership Jan 2023",
         img : event7,
         arrowbtn : arroew,
         hoverbtn : hoverArrow
     },
     {
+        id : 8,
         title : "Digital Transformation Conference",
         img : event8,
         arrowbtn : arroew,
         hoverbtn : hoverArrow
     },
     {
+        id : 9,
         title : "Best Technology Graduation Ceremony.",
         img : event9,
         arrowbtn : arroew,

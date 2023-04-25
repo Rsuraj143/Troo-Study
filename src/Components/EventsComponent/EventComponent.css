@@ -1,6 +1,9 @@
 #troo-da-event-section {
   padding: 100px 0;
 }
+#troo-da-event-section a{
+  text-decoration: none;
+}
 .event-col {
   cursor: pointer;
 }

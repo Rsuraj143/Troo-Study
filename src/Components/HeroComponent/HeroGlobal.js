@@ -3,33 +3,54 @@ import "./HeroGlobal.css";
 import zikzak from "../../images/zik-zak-line.png";
 import bgdot from "../../images/bg-dots.png";
 import dot_specing from "../../images/dot-spcing.png";
-import { Link, useLocation } from "react-router-dom";
+import { Link, useLocation, useSearchParams } from "react-router-dom";
 import { NavData } from "../Header/NavData";
+import { CourseData } from "../FetureComponent/CourseData";
+import { EventData } from "../EventsComponent/EventData";
+import { BlogData } from "../BlogsComponent/BlogData";
 
 const HeroGlobal = () => {
   const location = useLocation();
   const [heading, setHeading] = useState();
   const [breadcrumbs, setBreadcrumbs] = useState([]);
+  const [searchParams, setSearchParams] = useSearchParams();
   console.log(location);
   let pathName = location.pathname;
 
   useEffect(() => {
-    const data = NavData.find((d) => {
-      if (d?.subNav) {
-        const subTitle = d?.subNav?.find((s) => s.path === pathName);
-        if (subTitle) {
+    const id = searchParams.get("id");
+    if(id){
+      if(pathName.includes("Course_Details")){
+        const cdata = CourseData.find((d)=>d.id==id)
+        setHeading(cdata.courseTitle)
+      }
+      if(pathName.includes("Event_Details")){
+        const eData = EventData.find((d)=>d.id==id)
+        setHeading(eData.title)
+      }
+      if(pathName.includes("Blog_Details")){
+        const bData = BlogData.find((d)=>d.id == id)
+        setHeading(bData.title)
+      }
+    }
+    else{
+      const data = NavData.find((d) => {
+        if (d?.subNav) {
+          const subTitle = d?.subNav?.find((s) => s.path === pathName);
+          if (subTitle) {
+            return d;
+          }
+        } else if (d.path === pathName) {
           return d;
         }
-      } else if (d.path === pathName) {
-        return d;
+      });
+  
+      if (data?.subNav) {
+        const obj = data?.subNav.find((s) => s.path === pathName);
+        setHeading(obj.heading);
+      } else {
+        setHeading(data.title);
       }
-    });
-
-    if (data?.subNav) {
-      const obj = data?.subNav.find((s) => s.path === pathName);
-      setHeading(obj.heading);
-    } else {
-      setHeading(data.title);
     }
   }, []);
 
@@ -69,15 +90,17 @@ const HeroGlobal = () => {
           <div className="col-md-12">
             <div className="sub-page-title">
               <ul className="breadcrumb">
-             
-              {breadcrumbs.map((breadcrumb, index) => (
-                    <li className={`breadcrumb-item${index === breadcrumbs.length - 1 ? ' current' : ''}`}>
+                {breadcrumbs.map((breadcrumb, index) => (
+                  <li
+                    className={`breadcrumb-item${
+                      index === breadcrumbs.length - 1 ? " current" : ""
+                    }`}
+                  >
                     <Link key={index} to={breadcrumb.path}>
                       {breadcrumb.title.replace(/_/g, " ")}
                     </Link>
                   </li>
-                  ))}
-           
+                ))}
               </ul>
               <h2>{heading}</h2>
             </div>

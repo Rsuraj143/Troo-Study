@@ -28,21 +28,21 @@ function App() {
           <Route path="/Home" element={<Home />} />
           <Route path="/Home/About_Us" element={<About/> } />
 
-          <Route path="/Home/Cources" element={<Cources/> } />
-          <Route path="/Home/Cources/Course_Details" element={<CourcesDetails/> } />
+          <Route path="/Home/Courses" element={<Cources/> } />
+          <Route path="/Home/Courses/Course_Details" element={<CourcesDetails/> } />
 
           <Route path="/Home/Our_Team" element={<Team/> } />
           <Route path="/Home/Teastimonial" element={<Testimonial/>} />
           <Route path="/Home/FAQs" element={<FAQs/> } />
           <Route path="/Home/404_Error" element={<Error404/>} />
           <Route path="/Home/Comming_Soon" element={<CommingSoon/>} />
-          <Route path="/Home/Event" element={<Event/>} />
-          <Route path="/Home/Event/Event_Details" element={<EventDetails/> } />
+          <Route path="/Home/Events" element={<Event/>} />
+          <Route path="/Home/Events/Event_Details" element={<EventDetails/> } />
           <Route path="/Home/Carrier" element={<Carrier/>} />
           <Route path="/Home/Carrier/Carrier_Details" element={<CarrerDetails/>} />
 
           <Route path="/Home/Blogs" element={<Blogs/>} />
-          <Route path="/Home/Blogs/Blog_List" element={<BlogsList/>} />
+          <Route path="/Home/Blog_List" element={<BlogsList/>} />
           <Route path="/Home/Blogs/Blog_Details" element={<BlogDetails/>} />
 
           <Route path="/Home/Contact_Us" element={<Contact/>} />

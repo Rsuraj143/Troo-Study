@@ -10,15 +10,19 @@ const Navmenu = ({ item }) => {
   console.log(location.pathname.includes(item.title));
   let arr = location.pathname?.split("/");
   let lastvalue = arr[arr.length - 1].trim().replace(/_/g, " ");
-  console.log(lastvalue);
+  let filt = item.subNav?.find((s) => s.subTitle === lastvalue);
 
   const handleParentClick = () => {
     document.body.classList.remove("stopScroll");
   };
-  
+
   return (
     <>
-      <li className="">
+      <li
+        className={
+          item.title === lastvalue || filt ? "nav-item active" : "nav-item"
+        }
+      >
         {!item?.subNav ? (
           <NavLink
             className="nav-link"
@@ -29,11 +33,7 @@ const Navmenu = ({ item }) => {
           </NavLink>
         ) : (
           <DropdownButton
-            className={
-              location.pathname.includes(item.title)
-                ? "nav-link test active"
-                : "nav-link test "
-            }
+            className="nav-link test"
             id="dropdown-basic-button"
             title={item.title}
           >
@@ -42,7 +42,10 @@ const Navmenu = ({ item }) => {
                 <Dropdown.Item
                   key={i}
                   className={item.subTitle === lastvalue ? "active" : " "}
-                  onClick={() => {navigate(item.path) ; handleParentClick()}}
+                  onClick={() => {
+                    navigate(item.path);
+                    handleParentClick();
+                  }}
                 >
                   {item.subTitle}
                 </Dropdown.Item>

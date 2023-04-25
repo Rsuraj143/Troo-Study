@@ -1,7 +1,7 @@
 import React from "react";
 import "./FetureComponent.css";
 import facher from "../../images/facher-dots.png";
-import { Link } from "react-router-dom";
+import { Link, createSearchParams } from "react-router-dom";
 import { CourseData } from "./CourseData";
 
 
@@ -26,6 +26,7 @@ const FetureComponent = () => {
         <div className="row">
           {CourseData.slice(0, 3).map((item, i) => (
             <div className="col-md-4">
+              <Link to={`/Home/Courses/Course_Details?${createSearchParams({id : item.id})}`}>
               <div className="feature-sec">
                 <div className="feac-img">
                   <img src={item.courseImg} alt="feture1" />
@@ -50,6 +51,7 @@ const FetureComponent = () => {
                   </div>
                 </div>
               </div>
+              </Link>
             </div>
           ))}
         
@@ -57,6 +59,7 @@ const FetureComponent = () => {
         <div className="row">
         {CourseData.slice(3,5).map((item, i) => (
             <div className="col-md-4">
+              <Link to={`/Home/Courses/Course_Details?${createSearchParams({id : item.id})}`}>
               <div className="feature-sec">
                 <div className="feac-img">
                   <img src={item.courseImg} alt="feture1" />
@@ -82,6 +85,7 @@ const FetureComponent = () => {
                   </div>
                 </div>
               </div>
+              </Link>
             </div>
           ))}
           <div className="col-md-4">
@@ -92,7 +96,7 @@ const FetureComponent = () => {
                 typesetting industry.
               </p>
               <div className="call-ss">
-                <Link className="btnn btn-lg" to="/Home/Cources_Grid">
+                <Link className="btnn btn-lg" to="/Home/Courses">
                   View All Courses
                 </Link>
               </div>

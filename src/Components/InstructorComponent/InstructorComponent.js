@@ -74,7 +74,7 @@ const InstructorComponent = () => {
         <div className="row">
           <div className="col-md-12">
             <div className="call-ss">
-              <Link className="btnn btn-lg" to="/Home/Pages/Our_Team">
+              <Link className="btnn btn-lg" to="/Home/Our_Team">
                 View All Instuctor
               </Link>
             </div>

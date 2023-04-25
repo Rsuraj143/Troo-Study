@@ -14,12 +14,12 @@ export const NavData = [
       {
         subTitle: "Courses",
         heading: " Pick a Course to Get Started ",
-        path: "/Home/Cources",
+        path: "/Home/Courses",
       },
       {
         subTitle: "Course Details",
         heading: "Complete Advance Management Study",
-        path: "/Home/Cources/Course_Details",
+        path: "/Home/Courses/Course_Details",
       },
     ],
   },
@@ -44,23 +44,23 @@ export const NavData = [
       },
       {
         subTitle: "404 Error",
-        heading: "",
+        heading: "Error Page",
         path: "/Home/404_Error",
       },
       {
         subTitle: "Comming Soon",
-        heading: "",
+        heading: "Comming Soon",
         path: "/Home/Comming_Soon",
       },
       {
         subTitle: "Events",
         heading: "What's Coming Up ?",
-        path: "/Home/Event",
+        path: "/Home/Events",
       },
       {
         subTitle: "Event Details",
         heading: "Bond Twenty Minutes Still Meditation In",
-        path: "/Home/Event/Event_Details",
+        path: "/Home/Events/Event_Details",
       },
       {
         subTitle: "Carrier",
@@ -86,7 +86,7 @@ export const NavData = [
       {
         subTitle: "Blog List",
         heading: "Read Our Latest News & Blogs",
-        path: "/Home/Blogs/Blog_List",
+        path: "/Home/Blog_List",
       },
       {
         subTitle: "Blog Details",
