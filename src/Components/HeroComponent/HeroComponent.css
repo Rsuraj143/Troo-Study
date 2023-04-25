@@ -46,6 +46,7 @@
   z-index: -9;
   transform: rotate(115deg);
 }
+
 .spinner-item {
   border: 1px solid #3556bf;
   border-radius: 50%;
