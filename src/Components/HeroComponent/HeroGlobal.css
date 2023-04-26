@@ -19,8 +19,8 @@
 }
 .sub-page .left-img-col .vert-move {
   left: inherit;
-  right: -12%;
-  top: 226px;
+  right: -15%;
+  top: 150px;
   z-index: -9;
 }
 .sub-page-title {
@@ -49,10 +49,32 @@ ul.breadcrumb li a {
 ul.breadcrumb .current a{
   color: #1ab69d ;
 }
+.sub-page #troo-da-top-header{
+  display: none;
+}
+.sub-page .fllowa-socail{
+  top: 20%;
+}
+.sub-page .wave-img {
+  position: absolute;
+  left: 30%;
+  top: 10%;
+}
+.sub-page .spinner-wrap{
+    top: -65%;
+    right: 8%;
+}
+.sub-page .vert-move {
+  left: 5%;
+  top: -25px;
+}
 
 @media (max-width: 991px) {
   .sub-page #troo-da-hero-section {
     padding: 100px 0 100px 0;
+  }
+  .sub-page .fllowa-socail{
+    top: initial;
   }
 }
 
